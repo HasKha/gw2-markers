@@ -1,0 +1,29 @@
+<OverlayData>
+  <MarkerCategory name="febecm" DisplayName="Febe CM">
+    <markercategory name="rage1" DisplayName="Boss rage (small)" minimapvisibility="0"
+      mapvisibility="0" fadefar="6500" />
+    <markercategory name="rage2" DisplayName="Boss rage (large)" minimapvisibility="0"
+      mapvisibility="0" fadefar="6500" />
+    <markercategory name="rage3" DisplayName="Add rage" minimapvisibility="0" mapvisibility="0"
+      fadefar="6500" />
+    <markercategory name="wall1" DisplayName="Add wall" minimapvisibility="0" mapvisibility="0"
+      fadefar="6500" />
+    <markercategory name="tethers" DisplayName="Malice pathing" minimapvisibility="0" mapvisibility="0"
+      fadefar="6500" />
+  </MarkerCategory>
+
+  <POIs>
+    <trail type="febecm.rage1" traildata="Data/rage1.trl" alpha="0.45"
+      animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
+    <trail type="febecm.rage2" traildata="Data/rage2.trl" alpha="0.45"
+      animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
+    <trail type="febecm.rage3" traildata="Data/rage3.trl" alpha="0.45"
+      animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
+    <trail type="febecm.wall1" traildata="Data/wall1.trl" alpha="0.45"
+      animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
+    <trail type="febecm.tethers" traildata="Data/tether1.trl" alpha="0.45" animspeed="0"
+      texture="Data/line.png" mapid="1520" />
+    <trail type="febecm.tethers" traildata="Data/tether2.trl" alpha="0.45" animspeed="0"
+      texture="Data/line.png" mapid="1520" />
+  </POIs>
+</OverlayData>
