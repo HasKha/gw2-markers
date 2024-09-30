@@ -1,4 +1,8 @@
 # Markers for gw2 blishhud pathing module
-
 Currently only includes Markers for Febe CM
 
+### Usage
+Download the .zip in [releases](https://github.com/HasKha/gw2-markers/releases) and place it in blishhud's markers folder, then relaunch gw2 or blishhud or re-load the pathing module.
+
+### Temple of Febe CM
+![example](https://private-user-images.githubusercontent.com/11432831/372189395-8d80a647-e022-41e2-b100-a99de2554414.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc3MTg4OTIsIm5iZiI6MTcyNzcxODU5MiwicGF0aCI6Ii8xMTQzMjgzMS8zNzIxODkzOTUtOGQ4MGE2NDctZTAyMi00MWUyLWIxMDAtYTk5ZGUyNTU0NDE0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTMwVDE3NDk1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg3YzZlMGQ2ODJkZjc4MDcyZTJlY2ZkYThiOGQxNGEzNjAzNjQ4ZjkxNGY1N2MwYzBkMzdjM2U2MDc2MTA4Y2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.iX8ao6kFZXsZ7whlAfGxoLoVcqnVpm9Yq88ERXhXbnM)
