@@ -26,6 +26,6 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: haskha-timers
+          name: febe_cm_markers
           path: ${{ github.workspace }}/febe_cm_markers.zip
           compression-level: 0
