@@ -1,7 +1,7 @@
 # Markers for gw2 blishhud pathing module
 
 ### Usage
-Download the .zip in [releases](https://github.com/HasKha/gw2-markers/releases) and place it in blishhud's markers folder. This should be something like `C:\Users\---\Documents\Guild Wars 2\addons\blishhud\markers`. Then relaunch gw2 or blishhud or re-load the pathing module.
+Download the .zip in [releases](https://github.com/HasKha/gw2-markers/releases) and place it in blishhud's markers folder. Do not extract the zip. The folder is something like `C:\Users\---\Documents\Guild Wars 2\addons\blishhud\markers`. Then relaunch gw2 or blishhud or re-load the pathing module.
 
 ### Temple of Febe CM
 ![example](https://private-user-images.githubusercontent.com/11432831/372189395-8d80a647-e022-41e2-b100-a99de2554414.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI4NjU3MTAsIm5iZiI6MTc0Mjg2NTQxMCwicGF0aCI6Ii8xMTQzMjgzMS8zNzIxODkzOTUtOGQ4MGE2NDctZTAyMi00MWUyLWIxMDAtYTk5ZGUyNTU0NDE0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzI1VDAxMTY1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTEzOGQ4ZmU3YWM3ODBlNWRmMWUwYWM2YTg2YWY0ZTA5NzRjMzRmZTQwZWIzZDg2ZTQ1MWY0NGE5NDg4ODhjN2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.luOxIm5pF-M-2YlBX8YArDSMlgjt5QXJoBQrROXFyvY)
