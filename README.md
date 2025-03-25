@@ -1,5 +1,4 @@
 # Markers for gw2 blishhud pathing module
-Currently only includes Markers for Febe CM
 
 ### Usage
 Download the .zip in [releases](https://github.com/HasKha/gw2-markers/releases) and place it in blishhud's markers folder. This should be something like `C:\Users\---\Documents\Guild Wars 2\addons\blishhud\markers`. Then relaunch gw2 or blishhud or re-load the pathing module.
