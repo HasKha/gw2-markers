@@ -1,4 +1,4 @@
-# Markers for gw2 blishhud pathing module
+# Markers for GW2 Blish HUD Pathing module
 
 ## Requisites
 - Install Blish HUD from https://blishhud.com/
