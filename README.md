@@ -2,7 +2,7 @@
 
 ## Requisites
 - Install Blish HUD from https://blishhud.com/
-- Install the Blish HUD **Pathing Module**.
+- Install the Blish HUD **Pathing** Module.
 
 ## Setup
 - Download the latest haskha_markers.zip in [releases](https://github.com/HasKha/gw2-markers/releases)
