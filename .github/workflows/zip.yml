@@ -21,11 +21,11 @@ jobs:
       - uses: TheDoctor0/zip-release@0.7.6
         with:
           type: 'zip'
-          filename: 'febe_cm_markers.zip'
+          filename: 'haskha_markers.zip'
           exclusions: 'LICENSE README.md *.github* *.git*'
 
       - uses: actions/upload-artifact@v4
         with:
-          name: febe_cm_markers
-          path: ${{ github.workspace }}/febe_cm_markers.zip
+          name: haskha_markers
+          path: ${{ github.workspace }}/haskha_markers.zip
           compression-level: 0
