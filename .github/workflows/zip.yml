@@ -21,11 +21,11 @@ jobs:
       - uses: TheDoctor0/zip-release@0.7.6
         with:
           type: 'zip'
-          filename: 'haskha_markers.zip'
+          filename: 'haskha.markers.zip'
           exclusions: 'LICENSE README.md *.github* *.git*'
 
       - uses: actions/upload-artifact@v4
         with:
-          name: haskha_markers
-          path: ${{ github.workspace }}/haskha_markers.zip
+          name: haskha.markers.zip
+          path: ${{ github.workspace }}/haskha.markers.zip
           compression-level: 0

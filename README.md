@@ -5,7 +5,7 @@
 - Install the Blish HUD **Pathing** Module.
 
 ## Setup
-- Download the latest `haskha_markers.zip` in [releases](https://github.com/HasKha/gw2-markers/releases)
+- Download the latest `haskha.markers.zip` in [releases](https://github.com/HasKha/gw2-markers/releases)
 - Do not extract the zip.
 - Copy or move the zip to `~/Documents/Guild Wars 2/addons/blishhud/markers`
 - Disable and enable the pathing module, or relaunch blishhud, or relaunch gw2.
