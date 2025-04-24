@@ -30,6 +30,7 @@
       <MarkerCategory name="toxic12" DisplayName="Toxic Spawn 12" iconFile="Data/icons/add.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
       <MarkerCategory name="toxic13" DisplayName="Toxic Spawn 13" iconFile="Data/icons/frog.png" alpha="0.85" fadeNear="4000" fadefar="4100"/>
       <MarkerCategory name="toxic14" DisplayName="Toxic Spawn 14" iconFile="Data/icons/fish.png" alpha="1.0" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="doubledrops" DisplayName="Double Toxics spots" iconFile="Data/dot.png" alpha="1.0" fadeNear="1000" fadefar="1200" />
     </MarkerCategory>
   </MarkerCategory>
 
@@ -61,6 +62,9 @@
     <POI MapID="1564" xpos="122.40583292428772" ypos="269.8476683447591" zpos="249.62801422430982" type="haskha.ura.toxic12" GUID="3Uuc7QgIKUKne18diA8cTg=="/>
     <POI MapID="1564" xpos="136.7560686321917" ypos="269.8476683447591" zpos="199.69342712648685" type="haskha.ura.toxic13" GUID="e4Sdv2oSYE2TuxIsQ9f23g=="/>
     <POI MapID="1564" xpos="109.50797289694464" ypos="269.8476683447591" zpos="218.63139893123207" type="haskha.ura.toxic14" GUID="UTEbm2PGc02y00H++ffHTg=="/>
+    <POI MapId="1564" xpos="170.5" ypos="269" zpos="201.4" type="haskha.ura.doubledrops" GUID="FrfGvsZnMEKyGyynT5Z+8w=="/>
+    <POI MapId="1564" xpos="188.5" ypos="269" zpos="227.5" type="haskha.ura.doubledrops" GUID="W7yVL+iARUCuYnCHQJ1jCg=="/>
+    <POI MapId="1564" xpos="190" ypos="269" zpos="241.3" type="haskha.ura.doubledrops" GUID="aTX8CmWPt06a27QS/Q2NKg=="/>
   </POIs>
 
 </OverlayData>
