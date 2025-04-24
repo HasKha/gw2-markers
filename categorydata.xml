@@ -16,21 +16,22 @@
     </MarkerCategory>
 
     <MarkerCategory name="ura" DisplayName="Ura">
-      <MarkerCategory name="toxic1" DisplayName="Toxic Spawn 1" iconFile="Data/markers/spiral.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic2" DisplayName="Toxic Spawn 2" iconFile="Data/markers/triangle.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic3" DisplayName="Toxic Spawn 3" iconFile="Data/markers/circle.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic4" DisplayName="Toxic Spawn 4" iconFile="Data/markers/heart.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic5" DisplayName="Toxic Spawn 5" iconFile="Data/icons/cloud.png" alpha="0.65" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic6" DisplayName="Toxic Spawn 6" iconFile="Data/markers/cross.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic7" DisplayName="Toxic Spawn 7" iconFile="Data/markers/arrow.png" alpha="1.0" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic8" DisplayName="Toxic Spawn 8" iconFile="Data/markers/square.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic9" DisplayName="Toxic Spawn 9" iconFile="Data/markers/star.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic10" DisplayName="Toxic Spawn 10" iconFile="Data/icons/kitty.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic11" DisplayName="Toxic Spawn 11" iconFile="Data/icons/fox.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic12" DisplayName="Toxic Spawn 12" iconFile="Data/icons/add.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic13" DisplayName="Toxic Spawn 13" iconFile="Data/icons/frog.png" alpha="0.85" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="toxic14" DisplayName="Toxic Spawn 14" iconFile="Data/icons/fish.png" alpha="1.0" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="doubledrops" DisplayName="Double Toxics spots" iconFile="Data/dot.png" alpha="1.0" fadeNear="1000" fadefar="1200" />
+      <MarkerCategory name="toxic1" DisplayName="Toxic 1 - Spiral" iconFile="Data/markers/spiral.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic2" DisplayName="Toxic 2 - Triangle" iconFile="Data/markers/triangle.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic3" DisplayName="Toxic 3 - Circle" iconFile="Data/markers/circle.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic4" DisplayName="Toxic 4 - Heart" iconFile="Data/markers/heart.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic5" DisplayName="Toxic 5 - Cloud" iconFile="Data/icons/cloud.png" alpha="0.65" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic6" DisplayName="Toxic 6 - X" iconFile="Data/markers/cross.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic7" DisplayName="Toxic 7 - Arrow" iconFile="Data/markers/arrow.png" alpha="1.0" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic8" DisplayName="Toxic 8 - Square" iconFile="Data/markers/square.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic9" DisplayName="Toxic 9 - Star" iconFile="Data/markers/star.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic10" DisplayName="Toxic 10 - Cat" iconFile="Data/icons/kitty.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic11" DisplayName="Toxic 11 - Fox" iconFile="Data/icons/fox.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic12" DisplayName="Toxic 12 - Plus" iconFile="Data/icons/add.png" alpha="0.75" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic13" DisplayName="Toxic 13 - Frog" iconFile="Data/icons/frog.png" alpha="0.85" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="toxic14" DisplayName="Toxic 14 - Fish" iconFile="Data/icons/fish.png" alpha="1.0" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="doubledrops" DisplayName="Double Toxics spots" iconFile="Data/dot.png" alpha="0.75" fadeNear="1000" fadefar="1200" rotate="0,0,0" iconsize="0.75" />
+      <MarkerCategory name="spawners" DisplayName="Spawners" iconFile="Data/dot-border.png" alpha="0.5" fadeNear="4000" fadefar="4100" rotate="0,0,0" iconsize="3.0" />
     </MarkerCategory>
   </MarkerCategory>
 
@@ -48,23 +49,30 @@
     <trail type="haskha.febecm.tethers" traildata="Data/tether2.trl" alpha="0.45" animspeed="0"
       texture="Data/line.png" mapid="1520" />
     
-    <POI MapID="1564" xpos="196.73685880115875" ypos="269.77146838590704" zpos="247.25108152347846" type="haskha.ura.toxic1" GUID="cZcoG8mrM0GKNFtOVP6myA=="/>
-    <POI MapID="1564" xpos="181.63605845949718" ypos="269.91039936557183" zpos="276.95383540586636" type="haskha.ura.toxic2" GUID="l7GKZRaoQ0yP16jWjt91bg=="/>
-    <POI MapID="1564" xpos="193.8798688400271" ypos="269.8205072266136" zpos="219.20594959753723" type="haskha.ura.toxic3" GUID="GlLhts++4kagqjD9TRohHA=="/>
-    <POI MapID="1564" xpos="183.05794919558244" ypos="269.85610193395496" zpos="235.22317102636265" type="haskha.ura.toxic4" GUID="uu516E4xakys2mWPIwc9NQ=="/>
-    <POI MapID="1564" xpos="165.24571272044014" ypos="269.9165757294241" zpos="253.15682638125125" type="haskha.ura.toxic5" GUID="Qp79YmFEJE+SwTIhjnai2A=="/>
-    <POI MapID="1564" xpos="158.04024014655155" ypos="269.9379077491548" zpos="280.9162332661715" type="haskha.ura.toxic6" GUID="jwEDDYslXkKQJjZIXnPDAg=="/>
-    <POI MapID="1564" xpos="178.8479014690082" ypos="269.90486792324634" zpos="202.33985020913713" type="haskha.ura.toxic7" GUID="+uN+AnsjdEyt3YWkAyCTeQ=="/>
-    <POI MapID="1564" xpos="161.7189221444383" ypos="269.8876038700689" zpos="228.76750654367146" type="haskha.ura.toxic8" GUID="+rvq6i+vSE2ElmBf6Zd+nA=="/>
-    <POI MapID="1564" xpos="145.9615296768677" ypos="269.8476683447591" zpos="259.3998900021844" type="haskha.ura.toxic9" GUID="qMIZHusTn0e+JsMrwjGHrw=="/>
-    <POI MapID="1564" xpos="162.64195367725125" ypos="269.8476683447591" zpos="200.3835427694494" type="haskha.ura.toxic10" GUID="EUsstDipAUSib1SMGZqubQ=="/>
-    <POI MapID="1564" xpos="145.57773935677073" ypos="269.8476683447591" zpos="228.93947734924473" type="haskha.ura.toxic11" GUID="c2WmLSF/Kkirv7Zgo4UmMg=="/>
-    <POI MapID="1564" xpos="122.40583292428772" ypos="269.8476683447591" zpos="249.62801422430982" type="haskha.ura.toxic12" GUID="3Uuc7QgIKUKne18diA8cTg=="/>
-    <POI MapID="1564" xpos="136.7560686321917" ypos="269.8476683447591" zpos="199.69342712648685" type="haskha.ura.toxic13" GUID="e4Sdv2oSYE2TuxIsQ9f23g=="/>
-    <POI MapID="1564" xpos="109.50797289694464" ypos="269.8476683447591" zpos="218.63139893123207" type="haskha.ura.toxic14" GUID="UTEbm2PGc02y00H++ffHTg=="/>
-    <POI MapId="1564" xpos="170.5" ypos="269" zpos="201.4" type="haskha.ura.doubledrops" GUID="FrfGvsZnMEKyGyynT5Z+8w=="/>
-    <POI MapId="1564" xpos="188.5" ypos="269" zpos="227.5" type="haskha.ura.doubledrops" GUID="W7yVL+iARUCuYnCHQJ1jCg=="/>
-    <POI MapId="1564" xpos="190" ypos="269" zpos="241.3" type="haskha.ura.doubledrops" GUID="aTX8CmWPt06a27QS/Q2NKg=="/>
+    <POI MapID="1564" xpos="196.736" ypos="269.771" zpos="247.251" type="haskha.ura.toxic1" GUID="cZcoG8mrM0GKNFtOVP6myA=="/>
+    <POI MapID="1564" xpos="181.636" ypos="269.910" zpos="276.953" type="haskha.ura.toxic2" GUID="l7GKZRaoQ0yP16jWjt91bg=="/>
+    <POI MapID="1564" xpos="193.879" ypos="269.820" zpos="219.205" type="haskha.ura.toxic3" GUID="GlLhts++4kagqjD9TRohHA=="/>
+    <POI MapID="1564" xpos="183.057" ypos="269.856" zpos="235.223" type="haskha.ura.toxic4" GUID="uu516E4xakys2mWPIwc9NQ=="/>
+    <POI MapID="1564" xpos="165.245" ypos="269.916" zpos="253.156" type="haskha.ura.toxic5" GUID="Qp79YmFEJE+SwTIhjnai2A=="/>
+    <POI MapID="1564" xpos="158.040" ypos="269.937" zpos="280.916" type="haskha.ura.toxic6" GUID="jwEDDYslXkKQJjZIXnPDAg=="/>
+    <POI MapID="1564" xpos="178.847" ypos="269.904" zpos="202.339" type="haskha.ura.toxic7" GUID="+uN+AnsjdEyt3YWkAyCTeQ=="/>
+    <POI MapID="1564" xpos="161.718" ypos="269.887" zpos="228.767" type="haskha.ura.toxic8" GUID="+rvq6i+vSE2ElmBf6Zd+nA=="/>
+    <POI MapID="1564" xpos="145.961" ypos="269.847" zpos="259.399" type="haskha.ura.toxic9" GUID="qMIZHusTn0e+JsMrwjGHrw=="/>
+    <POI MapID="1564" xpos="162.641" ypos="269.851" zpos="200.383" type="haskha.ura.toxic10" GUID="EUsstDipAUSib1SMGZqubQ=="/>
+    <POI MapID="1564" xpos="145.577" ypos="269.847" zpos="228.939" type="haskha.ura.toxic11" GUID="c2WmLSF/Kkirv7Zgo4UmMg=="/>
+    <POI MapID="1564" xpos="122.405" ypos="269.845" zpos="249.628" type="haskha.ura.toxic12" GUID="3Uuc7QgIKUKne18diA8cTg=="/>
+    <POI MapID="1564" xpos="136.756" ypos="269.853" zpos="199.693" type="haskha.ura.toxic13" GUID="e4Sdv2oSYE2TuxIsQ9f23g=="/>
+    <POI MapID="1564" xpos="109.507" ypos="269.864" zpos="218.631" type="haskha.ura.toxic14" GUID="UTEbm2PGc02y00H++ffHTg=="/>
+    <!-- double drop spots -->
+    <POI MapId="1564" xpos="170.744" ypos="268.3" zpos="201.361" type="haskha.ura.doubledrops" GUID="FrfGvsZnMEKyGyynT5Z+8w=="/>
+    <POI MapId="1564" xpos="188.468" ypos="268.3" zpos="227.214" type="haskha.ura.doubledrops" GUID="W7yVL+iARUCuYnCHQJ1jCg=="/>
+    <POI MapId="1564" xpos="189.896" ypos="268.3" zpos="241.237" type="haskha.ura.doubledrops" GUID="aTX8CmWPt06a27QS/Q2NKg=="/>
+    <!-- spawners -->
+    <POI MapId="1564" xpos="141.47" ypos="268.34" zpos="210.48" type="haskha.ura.spawners" GUID="l2afCUv+9EeACUwOe1Fq1w==" />
+    <POI MapId="1564" xpos="171.51" ypos="268.33" zpos="218.83" type="haskha.ura.spawners" GUID="VPJfV5zDZkK0iaxQp+rHkA==" />
+    <POI MapId="1564" xpos="150.50" ypos="268.34" zpos="255.44" type="haskha.ura.spawners" GUID="aViuKouR8kGVrMbqRkqBmA==" />
+    <POI MapId="1564" xpos="176.85" ypos="268.27" zpos="243.99" type="haskha.ura.spawners" GUID="oNsqZsTO/U27tSAWSPCP9g==" />
+    <POI MapId="1564" xpos="128.84" ypos="268.36" zpos="234.44" type="haskha.ura.spawners" GUID="BSjxX2jca0SZqls3jb79yw==" />
   </POIs>
 
 </OverlayData>
