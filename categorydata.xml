@@ -35,17 +35,17 @@
   </MarkerCategory>
 
   <POIs>
-    <trail type="febecm.rage1" traildata="Data/rage1.trl" alpha="0.45"
+    <trail type="haskha.febecm.rage1" traildata="Data/rage1.trl" alpha="0.45"
       animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
-    <trail type="febecm.rage2" traildata="Data/rage2.trl" alpha="0.45"
+    <trail type="haskha.febecm.rage2" traildata="Data/rage2.trl" alpha="0.45"
       animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
-    <trail type="febecm.rage3" traildata="Data/rage3.trl" alpha="0.45"
+    <trail type="haskha.febecm.rage3" traildata="Data/rage3.trl" alpha="0.45"
       animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
-    <trail type="febecm.wall1" traildata="Data/wall1.trl" alpha="0.45"
+    <trail type="haskha.febecm.wall1" traildata="Data/wall1.trl" alpha="0.45"
       animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
-    <trail type="febecm.tethers" traildata="Data/tether1.trl" alpha="0.45" animspeed="0"
+    <trail type="haskha.febecm.tethers" traildata="Data/tether1.trl" alpha="0.45" animspeed="0"
       texture="Data/line.png" mapid="1520" />
-    <trail type="febecm.tethers" traildata="Data/tether2.trl" alpha="0.45" animspeed="0"
+    <trail type="haskha.febecm.tethers" traildata="Data/tether2.trl" alpha="0.45" animspeed="0"
       texture="Data/line.png" mapid="1520" />
     
     <POI MapID="1564" xpos="196.73685880115875" ypos="269.77146838590704" zpos="247.25108152347846" type="haskha.ura.toxic1" GUID="cZcoG8mrM0GKNFtOVP6myA=="/>
