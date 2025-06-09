@@ -32,6 +32,10 @@
       <MarkerCategory name="toxic14" DisplayName="Toxic Spawn 14" iconFile="Data/icons/fish.png" alpha="1.0" fadeNear="4000" fadefar="4100"/>
       <MarkerCategory name="doubledrops" DisplayName="Double Toxics spots" iconFile="Data/dot.png" alpha="1.0" fadeNear="1000" fadefar="1200" />
     </MarkerCategory>
+
+    <MarkerCategory name="arah" DisplayName="Arah">
+      <MarkerCategory name="shogg" DisplayName="Shogg" iconFile="Data/dot.png" alpha=1.0 fadeNear="4000" fadefar="4100"/>
+    </MarkerCategory>
   </MarkerCategory>
 
   <POIs>
@@ -65,6 +69,11 @@
     <POI MapId="1564" xpos="170.5" ypos="269" zpos="201.4" type="haskha.ura.doubledrops" GUID="FrfGvsZnMEKyGyynT5Z+8w=="/>
     <POI MapId="1564" xpos="188.5" ypos="269" zpos="227.5" type="haskha.ura.doubledrops" GUID="W7yVL+iARUCuYnCHQJ1jCg=="/>
     <POI MapId="1564" xpos="190" ypos="269" zpos="241.3" type="haskha.ura.doubledrops" GUID="aTX8CmWPt06a27QS/Q2NKg=="/>
+
+    <POI MapID="112" xpos="-273.9352" ypos="10.37208" zpos="180.487" type="haskha.arah.shogg" GUID="kOegTXwExUq58p5hMxXxCw=="/>
+    <POI MapID="112" xpos="-257.5069" ypos="10.02035" zpos="198.4641" type="haskha.arah.shogg" GUID="qZwtdUe2pEWQxZR7He8BAw=="/>
+    <POI MapID="112" xpos="-231.4734" ypos="12.26814" zpos="210.5326" type="haskha.arah.shogg" GUID="UOuLSQe7QE2QVXtETEd0Bg=="/>
+    <POI MapID="112" xpos="-241.6128" ypos="10.97809" zpos="166.1481" type="haskha.arah.shogg" GUID="3QtmYAV4pE6x7roNvlBB6g=="/>
   </POIs>
 
 </OverlayData>
