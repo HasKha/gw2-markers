@@ -35,7 +35,7 @@
     </MarkerCategory>
 
     <MarkerCategory name="arah" DisplayName="Arah">
-      <MarkerCategory name="shogg" DisplayName="Shogg" iconFile="Data/dot.png" alpha=1.0 fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="shogg" DisplayName="Shogg" iconFile="Data/dot-border.png" alpha="1.0" fadeNear="4000" fadefar="4100" rotate="0,0,0"/>
     </MarkerCategory>
   </MarkerCategory>
 
@@ -77,6 +77,12 @@
     <POI MapId="1564" xpos="150.50" ypos="268.34" zpos="255.44" type="haskha.ura.spawners" GUID="aViuKouR8kGVrMbqRkqBmA==" />
     <POI MapId="1564" xpos="176.85" ypos="268.27" zpos="243.99" type="haskha.ura.spawners" GUID="oNsqZsTO/U27tSAWSPCP9g==" />
     <POI MapId="1564" xpos="128.84" ypos="268.36" zpos="234.44" type="haskha.ura.spawners" GUID="BSjxX2jca0SZqls3jb79yw==" />
+
+    <!-- arah -->
+    <POI MapID="112" xpos="-273.9352" ypos="8.87208" zpos="180.487" type="haskha.arah.shogg" GUID="kOegTXwExUq58p5hMxXxCw=="/>
+    <POI MapID="112" xpos="-257.5069" ypos="8.52035" zpos="198.4641" type="haskha.arah.shogg" GUID="qZwtdUe2pEWQxZR7He8BAw=="/>
+    <POI MapID="112" xpos="-231.4734" ypos="10.76814" zpos="210.5326" type="haskha.arah.shogg" GUID="UOuLSQe7QE2QVXtETEd0Bg=="/>
+    <POI MapID="112" xpos="-241.6128" ypos="9.47809" zpos="166.1481" type="haskha.arah.shogg" GUID="3QtmYAV4pE6x7roNvlBB6g=="/>
   </POIs>
 
 </OverlayData>
