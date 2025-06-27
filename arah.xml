@@ -1,19 +1,14 @@
 <OverlayData>
   <MarkerCategory name="haskha" DisplayName="HasKha's Markers">
     <MarkerCategory name="arah" DisplayName="Arah">
-      <MarkerCategory name="shogg" DisplayName="Shogg" iconFile="Data/dot-border.png" alpha="1.0"
-        fadeNear="4000" fadefar="4100" rotate="0,0,0" />
+      <MarkerCategory name="shogg" DisplayName="Shogg" iconFile="Data/dot-border.png" alpha="1.0" fadeNear="4000" fadefar="4100" rotate="0,0,0" />
     </MarkerCategory>
   </MarkerCategory>
 
   <POIs>
-    <POI MapID="112" xpos="-273.9352" ypos="8.87208" zpos="180.487" type="haskha.arah.shogg"
-      GUID="kOegTXwExUq58p5hMxXxCw==" />
-    <POI MapID="112" xpos="-257.5069" ypos="8.52035" zpos="198.4641" type="haskha.arah.shogg"
-      GUID="qZwtdUe2pEWQxZR7He8BAw==" />
-    <POI MapID="112" xpos="-231.4734" ypos="10.76814" zpos="210.5326" type="haskha.arah.shogg"
-      GUID="UOuLSQe7QE2QVXtETEd0Bg==" />
-    <POI MapID="112" xpos="-241.6128" ypos="9.47809" zpos="166.1481" type="haskha.arah.shogg"
-      GUID="3QtmYAV4pE6x7roNvlBB6g==" />
+    <POI MapID="112" xpos="-273.9352" ypos="8.87208" zpos="180.487" type="haskha.arah.shogg" GUID="kOegTXwExUq58p5hMxXxCw==" />
+    <POI MapID="112" xpos="-257.5069" ypos="8.52035" zpos="198.4641" type="haskha.arah.shogg" GUID="qZwtdUe2pEWQxZR7He8BAw==" />
+    <POI MapID="112" xpos="-231.4734" ypos="10.76814" zpos="210.5326" type="haskha.arah.shogg" GUID="UOuLSQe7QE2QVXtETEd0Bg==" />
+    <POI MapID="112" xpos="-241.6128" ypos="9.47809" zpos="166.1481" type="haskha.arah.shogg" GUID="3QtmYAV4pE6x7roNvlBB6g==" />
   </POIs>
 </OverlayData>
