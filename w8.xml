@@ -3,14 +3,21 @@
     <MarkerCategory name="w8" DisplayName="Wing 8">
       <MarkerCategory name="ura" DisplayName="Ura">
         <MarkerCategory name="toxics" DisplayName="Toxic Geyser markers" alpha="0.75" fadeNear="4000" fadefar="4100" />
-        <MarkerCategory name="toxicrange" DisplayName="Toxic Geyser range" iconFile="Data/dot-border.png" alpha="0.5" 
+        <MarkerCategory name="toxicrange" DisplayName="Toxic Geyser range" iconFile="Data/dot-border.png" alpha="0.5"
           fadeNear="4000" fadefar="4100" rotate="0,0,0" iconsize="2.0" heightOffset="0" minimapvisibility="0" mapvisibility="0" />
-        <MarkerCategory name="spawners" DisplayName="Titanspawn Geysers" iconFile="Data/dot-border.png" alpha="0.5" 
+
+        <MarkerCategory name="safetrails" DisplayName="Safe drop zones" alpha="0.5" color="00DD00" animspeed="0" texture="Data/line.png"
+          trailScale="0.5" fadeNear="2000" fadefar="3000" canfade="0" />
+
+        <MarkerCategory name="spawners" DisplayName="Titanspawn Geysers (Always)" iconFile="Data/dot-border.png" alpha="0.5"
           fadeNear="4000" fadefar="4100" rotate="0,0,0" iconsize="3.7" heightOffset="1.7" minimapvisibility="0" mapvisibility="0" />
+
+        <MarkerCategory name="spawners1" DisplayName="Titanspawn Geysers (Nearby)" iconFile="Data/dot-border.png" alpha="0.5"
+          fadeNear="400" fadefar="800" rotate="0,0,0" iconsize="3.7" heightOffset="1.7" minimapvisibility="0" mapvisibility="0" />
       </MarkerCategory>
 
       <MarkerCategory name="greer" DisplayName="Greer">
-        <MarkerCategory name="preport" DisplayName="Pre-event port" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100"  minimapvisibility="0" mapvisibility="0"/>
+        <MarkerCategory name="preport" DisplayName="Pre-event port" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" minimapvisibility="0" mapvisibility="0" />
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
@@ -20,7 +27,7 @@
     <POI MapID="1564" xpos="181.636" ypos="269.910" zpos="276.953" type="haskha.w8.ura.toxics" GUID="l7GKZRaoQ0yP16jWjt91bg==" iconFile="Data/markers/triangle.png" />
     <POI MapID="1564" xpos="193.879" ypos="269.820" zpos="219.205" type="haskha.w8.ura.toxics" GUID="GlLhts++4kagqjD9TRohHA==" iconFile="Data/markers/circle.png" />
     <POI MapID="1564" xpos="183.057" ypos="269.856" zpos="235.223" type="haskha.w8.ura.toxics" GUID="uu516E4xakys2mWPIwc9NQ==" iconFile="Data/markers/heart.png" />
-    <POI MapID="1564" xpos="165.245" ypos="269.916" zpos="253.156" type="haskha.w8.ura.toxics" GUID="Qp79YmFEJE+SwTIhjnai2A==" iconFile="Data/markers/cloud.png" alpha="0.65" />
+    <POI MapID="1564" xpos="165.245" ypos="269.916" zpos="253.156" type="haskha.w8.ura.toxics" GUID="Qp79YmFEJE+SwTIhjnai2A==" iconFile="Data/icons/cloud.png" alpha="0.65" />
     <POI MapID="1564" xpos="158.040" ypos="269.937" zpos="280.916" type="haskha.w8.ura.toxics" GUID="jwEDDYslXkKQJjZIXnPDAg==" iconFile="Data/markers/cross.png" />
     <POI MapID="1564" xpos="178.847" ypos="269.904" zpos="202.339" type="haskha.w8.ura.toxics" GUID="+uN+AnsjdEyt3YWkAyCTeQ==" iconFile="Data/markers/arrow.png" alpha="1.0" />
     <POI MapID="1564" xpos="161.718" ypos="269.887" zpos="228.767" type="haskha.w8.ura.toxics" GUID="+rvq6i+vSE2ElmBf6Zd+nA==" iconFile="Data/markers/square.png" />
@@ -45,20 +52,38 @@
     <POI MapID="1564" xpos="122.405" ypos="269.845" zpos="249.628" type="haskha.w8.ura.toxicrange" GUID="aUuc7QgIKUKne18diA8cTg==" />
     <POI MapID="1564" xpos="136.756" ypos="269.853" zpos="199.693" type="haskha.w8.ura.toxicrange" GUID="a4Sdv2oSYE2TuxIsQ9f23g==" />
     <POI MapID="1564" xpos="109.507" ypos="269.864" zpos="218.631" type="haskha.w8.ura.toxicrange" GUID="aTEbm2PGc02y00H++ffHTg==" />
+
+    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/arrow.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/cat.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/circle.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/fish.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/frog.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/plus.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/spiral.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/star.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/triangle.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/x.trl" />
     <!-- double drop spots -->
     <!-- <POI MapId="1564" xpos="170.744" ypos="268.3" zpos="201.361" type="haskha.w8.ura.doubledrops" GUID="FrfGvsZnMEKyGyynT5Z+8w=="/> -->
     <!-- <POI MapId="1564" xpos="188.468" ypos="268.3" zpos="227.214" type="haskha.w8.ura.doubledrops" GUID="W7yVL+iARUCuYnCHQJ1jCg=="/> -->
     <!-- <POI MapId="1564" xpos="189.896" ypos="268.3" zpos="241.237" type="haskha.w8.ura.doubledrops" GUID="aTX8CmWPt06a27QS/Q2NKg=="/> -->
+
     <!-- spawners -->
     <POI MapId="1564" xpos="141.47" ypos="268.34" zpos="210.48" type="haskha.w8.ura.spawners" GUID="l2afCUv+9EeACUwOe1Fq1w==" />
     <POI MapId="1564" xpos="171.51" ypos="268.33" zpos="218.83" type="haskha.w8.ura.spawners" GUID="VPJfV5zDZkK0iaxQp+rHkA==" />
     <POI MapId="1564" xpos="150.50" ypos="268.34" zpos="255.44" type="haskha.w8.ura.spawners" GUID="aViuKouR8kGVrMbqRkqBmA==" />
     <POI MapId="1564" xpos="176.85" ypos="268.27" zpos="243.99" type="haskha.w8.ura.spawners" GUID="oNsqZsTO/U27tSAWSPCP9g==" />
     <POI MapId="1564" xpos="128.84" ypos="268.36" zpos="234.44" type="haskha.w8.ura.spawners" GUID="BSjxX2jca0SZqls3jb79yw==" />
+    <!-- spawners again -->
+    <POI MapId="1564" xpos="141.47" ypos="268.34" zpos="210.48" type="haskha.w8.ura.spawners1" GUID="b2afCUv+9EeACUwOe1Fq1w==" />
+    <POI MapId="1564" xpos="171.51" ypos="268.33" zpos="218.83" type="haskha.w8.ura.spawners1" GUID="bPJfV5zDZkK0iaxQp+rHkA==" />
+    <POI MapId="1564" xpos="150.50" ypos="268.34" zpos="255.44" type="haskha.w8.ura.spawners1" GUID="bViuKouR8kGVrMbqRkqBmA==" />
+    <POI MapId="1564" xpos="176.85" ypos="268.27" zpos="243.99" type="haskha.w8.ura.spawners1" GUID="bNsqZsTO/U27tSAWSPCP9g==" />
+    <POI MapId="1564" xpos="128.84" ypos="268.36" zpos="234.44" type="haskha.w8.ura.spawners1" GUID="bSjxX2jca0SZqls3jb79yw==" />
 
     <!-- greer port -->
     <POI MapID="1564" xpos="303.435" ypos="149.7165" zpos="-151.6592" type="haskha.w8.greer.preport" GUID="U0MaSkMV9UqybWFP6R4JyQ==" iconFile="Data/skills/Portal_Entre.png" />
-    <POI MapID="1564" xpos="187.2756" ypos="119.9045" zpos="-184.9352" type="haskha.w8.greer.preport" GUID="DyX7ue2khkSEaSaMeqpJpA==" iconFile="Data/skills/Portal_Exeunt.png"/>
+    <POI MapID="1564" xpos="187.2756" ypos="119.9045" zpos="-184.9352" type="haskha.w8.greer.preport" GUID="DyX7ue2khkSEaSaMeqpJpA==" iconFile="Data/skills/Portal_Exeunt.png" />
   </POIs>
 
 </OverlayData>
