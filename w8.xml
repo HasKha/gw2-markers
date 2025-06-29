@@ -4,19 +4,24 @@
       <MarkerCategory name="ura" DisplayName="Ura">
         <MarkerCategory name="toxics" DisplayName="Toxic Geyser markers" alpha="0.75" fadeNear="4000" fadefar="4100" />
         <MarkerCategory name="toxic_hitbox" DisplayName="Toxic Geyser hitbox" iconFile="Data/dot-border-4.png" alpha="0.75"
-          fadeNear="600" fadefar="800" rotate="0,0,0" iconsize="2.064" heightOffset="0" minimapvisibility="0" mapvisibility="0" color="FF3333" />
+          fadeNear="600" fadefar="800" rotate="0,0,0" iconsize="2.064" heightOffset="0" minimapvisibility="0" mapvisibility="0" color="FF3333" 
+          tip-description="The hitbox for hitting with abilities."/>
 
         <MarkerCategory name="toxic_sak" DisplayName="Toxic Geyser SAK range" iconFile="Data/dot-border-2.png" alpha="0.75"
-          fadeNear="600" fadefar="800" rotate="0,0,0" iconsize="6.4653" heightOffset="0" minimapvisibility="0" mapvisibility="0" color="FFCCFF"/>
+          fadeNear="600" fadefar="800" rotate="0,0,0" iconsize="5.8446312" heightOffset="0" minimapvisibility="0" mapvisibility="0" color="FFCCFF"
+          tip-description="Using the SAK with your character hitbox overlapping those lines will dispell the geyser."/>
 
         <MarkerCategory name="safetrails" DisplayName="Safe drop zones" alpha="0.5" color="00DD00" animspeed="0" texture="Data/line.png"
-          trailScale="0.5" fadeNear="2000" fadefar="3000" canfade="0" />
+          trailScale="0.5" fadeNear="2000" fadefar="3000" canfade="0" 
+          tip-description="Dropping sulfuric geysers outside the green areas will not interfere with toxic geysers."/>
 
         <MarkerCategory name="spawner_hitbox" DisplayName="Titanspawn Geysers hitbox" iconFile="Data/dot-border-3.png" alpha="0.75"
-          fadeNear="900" fadefar="1000" rotate="0,0,0" iconsize="2.666" heightOffset="1.7" minimapvisibility="0" mapvisibility="0" color="FF3333"/>
+          fadeNear="900" fadefar="1000" rotate="0,0,0" iconsize="2.666" heightOffset="1.7" minimapvisibility="0" mapvisibility="0" color="FF3333"
+          tip-description="The hitbox for hitting with abilities."/>
 
         <MarkerCategory name="spawner_sak" DisplayName="Titanspawn Geysers SAK range" iconFile="Data/dot-border-1.png" alpha="0.75"
-          fadeNear="900" fadefar="1000" rotate="0,0,0" iconsize="6.0934" heightOffset="1.7" minimapvisibility="0" mapvisibility="0" color="FFCCFF"/>
+          fadeNear="900" fadefar="1000" rotate="0,0,0" iconsize="6.37268" heightOffset="1.7" minimapvisibility="0" mapvisibility="0" color="FFCCFF"
+          tip-description="Using the SAK with your character hitbox overlapping those lines will dispell the spawner."/>
       </MarkerCategory>
 
       <MarkerCategory name="greer" DisplayName="Greer">
