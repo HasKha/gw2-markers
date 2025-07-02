@@ -36,10 +36,10 @@
     <!-- there is another sky portal but I don't have coordinates for it and we could not get it to work consistently -->
 
     <!-- portals for the first intermission -->
-    <POI MapID="1323" xpos="-306.6" ypos="34.4" zpos="29.4" type="haskha.w7.sabir.port0" GUID="zLcY6ICwTUStlthhic56+A==" />
-    <POI MapID="1323" xpos="-276.91" ypos="57.7433" zpos="77.853" type="haskha.w7.sabir.port0" GUID="YNhHozqLU0KOUpkB1Vn1dA==" />
-    <POI MapID="1323" xpos="-322.414" ypos="51.8386" zpos="80.6657" type="haskha.w7.sabir.port1" GUID="ZuNoKZekOUuYyEClK+pCcQ==" />
-    <POI MapID="1323" xpos="-256.878" ypos="78.1359" zpos="31.5863" type="haskha.w7.sabir.port1" GUID="l8maSF7Oq0aqwVsE99oEXw==" />
+    <POI MapID="1323" xpos="-306.6" ypos="34.4" zpos="29.4" type="haskha.w7.sabir.port0" GUID="zLcY6ICwTUStlthhic56+A==" iconFile="Data/skills/Portal_Entre.png" />
+    <POI MapID="1323" xpos="-276.91" ypos="57.7433" zpos="77.853" type="haskha.w7.sabir.port0" GUID="YNhHozqLU0KOUpkB1Vn1dA==" iconFile="Data/skills/Portal_Exeunt.png" />
+    <POI MapID="1323" xpos="-322.414" ypos="51.8386" zpos="80.6657" type="haskha.w7.sabir.port1" GUID="ZuNoKZekOUuYyEClK+pCcQ==" iconFile="Data/skills/Portal_Entre.png" />
+    <POI MapID="1323" xpos="-256.878" ypos="78.1359" zpos="31.5863" type="haskha.w7.sabir.port1" GUID="l8maSF7Oq0aqwVsE99oEXw==" iconFile="Data/skills/Portal_Exeunt.png" />
 
     <!-- second port -->
     <POI MapID="1323" xpos="-306.608" ypos="84.8862" zpos="19.1138" type="haskha.w7.sabir.port2" GUID="eiQz45KeSEePslec1DVnpw==" iconFile="Data/skills/Portal_Exeunt.png" />

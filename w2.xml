@@ -24,6 +24,10 @@
     <POI MapID="1149" xpos="-34.22" ypos="79.8" zpos="-123.9" type="haskha.w2.ports" GUID="m18lw/76/UGZAl51Aa8Xpg==" iconFile="Data/skills/Portal_Entre.png" />
     <!-- <POI MapID="1149" xpos="-34.0973" ypos="82.4429" zpos="-114.101" type="haskha.w2.portal_entre" GUID="m18lw/76/UGZAl51Aa8Xpg=="/>  -->
 
+    <!-- port in trio -->
+    <POI MapID="1149" xpos="-28.00865" ypos="7.17725" zpos="-212.3299" type="haskha.w2.ports" GUID="McRvU2cgjEWWKvmZs3NEvg==" iconFile="Data/skills/Prepare_Shadow_Portal.png" />
+    <POI MapID="1149" xpos="0.8278131" ypos="0.8196965" zpos="-274.6123" type="haskha.w2.ports" GUID="f2X9TFU4AUG9AR/TJIGgtw==" iconFile="Data/skills/Shadow_Portal.png" /> 
+
     <!-- port cliff to circle -->
     <POI MapID="1149" xpos="-32.9232" ypos="82.9832" zpos="-110.037" type="haskha.w2.ports" GUID="E8afNphsy0yXs71yrC3oyQ==" iconFile="Data/skills/Portal_Exeunt.png" />
     <POI MapID="1149" xpos="-42.1612" ypos="103.382" zpos="14.2804" type="haskha.w2.ports" GUID="izfKQGsXYkqXGPZg+d4hlw==" iconFile="Data/skills/Portal_Entre.png" />
