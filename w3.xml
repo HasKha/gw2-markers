@@ -54,8 +54,8 @@
     <!-- glenna skip around last tower -->
     <POI MapID="1156" xpos="-49.18652" ypos="116.2046" zpos="485.3443" type="haskha.w3.towers" GUID="Gaj6Okp+AEGXdGT4SIVlRQ==" iconFile="Data/skills/overhere.png" />
     <POI MapID="1156" xpos="-30.68482" ypos="114.6271" zpos="465.1416" type="haskha.w3.towers" GUID="uzEU0XNPfUCcmttxLgYFKA==" iconFile="Data/skills/overhere.png" />
-    <POI MapID="1156" xpos="-46.958" ypos="124.4262" zpos="439.0529" type="haskha.w3.towers" GUID="Xm1lxy0XI0SXLJkI8B7mXQ==" iconFile="Data/skills/Prepare_Shadow_Portal" />
-    <POI MapID="1156" xpos="-71.28243" ypos="102.7315" zpos="489.7959" type="haskha.w3.towers" GUID="N/ydIa8XfUWBl9SA/4xMjg==" iconFile="Data/skills/Shadow_Portal" />
+    <POI MapID="1156" xpos="-46.958" ypos="124.4262" zpos="439.0529" type="haskha.w3.towers" GUID="Xm1lxy0XI0SXLJkI8B7mXQ==" iconFile="Data/skills/Prepare_Shadow_Portal.png" />
+    <POI MapID="1156" xpos="-71.28243" ypos="102.7315" zpos="489.7959" type="haskha.w3.towers" GUID="N/ydIa8XfUWBl9SA/4xMjg==" iconFile="Data/skills/Shadow_Portal.png" />
 
     <!-- twisted castle -->
     <POI MapID="1156" xpos="-80.32883" ypos="138.8333" zpos="122.771" type="haskha.w3.tc" GUID="iqFsoYkDXUuvqU0G34PZXQ==" iconFile="Data/skills/Portal_Entre.png" />
