@@ -11,6 +11,8 @@
         <MarkerCategory name="port2" DisplayName="Port 2" minimapvisibility="0" mapvisibility="0" />
       </MarkerCategory>
 
+      <MarkerCategory name="adina" DisplayName="Adina" iconSize="0.4" alpha="0.75" fadeNear="3000" fadeFar="3100" iconFile="Data/dot.png" heightOffset="0" rotate="0,0,0"/>
+
       <MarkerCategory name="qadim" DisplayName="Qadim Fires" fadeNear="3000" fadeFar="3100">
         <MarkerCategory name="east" DisplayName="East" color="FF0000" />
         <MarkerCategory name="west1" DisplayName="West (left)" color="7F00FF" />
@@ -43,6 +45,11 @@
 
     <!-- second port -->
     <POI MapID="1323" xpos="-306.608" ypos="84.8862" zpos="19.1138" type="haskha.w7.sabir.port2" GUID="eiQz45KeSEePslec1DVnpw==" iconFile="Data/skills/Portal_Exeunt.png" />
+
+    <!-- Adina split spots -->
+    <POI MapID="1323" xpos="379.6067" ypos="7.753108" zpos="-24.71044" type="haskha.w7.adina" GUID="c1FLM7tWjkSTB2at0HnI7A==" color="AAFFAA" />
+    <POI MapID="1323" xpos="378.6955" ypos="7.753193" zpos="-27.43549" type="haskha.w7.adina" GUID="66ZLxvybcECvphGEZBSprA==" color="AAAAFF"/>
+    <POI MapID="1323" xpos="378.6662" ypos="7.753193" zpos="-47.33738" type="haskha.w7.adina" GUID="vqPcBcARc0GDKOfuG6XJuw==" color="AAAAFF"/>
 
     <!-- qadim fires -->
     <POI MapID="1323" xpos="61.1567" ypos="16.812" zpos="223.099" type="haskha.w7.qadim.east" GUID="fYzNPJKuUEW7nPQHHcP9tQ==" iconFile="Data/1.png" />
