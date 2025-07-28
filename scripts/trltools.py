@@ -24,7 +24,7 @@ def read_trl(path):
     return mapid, coords
 
 def main():
-    path = "./Data/ura/triangle.trl"
+    path = "./Data/ura/safe_areas.trl"
     mapid, coords = read_trl(path)
     for coord in coords:
         print(coord)

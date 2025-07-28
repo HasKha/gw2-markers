@@ -1,16 +1,3 @@
-# generates content to copy into the TrlTool
-# blishhud:
-#       +z 
-#   -x      +x
-#       -z
-# positive y up
-#
-# trl:
-#       +y
-#   -x      +x
-#       -y
-# positive z up
-
 from dataclasses import dataclass
 import math
 import trltools
