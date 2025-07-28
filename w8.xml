@@ -4,25 +4,26 @@
       <MarkerCategory name="ura" DisplayName="Ura">
         <MarkerCategory name="toxics" DisplayName="Toxic Geyser markers" alpha="0.75" fadeNear="4000" fadefar="4100" defaulttoggle="0" />
 
-        <MarkerCategory name="toxic_hitbox" DisplayName="Toxic Geyser hitbox" iconFile="Data/dot-border-4.png" alpha="0.75"
-          fadeNear="600" fadefar="800" rotate="0,0,0" iconsize="2.064" heightOffset="0" minimapvisibility="0" mapvisibility="0" color="FF3333" 
-          defaulttoggle="0" tip-description="The hitbox for hitting with abilities."/>
+        <MarkerCategory name="toxic_hitbox" DisplayName="Toxic Geyser hitbox" alpha="0.5" color="FF3333" animspeed="0" texture="Data/line.png"
+          trailScale="0.25" fadeNear="600" fadefar="800" canfade="0" minimapvisibility="0" mapvisibility="0"
+          defaulttoggle="0" tip-description="The hitbox for hitting with abilities." />
 
-        <MarkerCategory name="toxic_sak" DisplayName="Toxic Geyser SAK range" iconFile="Data/dot-border-2.png" alpha="0.75"
-          fadeNear="600" fadefar="800" rotate="0,0,0" iconsize="5.8446312" heightOffset="0" minimapvisibility="0" mapvisibility="0" color="FFCCFF"
-          defaulttoggle="0" tip-description="Using the SAK with your character hitbox overlapping those lines will dispell the geyser."/>
+        <MarkerCategory name="toxic_sak" DisplayName="Toxic Geyser SAK range" alpha="0.5" color="FFCCFF" animspeed="0" texture="Data/line.png"
+          trailScale="0.25" fadeNear="600" fadefar="800" canfade="0" minimapvisibility="0" mapvisibility="0"
+          defaulttoggle="0" tip-description="Using the SAK with your character hitbox overlapping those lines will dispell the geyser." />
+
+        <MarkerCategory name="spawner_hitbox" DisplayName="Titanspawn Geysers hitbox" alpha="0.5" color="FF3333" animspeed="0" texture="Data/line.png"
+          trailScale="0.25" fadeNear="900" fadefar="1000" canfade="0" minimapvisibility="0" mapvisibility="0"
+          defaulttoggle="0" tip-description="The hitbox for hitting with abilities." />
+
+        <MarkerCategory name="spawner_sak" DisplayName="Titanspawn Geysers SAK range" alpha="0.5" color="FFCCFF" animspeed="0" texture="Data/line.png"
+          trailScale="0.25" fadeNear="900" fadefar="1000" canfade="0" minimapvisibility="0" mapvisibility="0"
+          defaulttoggle="0" tip-description="Using the SAK with your character hitbox overlapping those lines will dispell the spawner." />
 
         <MarkerCategory name="safetrails" DisplayName="Safe drop zones" alpha="0.5" color="00DD00" animspeed="0" texture="Data/line.png"
           trailScale="0.5" fadeNear="2000" fadefar="3000" canfade="0" defaulttoggle="0"
-          tip-description="Dropping sulfuric geysers outside the green areas will not interfere with toxic geysers."/>
+          tip-description="Dropping sulfuric geysers outside the green areas will not interfere with toxic geysers." />
 
-        <MarkerCategory name="spawner_hitbox" DisplayName="Titanspawn Geysers hitbox" iconFile="Data/dot-border-3.png" alpha="0.75"
-          fadeNear="900" fadefar="1000" rotate="0,0,0" iconsize="2.666" heightOffset="1.7" minimapvisibility="0" mapvisibility="0" color="FF3333"
-          defaulttoggle="0" tip-description="The hitbox for hitting with abilities."/>
-
-        <MarkerCategory name="spawner_sak" DisplayName="Titanspawn Geysers SAK range" iconFile="Data/dot-border-1.png" alpha="0.75"
-          fadeNear="900" fadefar="1000" rotate="0,0,0" iconsize="6.37268" heightOffset="1.7" minimapvisibility="0" mapvisibility="0" color="FFCCFF"
-          defaulttoggle="0" tip-description="Using the SAK with your character hitbox overlapping those lines will dispell the spawner."/>
       </MarkerCategory>
 
       <MarkerCategory name="greer" DisplayName="Greer">
@@ -47,63 +48,11 @@
     <POI MapID="1564" xpos="136.756" ypos="269.853" zpos="199.693" type="haskha.w8.ura.toxics" GUID="e4Sdv2oSYE2TuxIsQ9f23g==" iconFile="Data/icons/frog.png" alpha="0.85" />
     <POI MapID="1564" xpos="109.507" ypos="269.864" zpos="218.631" type="haskha.w8.ura.toxics" GUID="UTEbm2PGc02y00H++ffHTg==" iconFile="Data/icons/fish.png" alpha="1.0" />
 
-    <POI MapID="1564" xpos="196.736" ypos="269.771" zpos="247.251" type="haskha.w8.ura.toxic_hitbox" GUID="aZcoG8mrM0GKNFtOVP6myA==" />
-    <POI MapID="1564" xpos="181.636" ypos="269.910" zpos="276.953" type="haskha.w8.ura.toxic_hitbox" GUID="a7GKZRaoQ0yP16jWjt91bg==" />
-    <POI MapID="1564" xpos="193.879" ypos="269.820" zpos="219.205" type="haskha.w8.ura.toxic_hitbox" GUID="alLhts++4kagqjD9TRohHA==" />
-    <POI MapID="1564" xpos="183.057" ypos="269.856" zpos="235.223" type="haskha.w8.ura.toxic_hitbox" GUID="au516E4xakys2mWPIwc9NQ==" />
-    <POI MapID="1564" xpos="165.245" ypos="269.916" zpos="253.156" type="haskha.w8.ura.toxic_hitbox" GUID="ap79YmFEJE+SwTIhjnai2A==" />
-    <POI MapID="1564" xpos="158.040" ypos="269.937" zpos="280.916" type="haskha.w8.ura.toxic_hitbox" GUID="awEDDYslXkKQJjZIXnPDAg==" />
-    <POI MapID="1564" xpos="178.847" ypos="269.904" zpos="202.339" type="haskha.w8.ura.toxic_hitbox" GUID="auN+AnsjdEyt3YWkAyCTeQ==" />
-    <POI MapID="1564" xpos="161.718" ypos="269.887" zpos="228.767" type="haskha.w8.ura.toxic_hitbox" GUID="arvq6i+vSE2ElmBf6Zd+nA==" />
-    <POI MapID="1564" xpos="145.961" ypos="269.847" zpos="259.399" type="haskha.w8.ura.toxic_hitbox" GUID="aMIZHusTn0e+JsMrwjGHrw==" />
-    <POI MapID="1564" xpos="162.641" ypos="269.851" zpos="200.383" type="haskha.w8.ura.toxic_hitbox" GUID="aUsstDipAUSib1SMGZqubQ==" />
-    <POI MapID="1564" xpos="145.577" ypos="269.847" zpos="228.939" type="haskha.w8.ura.toxic_hitbox" GUID="a2WmLSF/Kkirv7Zgo4UmMg==" />
-    <POI MapID="1564" xpos="122.405" ypos="269.845" zpos="249.628" type="haskha.w8.ura.toxic_hitbox" GUID="aUuc7QgIKUKne18diA8cTg==" />
-    <POI MapID="1564" xpos="136.756" ypos="269.853" zpos="199.693" type="haskha.w8.ura.toxic_hitbox" GUID="a4Sdv2oSYE2TuxIsQ9f23g==" />
-    <POI MapID="1564" xpos="109.507" ypos="269.864" zpos="218.631" type="haskha.w8.ura.toxic_hitbox" GUID="aTEbm2PGc02y00H++ffHTg==" />
-
-    <POI MapID="1564" xpos="196.736" ypos="269.771" zpos="247.251" type="haskha.w8.ura.toxic_sak" GUID="bZcoG8mrM0GKNFtOVP6myA==" />
-    <POI MapID="1564" xpos="181.636" ypos="269.910" zpos="276.953" type="haskha.w8.ura.toxic_sak" GUID="b7GKZRaoQ0yP16jWjt91bg==" />
-    <POI MapID="1564" xpos="193.879" ypos="269.820" zpos="219.205" type="haskha.w8.ura.toxic_sak" GUID="blLhts++4kagqjD9TRohHA==" />
-    <POI MapID="1564" xpos="183.057" ypos="269.856" zpos="235.223" type="haskha.w8.ura.toxic_sak" GUID="bu516E4xakys2mWPIwc9NQ==" />
-    <POI MapID="1564" xpos="165.245" ypos="269.916" zpos="253.156" type="haskha.w8.ura.toxic_sak" GUID="bp79YmFEJE+SwTIhjnai2A==" />
-    <POI MapID="1564" xpos="158.040" ypos="269.937" zpos="280.916" type="haskha.w8.ura.toxic_sak" GUID="bwEDDYslXkKQJjZIXnPDAg==" />
-    <POI MapID="1564" xpos="178.847" ypos="269.904" zpos="202.339" type="haskha.w8.ura.toxic_sak" GUID="buN+AnsjdEyt3YWkAyCTeQ==" />
-    <POI MapID="1564" xpos="161.718" ypos="269.887" zpos="228.767" type="haskha.w8.ura.toxic_sak" GUID="brvq6i+vSE2ElmBf6Zd+nA==" />
-    <POI MapID="1564" xpos="145.961" ypos="269.847" zpos="259.399" type="haskha.w8.ura.toxic_sak" GUID="bMIZHusTn0e+JsMrwjGHrw==" />
-    <POI MapID="1564" xpos="162.641" ypos="269.851" zpos="200.383" type="haskha.w8.ura.toxic_sak" GUID="bUsstDipAUSib1SMGZqubQ==" />
-    <POI MapID="1564" xpos="145.577" ypos="269.847" zpos="228.939" type="haskha.w8.ura.toxic_sak" GUID="b2WmLSF/Kkirv7Zgo4UmMg==" />
-    <POI MapID="1564" xpos="122.405" ypos="269.845" zpos="249.628" type="haskha.w8.ura.toxic_sak" GUID="bUuc7QgIKUKne18diA8cTg==" />
-    <POI MapID="1564" xpos="136.756" ypos="269.853" zpos="199.693" type="haskha.w8.ura.toxic_sak" GUID="b4Sdv2oSYE2TuxIsQ9f23g==" />
-    <POI MapID="1564" xpos="109.507" ypos="269.864" zpos="218.631" type="haskha.w8.ura.toxic_sak" GUID="bTEbm2PGc02y00H++ffHTg==" />
-
-    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/arrow.trl" />
-    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/cat.trl" />
-    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/circle.trl" />
-    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/fish.trl" />
-    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/frog.trl" />
-    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/plus.trl" />
-    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/spiral.trl" />
-    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/star.trl" />
-    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/triangle.trl" />
-    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/x.trl" />
-    <!-- double drop spots -->
-    <!-- <POI MapId="1564" xpos="170.744" ypos="268.3" zpos="201.361" type="haskha.w8.ura.doubledrops" GUID="FrfGvsZnMEKyGyynT5Z+8w=="/> -->
-    <!-- <POI MapId="1564" xpos="188.468" ypos="268.3" zpos="227.214" type="haskha.w8.ura.doubledrops" GUID="W7yVL+iARUCuYnCHQJ1jCg=="/> -->
-    <!-- <POI MapId="1564" xpos="189.896" ypos="268.3" zpos="241.237" type="haskha.w8.ura.doubledrops" GUID="aTX8CmWPt06a27QS/Q2NKg=="/> -->
-
-    <!-- spawners -->
-    <POI MapId="1564" xpos="141.47" ypos="268.34" zpos="210.48" type="haskha.w8.ura.spawner_hitbox" GUID="l2afCUv+9EeACUwOe1Fq1w==" />
-    <POI MapId="1564" xpos="171.51" ypos="268.33" zpos="218.83" type="haskha.w8.ura.spawner_hitbox" GUID="VPJfV5zDZkK0iaxQp+rHkA==" />
-    <POI MapId="1564" xpos="150.50" ypos="268.34" zpos="255.44" type="haskha.w8.ura.spawner_hitbox" GUID="aViuKouR8kGVrMbqRkqBmA==" />
-    <POI MapId="1564" xpos="176.85" ypos="268.27" zpos="243.99" type="haskha.w8.ura.spawner_hitbox" GUID="oNsqZsTO/U27tSAWSPCP9g==" />
-    <POI MapId="1564" xpos="128.84" ypos="268.36" zpos="234.44" type="haskha.w8.ura.spawner_hitbox" GUID="BSjxX2jca0SZqls3jb79yw==" />
-    <!-- spawners again -->
-    <POI MapId="1564" xpos="141.47" ypos="268.34" zpos="210.48" type="haskha.w8.ura.spawner_sak" GUID="b2afCUv+9EeACUwOe1Fq1w==" />
-    <POI MapId="1564" xpos="171.51" ypos="268.33" zpos="218.83" type="haskha.w8.ura.spawner_sak" GUID="bPJfV5zDZkK0iaxQp+rHkA==" />
-    <POI MapId="1564" xpos="150.50" ypos="268.34" zpos="255.44" type="haskha.w8.ura.spawner_sak" GUID="bViuKouR8kGVrMbqRkqBmA==" />
-    <POI MapId="1564" xpos="176.85" ypos="268.27" zpos="243.99" type="haskha.w8.ura.spawner_sak" GUID="bNsqZsTO/U27tSAWSPCP9g==" />
-    <POI MapId="1564" xpos="128.84" ypos="268.36" zpos="234.44" type="haskha.w8.ura.spawner_sak" GUID="bSjxX2jca0SZqls3jb79yw==" />
+    <trail MapID="1564" type="haskha.w8.ura.toxic_hitbox" traildata="Data/ura/toxic_hitbox.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.toxic_sak" traildata="Data/ura/toxic_sak.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.spawner_hitbox" traildata="Data/ura/spawner_hitbox.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.spawner_sak" traildata="Data/ura/spawner_sak.trl" />
+    <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/safe_areas.trl" />
 
     <!-- greer port -->
     <POI MapID="1564" xpos="303.435" ypos="149.7165" zpos="-151.6592" type="haskha.w8.greer.preport" GUID="U0MaSkMV9UqybWFP6R4JyQ==" iconFile="Data/skills/Portal_Entre.png" />
