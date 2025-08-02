@@ -2,7 +2,8 @@
   <MarkerCategory name="haskha" DisplayName="HasKha's Markers">
     <MarkerCategory name="w8" DisplayName="Wing 8">
       <MarkerCategory name="ura" DisplayName="Ura">
-        <MarkerCategory name="toxics" DisplayName="Toxic Geyser markers" alpha="0.75" fadeNear="4000" fadefar="4100" defaulttoggle="0" />
+        <MarkerCategory name="toxics" DisplayName="Toxic Geyser markers (shapes)" alpha="0.75" fadeNear="4000" fadefar="4100" defaulttoggle="0" />
+        <MarkerCategory name="toxics_n" DisplayName="Toxic Geyser markers (numbers)" alpha="0.75" fadeNear="4000" fadefar="4100" defaulttoggle="0" iconSize="2.0" />
 
         <MarkerCategory name="toxic_hitbox" DisplayName="Toxic Geyser hitbox" alpha="0.5" color="FF3333" animspeed="0" texture="Data/line.png"
           trailScale="0.25" fadeNear="600" fadefar="800" canfade="0" minimapvisibility="0" mapvisibility="0"
@@ -23,7 +24,6 @@
         <MarkerCategory name="safetrails" DisplayName="Safe drop zones" alpha="0.5" color="00DD00" animspeed="0" texture="Data/line.png"
           trailScale="0.5" fadeNear="2000" fadefar="3000" canfade="0" defaulttoggle="0"
           tip-description="Dropping sulfuric geysers outside the green areas will not interfere with toxic geysers." />
-
       </MarkerCategory>
 
       <MarkerCategory name="greer" DisplayName="Greer">
@@ -47,6 +47,22 @@
     <POI MapID="1564" xpos="122.405" ypos="269.845" zpos="249.628" type="haskha.w8.ura.toxics" GUID="3Uuc7QgIKUKne18diA8cTg==" iconFile="Data/icons/add.png" />
     <POI MapID="1564" xpos="136.756" ypos="269.853" zpos="199.693" type="haskha.w8.ura.toxics" GUID="e4Sdv2oSYE2TuxIsQ9f23g==" iconFile="Data/icons/frog.png" alpha="0.85" />
     <POI MapID="1564" xpos="109.507" ypos="269.864" zpos="218.631" type="haskha.w8.ura.toxics" GUID="UTEbm2PGc02y00H++ffHTg==" iconFile="Data/icons/fish.png" alpha="1.0" />
+
+    <POI MapID="1564" xpos="196.736" ypos="269.771" zpos="247.251" type="haskha.w8.ura.toxics_n" GUID="aZcoG8mrM0GKNFtOVP6myA==" iconFile="Data/numbers/1.png" />
+    <POI MapID="1564" xpos="181.636" ypos="269.910" zpos="276.953" type="haskha.w8.ura.toxics_n" GUID="a7GKZRaoQ0yP16jWjt91bg==" iconFile="Data/numbers/2.png" />
+    <POI MapID="1564" xpos="193.879" ypos="269.820" zpos="219.205" type="haskha.w8.ura.toxics_n" GUID="alLhts++4kagqjD9TRohHA==" iconFile="Data/numbers/3.png" />
+    <POI MapID="1564" xpos="183.057" ypos="269.856" zpos="235.223" type="haskha.w8.ura.toxics_n" GUID="au516E4xakys2mWPIwc9NQ==" iconFile="Data/numbers/4.png" />
+    <POI MapID="1564" xpos="165.245" ypos="269.916" zpos="253.156" type="haskha.w8.ura.toxics_n" GUID="ap79YmFEJE+SwTIhjnai2A==" iconFile="Data/numbers/5.png" />
+    <POI MapID="1564" xpos="158.040" ypos="269.937" zpos="280.916" type="haskha.w8.ura.toxics_n" GUID="awEDDYslXkKQJjZIXnPDAg==" iconFile="Data/numbers/6.png" />
+    <POI MapID="1564" xpos="178.847" ypos="269.904" zpos="202.339" type="haskha.w8.ura.toxics_n" GUID="auN+AnsjdEyt3YWkAyCTeQ==" iconFile="Data/numbers/7.png" />
+    <POI MapID="1564" xpos="161.718" ypos="269.887" zpos="228.767" type="haskha.w8.ura.toxics_n" GUID="arvq6i+vSE2ElmBf6Zd+nA==" iconFile="Data/numbers/8.png" />
+    <POI MapID="1564" xpos="145.961" ypos="269.847" zpos="259.399" type="haskha.w8.ura.toxics_n" GUID="aMIZHusTn0e+JsMrwjGHrw==" iconFile="Data/numbers/9.png" />
+    <POI MapID="1564" xpos="162.641" ypos="269.851" zpos="200.383" type="haskha.w8.ura.toxics_n" GUID="aUsstDipAUSib1SMGZqubQ==" iconFile="Data/numbers/10.png" />
+    <POI MapID="1564" xpos="145.577" ypos="269.847" zpos="228.939" type="haskha.w8.ura.toxics_n" GUID="a2WmLSF/Kkirv7Zgo4UmMg==" iconFile="Data/numbers/11.png" />
+    <POI MapID="1564" xpos="122.405" ypos="269.845" zpos="249.628" type="haskha.w8.ura.toxics_n" GUID="aUuc7QgIKUKne18diA8cTg==" iconFile="Data/numbers/12.png" />
+    <POI MapID="1564" xpos="136.756" ypos="269.853" zpos="199.693" type="haskha.w8.ura.toxics_n" GUID="a4Sdv2oSYE2TuxIsQ9f23g==" iconFile="Data/numbers/13.png" />
+    <POI MapID="1564" xpos="109.507" ypos="269.864" zpos="218.631" type="haskha.w8.ura.toxics_n" GUID="aTEbm2PGc02y00H++ffHTg==" iconFile="Data/numbers/14.png" />
+
 
     <trail MapID="1564" type="haskha.w8.ura.toxic_hitbox" traildata="Data/ura/toxic_hitbox.trl" />
     <trail MapID="1564" type="haskha.w8.ura.toxic_sak" traildata="Data/ura/toxic_sak.trl" />

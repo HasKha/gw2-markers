@@ -52,13 +52,13 @@
     <POI MapID="1323" xpos="378.6662" ypos="7.753193" zpos="-47.33738" type="haskha.w7.adina" GUID="vqPcBcARc0GDKOfuG6XJuw==" color="AAAAFF"/>
 
     <!-- qadim fires -->
-    <POI MapID="1323" xpos="61.1567" ypos="16.812" zpos="223.099" type="haskha.w7.qadim.east" GUID="fYzNPJKuUEW7nPQHHcP9tQ==" iconFile="Data/1.png" />
-    <POI MapID="1323" xpos="3.20733" ypos="16.812" zpos="256.496" type="haskha.w7.qadim.west1" GUID="RgXNIP56RUS8+q6iWCGstA==" iconFile="Data/1.png" />
-    <POI MapID="1323" xpos="60.3149" ypos="16.812" zpos="289.696" type="haskha.w7.qadim.north" GUID="ndrRd4kbAUihoAn+8mMHhg==" iconFile="Data/1.png" />
-    <POI MapID="1323" xpos="41.5267" ypos="16.8121" zpos="232.625" type="haskha.w7.qadim.west2" GUID="OnA3f9loI0Szf9AH0p+CjA==" iconFile="Data/2.png" />
-    <POI MapID="1323" xpos="22.7705" ypos="16.812" zpos="222.425" type="haskha.w7.qadim.west2" GUID="DWzMgW362EGHMI73rIokEQ==" iconFile="Data/1.png" />
-    <POI MapID="1323" xpos="79.4131" ypos="16.812" zpos="256.645" type="haskha.w7.qadim.east" GUID="EURwmvkCXEWqMxuqEn9lgw==" iconFile="Data/2.png" />
-    <POI MapID="1323" xpos="61.7815" ypos="16.812" zpos="267.747" type="haskha.w7.qadim.north" GUID="UY0KTvtHQkyDRM41rjQXxw==" iconFile="Data/2.png" />
-    <POI MapID="1323" xpos="21.0813" ypos="16.812" zpos="267.726" type="haskha.w7.qadim.west1" GUID="j42eFRxeq0KHCrEHyTCV6A==" iconFile="Data/2.png" />
+    <POI MapID="1323" xpos="61.1567" ypos="16.812" zpos="223.099" type="haskha.w7.qadim.east" GUID="fYzNPJKuUEW7nPQHHcP9tQ==" iconFile="Data/numbers/1.png" />
+    <POI MapID="1323" xpos="3.20733" ypos="16.812" zpos="256.496" type="haskha.w7.qadim.west1" GUID="RgXNIP56RUS8+q6iWCGstA==" iconFile="Data/numbers/1.png" />
+    <POI MapID="1323" xpos="60.3149" ypos="16.812" zpos="289.696" type="haskha.w7.qadim.north" GUID="ndrRd4kbAUihoAn+8mMHhg==" iconFile="Data/numbers/1.png" />
+    <POI MapID="1323" xpos="41.5267" ypos="16.8121" zpos="232.625" type="haskha.w7.qadim.west2" GUID="OnA3f9loI0Szf9AH0p+CjA==" iconFile="Data/numbers/2.png" />
+    <POI MapID="1323" xpos="22.7705" ypos="16.812" zpos="222.425" type="haskha.w7.qadim.west2" GUID="DWzMgW362EGHMI73rIokEQ==" iconFile="Data/numbers/1.png" />
+    <POI MapID="1323" xpos="79.4131" ypos="16.812" zpos="256.645" type="haskha.w7.qadim.east" GUID="EURwmvkCXEWqMxuqEn9lgw==" iconFile="Data/numbers/2.png" />
+    <POI MapID="1323" xpos="61.7815" ypos="16.812" zpos="267.747" type="haskha.w7.qadim.north" GUID="UY0KTvtHQkyDRM41rjQXxw==" iconFile="Data/numbers/2.png" />
+    <POI MapID="1323" xpos="21.0813" ypos="16.812" zpos="267.726" type="haskha.w7.qadim.west1" GUID="j42eFRxeq0KHCrEHyTCV6A==" iconFile="Data/numbers/2.png" />
   </POIs>
 </OverlayData>

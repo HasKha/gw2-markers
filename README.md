@@ -19,3 +19,7 @@
 
 ## Ura CM
 ![ura](https://github.com/user-attachments/assets/7ad73694-adb6-40ce-964a-8bcdbf50a969)
+
+## Credits
+- Data/numbers created by Md Tanvirul Haque - Flaticon
+- Data/icons from Flaticon - various creators

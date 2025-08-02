@@ -50,11 +50,11 @@
     <!-- <POI MapID="1062" xpos="-155.74" ypos="74.09" zpos="-85.76" type="haskha.w1.ports" GUID="Wn5Iike0D0SwWVWA26oU7A==" iconFile="Data/skills/Portal_Exeunt.png" /> -->
 
     <!-- buttons -->
-    <POI MapID="1062" xpos="-151.118" ypos="58.5661" zpos="-64.9912" type="haskha.w1.buttons" GUID="e2wMbkztM0ORMoKYNvi7TQ==" iconFile="Data/1.png" />
-    <POI MapID="1062" xpos="-102.154" ypos="72.9159" zpos="-79.9627" type="haskha.w1.buttons" GUID="sO173zm1x0m5AVjhFow9hg==" iconFile="Data/2.png" />
-    <POI MapID="1062" xpos="-97.1876" ypos="80.3432" zpos="-92.9504" type="haskha.w1.buttons" GUID="+OsOChMMrkapoPZhLhpEbg==" iconFile="Data/3.png" />
-    <POI MapID="1062" xpos="-159.645" ypos="70.8933" zpos="-142.381" type="haskha.w1.buttons" GUID="DDs8aHFTxkmG+K8tmTE0dw==" iconFile="Data/4.png" />
-    <POI MapID="1062" xpos="-106.649" ypos="61.1156" zpos="-167.033" type="haskha.w1.buttons" GUID="9wcSGecGoUKPLdsxqQRQPQ==" iconFile="Data/5.png" />
+    <POI MapID="1062" xpos="-151.118" ypos="58.5661" zpos="-64.9912" type="haskha.w1.buttons" GUID="e2wMbkztM0ORMoKYNvi7TQ==" iconFile="Data/numbers/1.png" />
+    <POI MapID="1062" xpos="-102.154" ypos="72.9159" zpos="-79.9627" type="haskha.w1.buttons" GUID="sO173zm1x0m5AVjhFow9hg==" iconFile="Data/numbers/2.png" />
+    <POI MapID="1062" xpos="-97.1876" ypos="80.3432" zpos="-92.9504" type="haskha.w1.buttons" GUID="+OsOChMMrkapoPZhLhpEbg==" iconFile="Data/numbers/3.png" />
+    <POI MapID="1062" xpos="-159.645" ypos="70.8933" zpos="-142.381" type="haskha.w1.buttons" GUID="DDs8aHFTxkmG+K8tmTE0dw==" iconFile="Data/numbers/4.png" />
+    <POI MapID="1062" xpos="-106.649" ypos="61.1156" zpos="-167.033" type="haskha.w1.buttons" GUID="9wcSGecGoUKPLdsxqQRQPQ==" iconFile="Data/numbers/5.png" />
 
     <!-- port to gorse -->
     <!-- <POI MapID="1062" xpos="-118.2488" ypos="51.10382" zpos="-111.3749" type="haskha.w1.ports" GUID="ilHq/FZt3EOYvKTZvar7Mw==" iconFile="Data/skills/Portal_Entre.png" /> -->
