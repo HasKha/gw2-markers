@@ -1,7 +1,15 @@
 <OverlayData>
   <MarkerCategory name="haskha" DisplayName="HasKha's Markers">
     <MarkerCategory name="w3" DisplayName="Wing 3">
-      <MarkerCategory name="overhere" DisplayName="Glenna SAK spots" iconFile="Data/skills/overhere.png" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" />
+      <MarkerCategory name="overhere" DisplayName="Glenna SAK spots" iconSize="0.5" alpha="0.75" fadeNear="6000" fadefar="6100" >
+        <MarkerCategory name="1" DisplayName="1" iconFile="Data/skills/overhere1.png"/>
+        <MarkerCategory name="2" DisplayName="2" iconFile="Data/skills/overhere2.png"/>
+        <MarkerCategory name="3" DisplayName="3" iconFile="Data/skills/overhere3.png"/>
+        <MarkerCategory name="4" DisplayName="4" iconFile="Data/skills/overhere4.png"/>
+        <MarkerCategory name="5" DisplayName="5" iconFile="Data/skills/overhere5.png"/>
+        <MarkerCategory name="6" DisplayName="6" iconFile="Data/skills/overhere6.png"/>
+        <MarkerCategory name="others" DisplayName="Others" iconFile="Data/skills/overhere.png"/>
+      </MarkerCategory>
       <MarkerCategory name="caveskip" DisplayName="Cave Skip" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3100" />
       <MarkerCategory name="jp" DisplayName="Waterfall JP" iconFile="Data/dot.png" color="FF0000" iconSize="0.2" alpha="0.75"
         fadeNear="2000" fadeFar="2100" heightOffset="0" minimapvisibility="0" mapvisibility="0" />
@@ -13,11 +21,13 @@
 
   <POIs>
     <!-- glenna SAK spots -->
-    <POI MapID="1156" xpos="214" ypos="82" zpos="533.8" type="haskha.w3.overhere" GUID="VXl8v1tqs0iPIscqqQUOyg==" />
-    <POI MapID="1156" xpos="189.7" ypos="77" zpos="518.3" type="haskha.w3.overhere" GUID="dLCL03xhikeba5c9uD6LeQ==" />
-    <POI MapID="1156" xpos="167.3" ypos="76.7" zpos="505.8" type="haskha.w3.overhere" GUID="QIbc2saTK0ecVDLXz+4gLA==" />
-    <POI MapID="1156" xpos="151.6" ypos="69.2" zpos="492.3" type="haskha.w3.overhere" GUID="RiHUzxNCwk61Wuu+RoWMhA==" />
-    <POI MapID="1156" xpos="132.9" ypos="86" zpos="509.3" type="haskha.w3.overhere" GUID="xz2HxCWuYE6ybGHIsrkOtA==" />
+    <POI MapID="1156" xpos="214" ypos="82" zpos="533.8" type="haskha.w3.overhere.1" GUID="VXl8v1tqs0iPIscqqQUOyg==" />
+    <POI MapID="1156" xpos="189.7" ypos="77" zpos="518.3" type="haskha.w3.overhere.2" GUID="dLCL03xhikeba5c9uD6LeQ==" />
+    <POI MapID="1156" xpos="167.3" ypos="76.7" zpos="505.8" type="haskha.w3.overhere.3" GUID="QIbc2saTK0ecVDLXz+4gLA==" />
+    <POI MapID="1156" xpos="151.6" ypos="69.2" zpos="492.3" type="haskha.w3.overhere.4" GUID="RiHUzxNCwk61Wuu+RoWMhA==" />
+    <POI MapID="1156" xpos="132.9" ypos="86" zpos="509.3" type="haskha.w3.overhere.5" GUID="xz2HxCWuYE6ybGHIsrkOtA==" />
+    <POI MapID="1156" xpos="128.3206" ypos="90.39807" zpos="539.486" type="haskha.w3.overhere.6" GUID="wta8qMvnskuo9cGvQtmmqQ=="/>
+    <POI MapID="1156" xpos="27.2924" ypos="92.72789" zpos="529.5793" type="haskha.w3.overhere.others" GUID="GPX8LNnu/U2+RC9p/zu5UA=="/>
 
     <!-- cave skip -->
     <POI MapID="1156" xpos="159.379" ypos="76.639" zpos="495.794" type="haskha.w3.caveskip" GUID="Beo0KXimxk+ORMhE1q/6AA==" iconFile="Data/skills/Portal_Entre.png" />
@@ -52,8 +62,8 @@
     <POI MapID="1156" xpos="-92.6669" ypos="135.199" zpos="424.188" type="haskha.w3.towers" GUID="U/qdaRsgMEOMJKI4FWSvmg==" iconFile="Data/skills/Prepare_Shadow_Portal.png" />
 
     <!-- glenna skip around last tower -->
-    <POI MapID="1156" xpos="-49.18652" ypos="116.2046" zpos="485.3443" type="haskha.w3.towers" GUID="Gaj6Okp+AEGXdGT4SIVlRQ==" iconFile="Data/skills/overhere.png" />
-    <POI MapID="1156" xpos="-30.68482" ypos="114.6271" zpos="465.1416" type="haskha.w3.towers" GUID="uzEU0XNPfUCcmttxLgYFKA==" iconFile="Data/skills/overhere.png" />
+    <POI MapID="1156" xpos="-49.18652" ypos="116.2046" zpos="485.3443" type="haskha.w3.overhere.others" GUID="Gaj6Okp+AEGXdGT4SIVlRQ==" />
+    <POI MapID="1156" xpos="-30.68482" ypos="114.6271" zpos="465.1416" type="haskha.w3.overhere.others" GUID="uzEU0XNPfUCcmttxLgYFKA==" />
     <POI MapID="1156" xpos="-46.958" ypos="124.4262" zpos="439.0529" type="haskha.w3.towers" GUID="Xm1lxy0XI0SXLJkI8B7mXQ==" iconFile="Data/skills/Prepare_Shadow_Portal.png" />
     <POI MapID="1156" xpos="-71.28243" ypos="102.7315" zpos="489.7959" type="haskha.w3.towers" GUID="N/ydIa8XfUWBl9SA/4xMjg==" iconFile="Data/skills/Shadow_Portal.png" />
 
