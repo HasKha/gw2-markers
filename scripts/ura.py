@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 import math
 import trltools
+from shared import make_arc, make_circle, unit_to_gwinch
 
 mapid = 1564
 
@@ -44,9 +45,6 @@ spawners = [
     Spawner(128.84, 268.36, 234.44),
 ]
 
-def unit_to_gwinch(x):
-    return x / 39.3701
-
 def circle_intersections(x1, y1, x2, y2, r, name1, name2):
     dx = x2 - x1
     dy = y2 - y1
@@ -85,24 +83,6 @@ def find_intersection_angles(g1: Geyser, g2: Geyser):
     circle_intersections(g1.x, g1.z, g2.x, g2.z, r, g1.name, g2.name)
 
 # find_intersection_angles(star, plus)
-
-
-def make_arc(x, y, z, radius, angle_start, angle_end, angle_step):
-    if angle_start == angle_end:
-        return []
-    coords = []
-    count = angle_end - angle_start + 1
-    for angle_deg in range(angle_start, angle_end + 1, angle_step):
-        angle_rad = math.radians(angle_deg)
-        posX = x + math.cos(angle_rad) * radius
-        posY = y
-        posZ = z + math.sin(angle_rad) * radius
-        coords.append([posX, posY, posZ])
-    coords.append([0, 0, 0])
-    return coords
-
-def make_circle(x, y, z, radius):
-    return make_arc(x, y, z, radius, 0, 360, 5)
 
 def save_safe_drop_arcs():
     radius = unit_to_gwinch(600)

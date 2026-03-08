@@ -2,6 +2,8 @@
   <MarkerCategory name="haskha" DisplayName="HasKha's Markers">
     <MarkerCategory name="w4" DisplayName="Wing 4">
       <MarkerCategory name="ports" DisplayName="Portals" iconSize="0.5" alpha="0.75" fadeNear="5000" fadeFar="5100" heightOffset="0" />
+      <MarkerCategory name="samspears" DisplayName="Samarog spears" alpha="0.5" color="FF3333" animspeed="0" texture="Data/line.png"
+        trailScale="0.25" fadeNear="600" fadefar="1000" canfade="0" minimapvisibility="0" mapvisibility="0"/>
       <MarkerCategory name="deimos_chains" DisplayName="Deimos Chains" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3100" minimapvisibility="0" mapvisibility="0"/>
     </MarkerCategory>
   </MarkerCategory>
@@ -20,6 +22,9 @@
 
     <!-- samarog port -->
     <POI MapID="1188" xpos="-46.50983" ypos="129.5339" zpos="79.53103" type="haskha.w4.ports" GUID="lZuOVKcgZESEDdzMgnxbyQ==" iconFile="Data/skills/Portal_Exeunt.png" />
+
+    <!-- samarog spears -->
+    <trail MapID="1188" type="haskha.w4.samspears" traildata="Data/samarog.trl" />
 
     <!-- deimos port -->
     <POI MapID="1188" xpos="-133.023" ypos="126.647" zpos="161.605" type="haskha.w4.ports" GUID="FB9WkdcJ4EyuBV11WZeq0g==" iconFile="Data/skills/Portal_Entre.png" />
