@@ -32,9 +32,9 @@
       mapvisibility="0" />
 
     <!-- deimos chains -->
-    <POI MapID="1188" xpos="-200.122" ypos="357.718" zpos="127.408" type="haskha.w4.deimos" GUID="3KFWNhfpf0muFBsGrbKAMA==" iconFile="Data/direction/n.png" />
-		<POI MapID="1188" xpos="-184.3" ypos="357.718" zpos="100.426" type="haskha.w4.deimos" GUID="mBfhwpLL6EuRbrh0MI85KQ==" iconFile="Data/direction/e.png" />
-		<POI MapID="1188" xpos="-211.159" ypos="357.718" zpos="85.039" type="haskha.w4.deimos" GUID="NbW1vfpIiEKwwNEzxO0OKw==" iconFile="Data/direction/s.png" />
-		<POI MapID="1188" xpos="-227.283" ypos="357.718" zpos="112.708" type="haskha.w4.deimos" GUID="jslnPAOu4EGwFJoJMVnCrw==" iconFile="Data/direction/w.png" />
+    <POI MapID="1188" xpos="-200.122" ypos="357.718" zpos="127.408" type="haskha.w4.deimos_chains" GUID="3KFWNhfpf0muFBsGrbKAMA==" iconFile="Data/direction/n.png" />
+		<POI MapID="1188" xpos="-184.3" ypos="357.718" zpos="100.426" type="haskha.w4.deimos_chains" GUID="mBfhwpLL6EuRbrh0MI85KQ==" iconFile="Data/direction/e.png" />
+		<POI MapID="1188" xpos="-211.159" ypos="357.718" zpos="85.039" type="haskha.w4.deimos_chains" GUID="NbW1vfpIiEKwwNEzxO0OKw==" iconFile="Data/direction/s.png" />
+		<POI MapID="1188" xpos="-227.283" ypos="357.718" zpos="112.708" type="haskha.w4.deimos_chains" GUID="jslnPAOu4EGwFJoJMVnCrw==" iconFile="Data/direction/w.png" />
   </POIs>
 </OverlayData>
