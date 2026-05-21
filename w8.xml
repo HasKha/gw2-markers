@@ -27,7 +27,8 @@
       </MarkerCategory>
 
       <MarkerCategory name="greer" DisplayName="Greer">
-        <MarkerCategory name="preport" DisplayName="Pre-event port" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" minimapvisibility="0" mapvisibility="0" />
+        <MarkerCategory name="preport1" DisplayName="Pre-event port to Gree" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" minimapvisibility="0" mapvisibility="0" />
+        <MarkerCategory name="preport2" DisplayName="Pre-event port to CM mote and Reeg" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" minimapvisibility="0" mapvisibility="0" />
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
@@ -71,8 +72,10 @@
     <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/safe_areas.trl" />
 
     <!-- greer port -->
-    <POI MapID="1564" xpos="303.435" ypos="149.7165" zpos="-151.6592" type="haskha.w8.greer.preport" GUID="U0MaSkMV9UqybWFP6R4JyQ==" iconFile="Data/skills/Portal_Entre.png" />
-    <POI MapID="1564" xpos="187.2756" ypos="119.9045" zpos="-184.9352" type="haskha.w8.greer.preport" GUID="DyX7ue2khkSEaSaMeqpJpA==" iconFile="Data/skills/Portal_Exeunt.png" />
+    <POI MapID="1564" xpos="303.435" ypos="149.7165" zpos="-151.6592" type="haskha.w8.greer.preport1" GUID="U0MaSkMV9UqybWFP6R4JyQ==" iconFile="Data/skills/Portal_Entre.png" />
+    <POI MapID="1564" xpos="187.2756" ypos="119.9045" zpos="-184.9352" type="haskha.w8.greer.preport1" GUID="DyX7ue2khkSEaSaMeqpJpA==" iconFile="Data/skills/Portal_Exeunt.png" />
+    <POI MapID="1564" xpos="283.9158" ypos="77.28017" zpos="-241.9609" heightOffset="0" type="haskha.w8.greer.preport2" GUID="GAbWexG3xUCpMI0Fak/HOQ==" iconFile="Data/skills/Portal_Entre.png" />
+    <POI MapID="1564" xpos="172.0452" ypos="117.0728" zpos="-211.3256" heightOffset="0" type="haskha.w8.greer.preport2" GUID="aGF83I3lh0iQw87cJJN6ow==" iconFile="Data/skills/Portal_Exeunt.png" />
   </POIs>
 
 </OverlayData>
