@@ -8,7 +8,11 @@
 
       <MarkerCategory name="eyesport" DisplayName="Portal to Eyes" alpha="0.75" fadeNear="5000" fadeFar="5100" />
       <MarkerCategory name="king" DisplayName="Frozen King" alpha="0.75" fadeNear="3000" fadeFar="3100" />
-      <MarkerCategory name="dhuum" DisplayName="Dhuum" alpha="0.75" fadeNear="3000" fadeFar="3100" />
+      <MarkerCategory name="dhuum" DisplayName="Dhuum">
+        <MarkerCategory name="reapers" DisplayName="Reapers" alpha="0.75" />
+        <MarkerCategory name="echo" DisplayName="CM Echo stuck spot" />
+        <MarkerCategory name="beam" DisplayName="Death Beam range" />
+      </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
 
@@ -17,7 +21,7 @@
     <POI MapID="1264" xpos="-164.359" ypos="32.8773" zpos="12.6926" type="haskha.w5.river.bomber" GUID="EUN6vP0Tmk2ycJa3+H+qQQ==" />
     <POI MapID="1264" xpos="-144.611" ypos="40.1848" zpos="25.7487" type="haskha.w5.river.enervator" GUID="D6t9UxY2SU+nj78KCn1l2A==" />
     <POI MapID="1264" xpos="-89.4168" ypos="50.6979" zpos="22.1451" type="haskha.w5.river.bomber" GUID="uhD5kOrFpk6UbEKjnoxCtg==" />
-    <POI MapID="1264" xpos="-84.3609" ypos="51.9822" zpos="40.4911" type="haskha.w5.river.bomber" GUID="+eLo8QdXv0aEJAUVdM22Mg==" />
+    <POI MapID="1264" xpos="-86.98015" ypos="51.0541" zpos="41.45031" type="haskha.w5.river.bomber" GUID="+eLo8QdXv0aEJAUVdM22Mg==" />
     <POI MapID="1264" xpos="-64.4938" ypos="53.6152" zpos="25.0014" type="haskha.w5.river.enervator" GUID="Jw2MpY62TUeF6GkuixXkrA==" />
     <POI MapID="1264" xpos="-57.092" ypos="53.6288" zpos="18.6688" type="haskha.w5.river.bomber" GUID="9pVJLg+1y0+o8rcxJ0Xmhw==" />
     <POI MapID="1264" xpos="4.96518" ypos="41.0442" zpos="-108.898" type="haskha.w5.river.bomber" GUID="Ow34jpHhhkmbV5v/osbAww==" />
@@ -42,20 +46,30 @@
     <POI MapID="1264" xpos="109.657" ypos="111.178" zpos="217.613" type="haskha.w5.king" GUID="XNqPOR8dbkyXxn2DqR0mqw==" iconFile="Data/markers/circle.png" />
     <POI MapID="1264" xpos="116.77" ypos="112.073" zpos="192.652" type="haskha.w5.king" GUID="irwaUHACvEqF81sJ79DPmQ==" iconFile="Data/markers/spiral.png" />
 
-    <!-- dhuum markers -->
-    <POI MapID="1264" xpos="429.051" ypos="158.623" zpos="30.7413" type="haskha.w5.dhuum" GUID="+NVxEzOMik6N+SeDeue4Zw==" iconFile="Data/markers/arrow.png" alpha="1" fadeNear="5000" fadeFar="5100"
+    <!-- dhuum reaper markers -->
+    <POI MapID="1264" xpos="429.051" ypos="158.623" zpos="30.7413" type="haskha.w5.dhuum.reapers" GUID="+NVxEzOMik6N+SeDeue4Zw==" iconFile="Data/markers/arrow.png" alpha="1" fadeNear="5000"
+      fadeFar="5100"
       heightOffset="-0.5" />
-    <POI MapID="1264" xpos="427.904" ypos="158.665" zpos="1.97305" type="haskha.w5.dhuum" GUID="Ds1W1dwIiU+mpKNDSeWn3g==" iconFile="Data/markers/circle.png" alpha="1" fadeNear="5000" fadeFar="5100"
+    <POI MapID="1264" xpos="427.904" ypos="158.665" zpos="1.97305" type="haskha.w5.dhuum.reapers" GUID="Ds1W1dwIiU+mpKNDSeWn3g==" iconFile="Data/markers/circle.png" alpha="1" fadeNear="5000"
+      fadeFar="5100"
       heightOffset="-0.5" />
-    <POI MapID="1264" xpos="404.808" ypos="158.64" zpos="-14.862" type="haskha.w5.dhuum" GUID="4WtBMqzD3EyiDx31XT6i2w==" iconFile="Data/markers/heart.png" fadeNear="4500" fadeFar="4600"
+    <POI MapID="1264" xpos="404.808" ypos="158.64" zpos="-14.862" type="haskha.w5.dhuum.reapers" GUID="4WtBMqzD3EyiDx31XT6i2w==" iconFile="Data/markers/heart.png" fadeNear="4500" fadeFar="4600"
       heightOffset="-0.5" />
-    <POI MapID="1264" xpos="377.819" ypos="158.657" zpos="-6.60314" type="haskha.w5.dhuum" GUID="y/BRpS+U50SiX8FY8E51sw==" iconFile="Data/markers/square.png" fadeNear="3500" fadeFar="3600"
+    <POI MapID="1264" xpos="377.819" ypos="158.657" zpos="-6.60314" type="haskha.w5.dhuum.reapers" GUID="y/BRpS+U50SiX8FY8E51sw==" iconFile="Data/markers/square.png" fadeNear="3500" fadeFar="3600"
       heightOffset="-0.5" />
-    <POI MapID="1264" xpos="365.887" ypos="158.668" zpos="19.4137" type="haskha.w5.dhuum" GUID="0hLGImDyUkOeolGOG0XjRA==" iconFile="Data/markers/star.png" fadeNear="3000" fadeFar="3100"
+    <POI MapID="1264" xpos="365.887" ypos="158.668" zpos="19.4137" type="haskha.w5.dhuum.reapers" GUID="0hLGImDyUkOeolGOG0XjRA==" iconFile="Data/markers/star.png" fadeNear="3000" fadeFar="3100"
       heightOffset="-0.5" />
-    <POI MapID="1264" xpos="379.1" ypos="158.635" zpos="44.71" type="haskha.w5.dhuum" GUID="TWVZ0voY9U2vNN7D1pGtkA==" iconFile="Data/markers/spiral.png" fadeNear="3500" fadeFar="3600"
+    <POI MapID="1264" xpos="379.1" ypos="158.635" zpos="44.71" type="haskha.w5.dhuum.reapers" GUID="TWVZ0voY9U2vNN7D1pGtkA==" iconFile="Data/markers/spiral.png" fadeNear="3500" fadeFar="3600"
       heightOffset="-0.5" />
-    <POI MapID="1264" xpos="407.779" ypos="158.56" zpos="50.0276" type="haskha.w5.dhuum" GUID="dwH+hhAXqE2QkW3yA8qVhA==" iconFile="Data/markers/triangle.png" fadeNear="4500" fadeFar="4600"
+    <POI MapID="1264" xpos="407.779" ypos="158.56" zpos="50.0276" type="haskha.w5.dhuum.reapers" GUID="dwH+hhAXqE2QkW3yA8qVhA==" iconFile="Data/markers/triangle.png" fadeNear="4500" fadeFar="4600"
       heightOffset="-0.5" />
+
+    <!-- dhuum cm echo spot -->
+    <POI MapID="1264" xpos="352.2355" ypos="159.4257" zpos="32.83506" type="haskha.w5.dhuum.echo" GUID="eJYzqDgMLESCkNREvyyqKQ==" fadeNear="300" fadeFar="500" iconFile="Data/dot-border.png"
+      heightOffset="0" iconSize="0.75" rotate="0,0,0" />
+
+    <!-- death beam -->
+    <trail MapID="1264" type="haskha.w5.dhuum.beam" traildata="Data/dhuum.trl" isWall="1" minimapVisibility="0" mapVisibility="0" color="FF3333" animspeed="0" texture="Data/line.png" fadeNear="1000"
+      fadeFar="1100" canFade="0" alpha="0.75" />
   </POIs>
 </OverlayData>
