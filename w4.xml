@@ -11,7 +11,7 @@
     <POI MapID="1188" xpos="210.7496" ypos="25.95218" zpos="69.28162" type="haskha.w4.ports" GUID="YK0z327vq0Ox2rBIChyoqQ==" iconFile="Data/skills/Portal_Entre.png" />
     <!-- easy blink on the left -->
     <POI MapID="1188" xpos="182.964" ypos="41.6282" zpos="47.66" type="haskha.w4.ports" GUID="N3RDuFGPtkOJXniRb0fpFQ==" iconFile="Data/Dot.png" color="FF0000" iconSize="0.2" alpha="0.75" fadeNear="2000" fadeFar="2100" heightOffset="0" minimapvisibility="0" mapvisibility="0" />
-    <POI MapID="1188" xpos="182.375" ypos="70.7924" zpos="43.3895" type="haskha.w4.ports" GUID="R/S0kJpQkk2++Ooau7ILEA==" iconFile="Data/skills/Blink.png" />
+    <POI MapID="1188" xpos="182.297" ypos="69.615" zpos="43.6807" type="haskha.w4.ports" GUID="R/S0kJpQkk2++Ooau7ILEA==" iconFile="Data/skills/Blink.png" rotate="77.2912,0.656727,-38.6754" iconSize="0.75" />
     <!-- harder blink on the right -->
     <POI MapID="1188" xpos="189.748" ypos="72.9458" zpos="67.53095" type="haskha.w4.ports" GUID="6jTna+G1uU2NCvyI//WgNw==" iconFile="Data/skills/Blink.png" />
     <POI MapID="1188" xpos="188.4337" ypos="40.66962" zpos="67.06025" type="haskha.w4.ports" GUID="m5d8rWVakU6QYWDjlytGDw==" iconFile="Data/Dot.png" color="FF0000" iconSize="0.2" alpha="0.75" fadeNear="2000" fadeFar="2100" heightOffset="0" minimapvisibility="0" mapvisibility="0" />
