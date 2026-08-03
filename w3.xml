@@ -1,7 +1,7 @@
 <OverlayData>
   <MarkerCategory name="haskha" DisplayName="HasKha's Markers">
-    <MarkerCategory name="w3" DisplayName="Wing 3">
-      <MarkerCategory name="overhere" DisplayName="Glenna SAK spots" iconSize="0.5" alpha="0.75" fadeNear="6000" fadefar="6100" >
+    <MarkerCategory name="w3" DisplayName="Wing 3" minimapvisibility="0" mapvisibility="0">
+      <MarkerCategory name="overhere" DisplayName="Glenna SAK spots" iconSize="0.5" alpha="0.75" fadeNear="2500" fadefar="3500">
         <MarkerCategory name="1" DisplayName="1" iconFile="Data/skills/overhere1.png"/>
         <MarkerCategory name="2" DisplayName="2" iconFile="Data/skills/overhere2.png"/>
         <MarkerCategory name="3" DisplayName="3" iconFile="Data/skills/overhere3.png"/>
@@ -12,7 +12,7 @@
       </MarkerCategory>
       <MarkerCategory name="caveskip" DisplayName="Cave Skip" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3100" />
       <MarkerCategory name="jp" DisplayName="Waterfall JP" iconFile="Data/dot.png" color="FF0000" iconSize="0.2" alpha="0.75"
-        fadeNear="2000" fadeFar="2100" heightOffset="0" minimapvisibility="0" mapvisibility="0" />
+        fadeNear="2000" fadeFar="2100" heightOffset="0" />
       <MarkerCategory name="towers" DisplayName="Towers" iconSize="0.5" alpha="0.75" fadeNear="4000" fadeFar="4100" />
 
       <MarkerCategory name="tc" DisplayName="Twisted Castle" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3100" heightOffset="0"/>
@@ -27,7 +27,12 @@
     <POI MapID="1156" xpos="151.6" ypos="69.2" zpos="492.3" type="haskha.w3.overhere.4" GUID="RiHUzxNCwk61Wuu+RoWMhA==" />
     <POI MapID="1156" xpos="132.9" ypos="86" zpos="509.3" type="haskha.w3.overhere.5" GUID="xz2HxCWuYE6ybGHIsrkOtA==" />
     <POI MapID="1156" xpos="128.3206" ypos="90.39807" zpos="539.486" type="haskha.w3.overhere.6" GUID="wta8qMvnskuo9cGvQtmmqQ=="/>
+    <POI MapID="1156" xpos="82.46667" ypos="85.23386" zpos="533.2797" type="haskha.w3.overhere.others" GUID="ReS9ttrw3U2zo09cw5LKCw=="/>
+    <POI MapID="1156" xpos="57.69566" ypos="92.04321" zpos="519.8399" type="haskha.w3.overhere.others" GUID="wHTTbRb98UKmTAwWKRPdWA=="/>
+    <POI MapID="1156" xpos="43.40153" ypos="88.71722" zpos="531.7949" type="haskha.w3.overhere.others" GUID="zUjC5MBg7UaEUJzX+BU3Ig=="/>
     <POI MapID="1156" xpos="27.2924" ypos="92.72789" zpos="529.5793" type="haskha.w3.overhere.others" GUID="GPX8LNnu/U2+RC9p/zu5UA=="/>
+    <POI MapID="1156" xpos="-16.51036" ypos="100.9036" zpos="534.3618" type="haskha.w3.overhere.others" GUID="PEndhxsuVU+x1uvFf9JkpA=="/>
+    <POI MapID="1156" xpos="-46.14944" ypos="124.4321" zpos="439.9709" type="haskha.w3.overhere.others" GUID="JdmeaoH6mkmIYYtPS4MHYQ=="/>
 
     <!-- cave skip -->
     <POI MapID="1156" xpos="159.379" ypos="76.639" zpos="495.794" type="haskha.w3.caveskip" GUID="Beo0KXimxk+ORMhE1q/6AA==" iconFile="Data/skills/Portal_Entre.png" />
