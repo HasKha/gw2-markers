@@ -2,23 +2,20 @@
   <MarkerCategory name="haskha" DisplayName="HasKha's Markers">
     <MarkerCategory name="w3" DisplayName="Wing 3" minimapvisibility="0" mapvisibility="0">
       <MarkerCategory name="overhere" DisplayName="Glenna SAK spots" iconSize="0.5" alpha="0.75" fadeNear="2500" fadefar="3500">
-        <MarkerCategory name="1" DisplayName="1" iconFile="Data/skills/overhere1.png"/>
-        <MarkerCategory name="2" DisplayName="2" iconFile="Data/skills/overhere2.png"/>
-        <MarkerCategory name="3" DisplayName="3" iconFile="Data/skills/overhere3.png"/>
-        <MarkerCategory name="4" DisplayName="4" iconFile="Data/skills/overhere4.png"/>
-        <MarkerCategory name="5" DisplayName="5" iconFile="Data/skills/overhere5.png"/>
-        <MarkerCategory name="6" DisplayName="6" iconFile="Data/skills/overhere6.png"/>
-        <MarkerCategory name="others" DisplayName="Others" iconFile="Data/skills/overhere.png"/>
+        <MarkerCategory name="1" DisplayName="1" iconFile="Data/skills/overhere1.png" />
+        <MarkerCategory name="2" DisplayName="2" iconFile="Data/skills/overhere2.png" />
+        <MarkerCategory name="3" DisplayName="3" iconFile="Data/skills/overhere3.png" />
+        <MarkerCategory name="4" DisplayName="4" iconFile="Data/skills/overhere4.png" />
+        <MarkerCategory name="5" DisplayName="5" iconFile="Data/skills/overhere5.png" />
+        <MarkerCategory name="6" DisplayName="6" iconFile="Data/skills/overhere6.png" />
+        <MarkerCategory name="others" DisplayName="Others" iconFile="Data/skills/overhere.png" />
       </MarkerCategory>
       <MarkerCategory name="caveskip" DisplayName="Cave Skip" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3100" />
-      <MarkerCategory name="jp" DisplayName="Waterfall JP" iconFile="Data/dot.png" color="FF0000" iconSize="0.2" alpha="0.75"
-        fadeNear="2000" fadeFar="2100" heightOffset="0" />
+      <MarkerCategory name="jp" DisplayName="Waterfall JP" iconFile="Data/dot.png" color="FF0000" iconSize="0.2" alpha="0.75" fadeNear="2000" fadeFar="2100" heightOffset="0" />
       <MarkerCategory name="towers" DisplayName="Towers" iconSize="0.5" alpha="0.75" fadeNear="4000" fadeFar="4100" />
-
-      <MarkerCategory name="tc" DisplayName="Twisted Castle" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3100" heightOffset="0"/>
+      <MarkerCategory name="tc" DisplayName="Twisted Castle" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3100" heightOffset="0" />
     </MarkerCategory>
   </MarkerCategory>
-
   <POIs>
     <!-- glenna SAK spots -->
     <POI MapID="1156" xpos="214" ypos="82" zpos="533.8" type="haskha.w3.overhere.1" GUID="VXl8v1tqs0iPIscqqQUOyg==" />
@@ -26,20 +23,18 @@
     <POI MapID="1156" xpos="167.3" ypos="76.7" zpos="505.8" type="haskha.w3.overhere.3" GUID="QIbc2saTK0ecVDLXz+4gLA==" />
     <POI MapID="1156" xpos="151.6" ypos="69.2" zpos="492.3" type="haskha.w3.overhere.4" GUID="RiHUzxNCwk61Wuu+RoWMhA==" />
     <POI MapID="1156" xpos="132.9" ypos="86" zpos="509.3" type="haskha.w3.overhere.5" GUID="xz2HxCWuYE6ybGHIsrkOtA==" />
-    <POI MapID="1156" xpos="128.3206" ypos="90.39807" zpos="539.486" type="haskha.w3.overhere.6" GUID="wta8qMvnskuo9cGvQtmmqQ=="/>
-    <POI MapID="1156" xpos="82.46667" ypos="85.23386" zpos="533.2797" type="haskha.w3.overhere.others" GUID="ReS9ttrw3U2zo09cw5LKCw=="/>
-    <POI MapID="1156" xpos="57.69566" ypos="92.04321" zpos="519.8399" type="haskha.w3.overhere.others" GUID="wHTTbRb98UKmTAwWKRPdWA=="/>
-    <POI MapID="1156" xpos="43.40153" ypos="88.71722" zpos="531.7949" type="haskha.w3.overhere.others" GUID="zUjC5MBg7UaEUJzX+BU3Ig=="/>
-    <POI MapID="1156" xpos="27.2924" ypos="92.72789" zpos="529.5793" type="haskha.w3.overhere.others" GUID="GPX8LNnu/U2+RC9p/zu5UA=="/>
-    <POI MapID="1156" xpos="-16.51036" ypos="100.9036" zpos="534.3618" type="haskha.w3.overhere.others" GUID="PEndhxsuVU+x1uvFf9JkpA=="/>
-    <POI MapID="1156" xpos="-46.14944" ypos="124.4321" zpos="439.9709" type="haskha.w3.overhere.others" GUID="JdmeaoH6mkmIYYtPS4MHYQ=="/>
-
+    <POI MapID="1156" xpos="128.3206" ypos="90.39807" zpos="539.486" type="haskha.w3.overhere.6" GUID="wta8qMvnskuo9cGvQtmmqQ==" />
+    <POI MapID="1156" xpos="82.46667" ypos="85.23386" zpos="533.2797" type="haskha.w3.overhere.others" GUID="ReS9ttrw3U2zo09cw5LKCw==" />
+    <POI MapID="1156" xpos="57.69566" ypos="92.04321" zpos="519.8399" type="haskha.w3.overhere.others" GUID="wHTTbRb98UKmTAwWKRPdWA==" />
+    <POI MapID="1156" xpos="43.40153" ypos="88.71722" zpos="531.7949" type="haskha.w3.overhere.others" GUID="zUjC5MBg7UaEUJzX+BU3Ig==" />
+    <POI MapID="1156" xpos="27.2924" ypos="92.72789" zpos="529.5793" type="haskha.w3.overhere.others" GUID="GPX8LNnu/U2+RC9p/zu5UA==" />
+    <POI MapID="1156" xpos="-16.51036" ypos="100.9036" zpos="534.3618" type="haskha.w3.overhere.others" GUID="PEndhxsuVU+x1uvFf9JkpA==" />
+    <POI MapID="1156" xpos="-46.14944" ypos="124.4321" zpos="439.9709" type="haskha.w3.overhere.others" GUID="JdmeaoH6mkmIYYtPS4MHYQ==" />
     <!-- cave skip -->
     <POI MapID="1156" xpos="159.379" ypos="76.639" zpos="495.794" type="haskha.w3.caveskip" GUID="Beo0KXimxk+ORMhE1q/6AA==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1156" xpos="143.745" ypos="97.0518" zpos="492.629" type="haskha.w3.caveskip" GUID="qXa6ULCryUq2gW4CO9xAHA==" iconFile="Data/skills/Blink.png" />
     <POI MapID="1156" xpos="66.1464" ypos="87.6074" zpos="512.61" type="haskha.w3.caveskip" GUID="C0qUJmMvHE+MhTxpbpM3kg==" iconFile="Data/skills/Shadow_Portal.png" />
     <POI MapID="1156" xpos="59.3661" ypos="100.583" zpos="506.459" type="haskha.w3.caveskip" GUID="g0uRPkLfwkyIt7rrJ8Yuww==" iconFile="Data/skills/Prepare_Shadow_Portal.png" />
-
     <!-- waterfall JP -->
     <POI MapId="1156" xpos="139.8" ypos="101.45" zpos="521.15" type="haskha.w3.jp" GUID="6LNA7cTvB069lgdDy5NTUw==" />
     <POI MapId="1156" xpos="129.3" ypos="101" zpos="523.8" type="haskha.w3.jp" GUID="Rgs3p1Qsj0mg0jL7IjBKGQ==" />
@@ -54,7 +49,6 @@
     <POI MapId="1156" xpos="88.87" ypos="105.33" zpos="538.9" type="haskha.w3.jp" GUID="VjMzfFtV5U2twe2Uvc1x+Q==" />
     <POI MapId="1156" xpos="85.89" ypos="107.55" zpos="536.12" type="haskha.w3.jp" GUID="2yO8ZKycvEqfP+y5/KHsvA==" />
     <POI MapId="1156" xpos="68.4" ypos="98.65" zpos="504.18" type="haskha.w3.jp" GUID="KorKwTLl5USl9y9+HeSqhQ==" />
-
     <!-- towers (in order 1 to 5)-->
     <POI MapID="1156" xpos="43.28149" ypos="109.4543" zpos="520.4016" type="haskha.w3.towers" GUID="+LhIyHkpeE25SsHyyDwYGA==" iconFile="Data/skills/Psychic_Force.png" />
     <POI MapID="1156" xpos="0.649924" ypos="115.381" zpos="527.412" type="haskha.w3.towers" GUID="jrcwh5FHE0KCZg2Q4proRw==" iconFile="Data/skills/Glyph_of_the_Tides.png" />
@@ -65,31 +59,23 @@
     <POI MapID="1156" xpos="-45.6586" ypos="137.0411" zpos="453.3826" type="haskha.w3.towers" GUID="YyBagR90RUmNSFmgPcvFlA==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1156" xpos="-110.193" ypos="154.732" zpos="455.32" type="haskha.w3.towers" GUID="nsf7rDt3e0aiqYOzT5rgNw==" iconFile="Data/skills/Shadow_Portal.png" />
     <POI MapID="1156" xpos="-92.6669" ypos="135.199" zpos="424.188" type="haskha.w3.towers" GUID="U/qdaRsgMEOMJKI4FWSvmg==" iconFile="Data/skills/Prepare_Shadow_Portal.png" />
-
     <!-- glenna skip around last tower -->
     <POI MapID="1156" xpos="-49.18652" ypos="116.2046" zpos="485.3443" type="haskha.w3.overhere.others" GUID="Gaj6Okp+AEGXdGT4SIVlRQ==" />
     <POI MapID="1156" xpos="-30.68482" ypos="114.6271" zpos="465.1416" type="haskha.w3.overhere.others" GUID="uzEU0XNPfUCcmttxLgYFKA==" />
     <POI MapID="1156" xpos="-46.958" ypos="124.4262" zpos="439.0529" type="haskha.w3.towers" GUID="Xm1lxy0XI0SXLJkI8B7mXQ==" iconFile="Data/skills/Prepare_Shadow_Portal.png" />
     <POI MapID="1156" xpos="-71.28243" ypos="102.7315" zpos="489.7959" type="haskha.w3.towers" GUID="N/ydIa8XfUWBl9SA/4xMjg==" iconFile="Data/skills/Shadow_Portal.png" />
-
     <!-- twisted castle -->
     <POI MapID="1156" xpos="-80.32883" ypos="138.8333" zpos="122.771" type="haskha.w3.tc" GUID="iqFsoYkDXUuvqU0G34PZXQ==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1156" xpos="-62.17522" ypos="121.7525" zpos="102.1045" type="haskha.w3.tc" GUID="VuiH3jqyTkGoRO3Omgqtaw==" iconFile="Data/skills/Portal_Exeunt.png" />
     <POI MapID="1156" xpos="-64.45199" ypos="122.0197" zpos="98.2608" type="haskha.w3.tc" GUID="QjYDSW3qQUaImnx6qMcNpg==" iconFile="Data/skills/Temporal_Curtain.png" />
     <POI MapID="1156" xpos="-94.71381" ypos="141.0191" zpos="145.5497" type="haskha.w3.tc" GUID="5T4tHoQHWUywYjYUYwz8DQ==" iconFile="Data/skills/Portal_Entre.png" />
-
-    <POI MapID="1156" xpos="-145.369" ypos="135.421" zpos="163.701" type="haskha.w3.tc" GUID="PqG/AASWs0iCJxBhe2p4Ww==" iconFile="Data/dot.png" 
-      color="FF0000" iconSize="0.2" minimapvisibility="0" mapvisibility="0" />
+    <POI MapID="1156" xpos="-145.369" ypos="135.421" zpos="163.701" type="haskha.w3.tc" GUID="PqG/AASWs0iCJxBhe2p4Ww==" iconFile="Data/dot.png" color="FF0000" iconSize="0.2" minimapvisibility="0" mapvisibility="0" />
     <POI MapID="1156" xpos="-173.835" ypos="118.221" zpos="99.5631" type="haskha.w3.tc" GUID="ggWg/UpNb0WPi+Ojjs2JNw==" iconFile="Data/skills/Portal_Exeunt.png" />
     <POI MapID="1156" xpos="-40.905" ypos="240.092" zpos="-97.8241" type="haskha.w3.tc" GUID="UDX87udE1EGHTZh9DjxGRg==" iconFile="Data/skills/Blink.png" />
-    <POI MapID="1156" xpos="-153.697" ypos="196.764" zpos="-12.8636" type="haskha.w3.tc" GUID="kcAi7Xl5OE6jqnQ7ovh+lA==" iconFile="Data/dot.png" 
-      color="FF0000" iconSize="0.2" minimapvisibility="0" mapvisibility="0" />
-    <POI MapID="1156" xpos="-182.533" ypos="196.599" zpos="-29.3168" type="haskha.w3.tc" GUID="BQr+h/a3I0mnfaH9j8m++A==" iconFile="Data/dot.png" 
-      color="FF0000" iconSize="0.2" minimapvisibility="0" mapvisibility="0" />
-    <POI MapID="1156" xpos="-152.459" ypos="125.855" zpos="141.666" type="haskha.w3.tc" GUID="hv5J1BUtR0yyBZkGM2Tvag==" iconFile="Data/dot.png" 
-      color="FF0000" iconSize="0.2" minimapvisibility="0" mapvisibility="0" />
-    <POI MapID="1156" xpos="-171.671" ypos="197.142" zpos="-14.2519" type="haskha.w3.tc" GUID="wQGcsJfeW0iDLPR+X8EOSA==" iconFile="Data/dot.png" 
-      color="FF0000" iconSize="0.2" minimapvisibility="0" mapvisibility="0" />
+    <POI MapID="1156" xpos="-153.697" ypos="196.764" zpos="-12.8636" type="haskha.w3.tc" GUID="kcAi7Xl5OE6jqnQ7ovh+lA==" iconFile="Data/dot.png" color="FF0000" iconSize="0.2" minimapvisibility="0" mapvisibility="0" />
+    <POI MapID="1156" xpos="-182.533" ypos="196.599" zpos="-29.3168" type="haskha.w3.tc" GUID="BQr+h/a3I0mnfaH9j8m++A==" iconFile="Data/dot.png" color="FF0000" iconSize="0.2" minimapvisibility="0" mapvisibility="0" />
+    <POI MapID="1156" xpos="-152.459" ypos="125.855" zpos="141.666" type="haskha.w3.tc" GUID="hv5J1BUtR0yyBZkGM2Tvag==" iconFile="Data/dot.png" color="FF0000" iconSize="0.2" minimapvisibility="0" mapvisibility="0" />
+    <POI MapID="1156" xpos="-171.671" ypos="197.142" zpos="-14.2519" type="haskha.w3.tc" GUID="wQGcsJfeW0iDLPR+X8EOSA==" iconFile="Data/dot.png" color="FF0000" iconSize="0.2" minimapvisibility="0" mapvisibility="0" />
     <POI MapID="1156" xpos="-178.101" ypos="118.519" zpos="82.3819" type="haskha.w3.tc" GUID="mqzDl8/5gkKLWIjpET5qtw==" heightOffset="0" iconFile="Data/skills/Temporal_Curtain.png" />
   </POIs>
 </OverlayData>

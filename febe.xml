@@ -8,7 +8,6 @@
       <markercategory name="tethers" DisplayName="Malice pathing" />
     </MarkerCategory>
   </MarkerCategory>
-
   <POIs>
     <trail type="haskha.febecm.rage1" traildata="Data/febe/rage1.trl" GUID="6rXWE3zpvkS0TcEp8chaAQ==" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
     <trail type="haskha.febecm.rage2" traildata="Data/febe/rage2.trl" GUID="Zt0mUrix5U+NgeZcoTG+og==" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />

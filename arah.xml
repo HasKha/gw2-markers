@@ -4,7 +4,6 @@
       <MarkerCategory name="shogg" DisplayName="Shogg" iconFile="Data/dot-border.png" alpha="1.0" fadeNear="4000" fadefar="4100" rotate="0,0,0" />
     </MarkerCategory>
   </MarkerCategory>
-
   <POIs>
     <POI MapID="112" xpos="-273.9352" ypos="8.87208" zpos="180.487" type="haskha.arah.shogg" GUID="kOegTXwExUq58p5hMxXxCw==" />
     <POI MapID="112" xpos="-257.5069" ypos="8.52035" zpos="198.4641" type="haskha.arah.shogg" GUID="qZwtdUe2pEWQxZR7He8BAw==" />

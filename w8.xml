@@ -4,35 +4,18 @@
       <MarkerCategory name="ura" DisplayName="Ura">
         <MarkerCategory name="toxics" DisplayName="Toxic Geyser markers (shapes)" alpha="0.75" fadeNear="4000" fadefar="4100" defaulttoggle="0" />
         <MarkerCategory name="toxics_n" DisplayName="Toxic Geyser markers (numbers)" alpha="0.75" fadeNear="4000" fadefar="4100" defaulttoggle="0" iconSize="2.0" />
-
-        <MarkerCategory name="toxic_hitbox" DisplayName="Toxic Geyser hitbox" alpha="0.5" color="FF3333" animspeed="0" texture="Data/line.png"
-          trailScale="0.25" fadeNear="600" fadefar="800" canfade="0" minimapvisibility="0" mapvisibility="0"
-          defaulttoggle="0" tip-description="The hitbox for hitting with abilities." />
-
-        <MarkerCategory name="toxic_sak" DisplayName="Toxic Geyser SAK range" alpha="0.5" color="FFCCFF" animspeed="0" texture="Data/line.png"
-          trailScale="0.25" fadeNear="600" fadefar="800" canfade="0" minimapvisibility="0" mapvisibility="0"
-          defaulttoggle="0" tip-description="Using the SAK with your character hitbox overlapping those lines will dispell the geyser." />
-
-        <MarkerCategory name="spawner_hitbox" DisplayName="Titanspawn Geysers hitbox" alpha="0.5" color="FF3333" animspeed="0" texture="Data/line.png"
-          trailScale="0.25" fadeNear="900" fadefar="1000" canfade="0" minimapvisibility="0" mapvisibility="0"
-          defaulttoggle="0" tip-description="The hitbox for hitting with abilities." />
-
-        <MarkerCategory name="spawner_sak" DisplayName="Titanspawn Geysers SAK range" alpha="0.5" color="FFCCFF" animspeed="0" texture="Data/line.png"
-          trailScale="0.25" fadeNear="900" fadefar="1000" canfade="0" minimapvisibility="0" mapvisibility="0"
-          defaulttoggle="0" tip-description="Using the SAK with your character hitbox overlapping those lines will dispell the spawner." />
-
-        <MarkerCategory name="safetrails" DisplayName="Safe drop zones" alpha="0.5" color="00DD00" animspeed="0" texture="Data/line.png"
-          trailScale="0.5" fadeNear="2000" fadefar="3000" canfade="0" defaulttoggle="0"
-          tip-description="Dropping sulfuric geysers outside the green areas will not interfere with toxic geysers." />
+        <MarkerCategory name="toxic_hitbox" DisplayName="Toxic Geyser hitbox" alpha="0.5" color="FF3333" animspeed="0" texture="Data/line.png" trailScale="0.25" fadeNear="600" fadefar="800" canfade="0" minimapvisibility="0" mapvisibility="0" defaulttoggle="0" tip-description="The hitbox for hitting with abilities." />
+        <MarkerCategory name="toxic_sak" DisplayName="Toxic Geyser SAK range" alpha="0.5" color="FFCCFF" animspeed="0" texture="Data/line.png" trailScale="0.25" fadeNear="600" fadefar="800" canfade="0" minimapvisibility="0" mapvisibility="0" defaulttoggle="0" tip-description="Using the SAK with your character hitbox overlapping those lines will dispell the geyser." />
+        <MarkerCategory name="spawner_hitbox" DisplayName="Titanspawn Geysers hitbox" alpha="0.5" color="FF3333" animspeed="0" texture="Data/line.png" trailScale="0.25" fadeNear="900" fadefar="1000" canfade="0" minimapvisibility="0" mapvisibility="0" defaulttoggle="0" tip-description="The hitbox for hitting with abilities." />
+        <MarkerCategory name="spawner_sak" DisplayName="Titanspawn Geysers SAK range" alpha="0.5" color="FFCCFF" animspeed="0" texture="Data/line.png" trailScale="0.25" fadeNear="900" fadefar="1000" canfade="0" minimapvisibility="0" mapvisibility="0" defaulttoggle="0" tip-description="Using the SAK with your character hitbox overlapping those lines will dispell the spawner." />
+        <MarkerCategory name="safetrails" DisplayName="Safe drop zones" alpha="0.5" color="00DD00" animspeed="0" texture="Data/line.png" trailScale="0.5" fadeNear="2000" fadefar="3000" canfade="0" defaulttoggle="0" tip-description="Dropping sulfuric geysers outside the green areas will not interfere with toxic geysers." />
       </MarkerCategory>
-
       <MarkerCategory name="greer" DisplayName="Greer">
         <MarkerCategory name="preport1" DisplayName="Pre-event port to Gree" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" minimapvisibility="0" mapvisibility="0" />
         <MarkerCategory name="preport2" DisplayName="Pre-event port to CM mote and Reeg" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" minimapvisibility="0" mapvisibility="0" />
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
-
   <POIs>
     <POI MapID="1564" xpos="196.736" ypos="269.771" zpos="247.251" type="haskha.w8.ura.toxics" GUID="cZcoG8mrM0GKNFtOVP6myA==" iconFile="Data/markers/spiral.png" />
     <POI MapID="1564" xpos="181.636" ypos="269.910" zpos="276.953" type="haskha.w8.ura.toxics" GUID="l7GKZRaoQ0yP16jWjt91bg==" iconFile="Data/markers/triangle.png" />
@@ -48,7 +31,6 @@
     <POI MapID="1564" xpos="122.405" ypos="269.845" zpos="249.628" type="haskha.w8.ura.toxics" GUID="3Uuc7QgIKUKne18diA8cTg==" iconFile="Data/icons/add.png" />
     <POI MapID="1564" xpos="136.756" ypos="269.853" zpos="199.693" type="haskha.w8.ura.toxics" GUID="e4Sdv2oSYE2TuxIsQ9f23g==" iconFile="Data/icons/frog.png" alpha="0.85" />
     <POI MapID="1564" xpos="109.507" ypos="269.864" zpos="218.631" type="haskha.w8.ura.toxics" GUID="UTEbm2PGc02y00H++ffHTg==" iconFile="Data/icons/fish.png" alpha="1.0" />
-
     <POI MapID="1564" xpos="196.736" ypos="269.771" zpos="247.251" type="haskha.w8.ura.toxics_n" GUID="aZcoG8mrM0GKNFtOVP6myA==" iconFile="Data/numbers/1.png" />
     <POI MapID="1564" xpos="181.636" ypos="269.910" zpos="276.953" type="haskha.w8.ura.toxics_n" GUID="a7GKZRaoQ0yP16jWjt91bg==" iconFile="Data/numbers/2.png" />
     <POI MapID="1564" xpos="193.879" ypos="269.820" zpos="219.205" type="haskha.w8.ura.toxics_n" GUID="alLhts++4kagqjD9TRohHA==" iconFile="Data/numbers/3.png" />
@@ -63,19 +45,15 @@
     <POI MapID="1564" xpos="122.405" ypos="269.845" zpos="249.628" type="haskha.w8.ura.toxics_n" GUID="aUuc7QgIKUKne18diA8cTg==" iconFile="Data/numbers/12.png" />
     <POI MapID="1564" xpos="136.756" ypos="269.853" zpos="199.693" type="haskha.w8.ura.toxics_n" GUID="a4Sdv2oSYE2TuxIsQ9f23g==" iconFile="Data/numbers/13.png" />
     <POI MapID="1564" xpos="109.507" ypos="269.864" zpos="218.631" type="haskha.w8.ura.toxics_n" GUID="aTEbm2PGc02y00H++ffHTg==" iconFile="Data/numbers/14.png" />
-
-
     <trail MapID="1564" type="haskha.w8.ura.toxic_hitbox" traildata="Data/ura/toxic_hitbox.trl" GUID="O2zOMsqC/EuruZYTITTCBQ==" />
     <trail MapID="1564" type="haskha.w8.ura.toxic_sak" traildata="Data/ura/toxic_sak.trl" GUID="Chxwps4r2kyvULXM6vSY3g==" />
     <trail MapID="1564" type="haskha.w8.ura.spawner_hitbox" traildata="Data/ura/spawner_hitbox.trl" GUID="bThKpy3nDUqC/0QpGXAF9g==" />
     <trail MapID="1564" type="haskha.w8.ura.spawner_sak" traildata="Data/ura/spawner_sak.trl" GUID="BFe1UQvCp0S8N6FJbj4Xfw==" />
     <trail MapID="1564" type="haskha.w8.ura.safetrails" traildata="Data/ura/safe_areas.trl" GUID="lnXsgLCWEk+N4k4LQHAx5Q==" />
-
     <!-- greer port -->
     <POI MapID="1564" xpos="303.435" ypos="149.7165" zpos="-151.6592" type="haskha.w8.greer.preport1" GUID="U0MaSkMV9UqybWFP6R4JyQ==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1564" xpos="187.2756" ypos="119.9045" zpos="-184.9352" type="haskha.w8.greer.preport1" GUID="DyX7ue2khkSEaSaMeqpJpA==" iconFile="Data/skills/Portal_Exeunt.png" />
     <POI MapID="1564" xpos="283.9158" ypos="77.28017" zpos="-241.9609" heightOffset="0" type="haskha.w8.greer.preport2" GUID="GAbWexG3xUCpMI0Fak/HOQ==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1564" xpos="172.0452" ypos="117.0728" zpos="-211.3256" heightOffset="0" type="haskha.w8.greer.preport2" GUID="aGF83I3lh0iQw87cJJN6ow==" iconFile="Data/skills/Portal_Exeunt.png" />
   </POIs>
-
 </OverlayData>

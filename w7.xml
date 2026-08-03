@@ -3,22 +3,14 @@
     <MarkerCategory name="w7" DisplayName="Wing 7">
       <MarkerCategory name="port1" DisplayName="Port: gate" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" heightOffset="0" />
       <MarkerCategory name="port2" DisplayName="Port: Adina pre" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" heightOffset="0" />
-
       <MarkerCategory name="sabir" DisplayName="Sabir" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100">
-        <MarkerCategory name="skyport1" DisplayName="Sky portal" minimapvisibility="0" mapvisibility="0" 
-          tip-description="Advanced. Start of fight: place on the top platform. End of p1: open on the first platform. Must trigger a loading screen to use."/>
-        <MarkerCategory name="port0" DisplayName="Port 0" minimapvisibility="0" mapvisibility="0" 
-          tip-description="Advanced. Start of fight: place on the wisp platform then glide to boss. End of p1: open on boss platform"/>
-        <MarkerCategory name="port1" DisplayName="Port 1" minimapvisibility="0" mapvisibility="0" 
-          tip-description="Place during p1. Open on the wisp platform."/>
-        <MarkerCategory name="port2" DisplayName="Port 2" minimapvisibility="0" mapvisibility="0" 
-          tip-description="Place during p2 or intermission. Open on wisp platform."/>
-        <MarkerCategory name="port3" DisplayName="Port 3" minimapvisibility="0" mapvisibility="0" defaulttoggle="0"
-          tip-description="Advanced. Place during p1-p2 intermission on wisp platform. End of p2: open on boss platform."/>
+        <MarkerCategory name="skyport1" DisplayName="Sky portal" minimapvisibility="0" mapvisibility="0" tip-description="Advanced. Start of fight: place on the top platform. End of p1: open on the first platform. Must trigger a loading screen to use." />
+        <MarkerCategory name="port0" DisplayName="Port 0" minimapvisibility="0" mapvisibility="0" tip-description="Advanced. Start of fight: place on the wisp platform then glide to boss. End of p1: open on boss platform" />
+        <MarkerCategory name="port1" DisplayName="Port 1" minimapvisibility="0" mapvisibility="0" tip-description="Place during p1. Open on the wisp platform." />
+        <MarkerCategory name="port2" DisplayName="Port 2" minimapvisibility="0" mapvisibility="0" tip-description="Place during p2 or intermission. Open on wisp platform." />
+        <MarkerCategory name="port3" DisplayName="Port 3" minimapvisibility="0" mapvisibility="0" defaulttoggle="0" tip-description="Advanced. Place during p1-p2 intermission on wisp platform. End of p2: open on boss platform." />
       </MarkerCategory>
-
-      <MarkerCategory name="adina" DisplayName="Adina" iconSize="0.4" alpha="0.75" fadeNear="3000" fadeFar="3100" iconFile="Data/dot.png" heightOffset="0" rotate="0,0,0"/>
-
+      <MarkerCategory name="adina" DisplayName="Adina" iconSize="0.4" alpha="0.75" fadeNear="3000" fadeFar="3100" iconFile="Data/dot.png" heightOffset="0" rotate="0,0,0" />
       <MarkerCategory name="qadim" DisplayName="Qadim Fires" fadeNear="3000" fadeFar="3100">
         <MarkerCategory name="nm" DisplayName="NM" defaulttoggle="1">
           <MarkerCategory name="east" DisplayName="East" color="FF0000" />
@@ -26,7 +18,6 @@
           <MarkerCategory name="west2" DisplayName="West (right)" color="FF33FF" />
           <MarkerCategory name="north" DisplayName="North" color="00FF00" />
         </MarkerCategory>
-
         <MarkerCategory name="cm" DisplayName="CM" defaulttoggle="0">
           <MarkerCategory name="east" DisplayName="East" color="FF0000" />
           <MarkerCategory name="west1" DisplayName="West (left)" color="7F00FF" />
@@ -36,45 +27,35 @@
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
-
   <POIs>
     <!-- gate port -->
     <POI MapID="1323" xpos="-3.11377" ypos="2.62128" zpos="-245.207" type="haskha.w7.port1" GUID="2BMLwwUCOEeBK5O26k6lMQ==" iconFile="Data/skills/Portal_Exeunt.png" />
     <POI MapID="1323" xpos="55.8286" ypos="2.81833" zpos="-257.597" type="haskha.w7.port1" GUID="/7/EiiH3fUChkAZSjRDhQQ==" iconFile="Data/skills/Portal_Entre.png" />
-
     <!-- gate to adina pre bond of faith -->
-    <POI MapID="1323" xpos="228.7226" ypos="39.92148" zpos="-293.0502" type="haskha.w7" iconFile="Data/dot.png" GUID="adYqKxp4vEWgdnTTaetdHw==" heightOffset="0" rotate="0,0,0" minimapvisibility="0" mapvisibility="0"/>
-
+    <POI MapID="1323" xpos="228.7226" ypos="39.92148" zpos="-293.0502" type="haskha.w7" iconFile="Data/dot.png" GUID="adYqKxp4vEWgdnTTaetdHw==" heightOffset="0" rotate="0,0,0" minimapvisibility="0" mapvisibility="0" />
     <!-- port: adina pre to rift -->
     <POI MapID="1323" xpos="78.7877" ypos="18.733" zpos="-28.3923" type="haskha.w7.port2" GUID="iEIXcKvkcUGcbRVttcOu6Q==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1323" xpos="199.785" ypos="18.7915" zpos="-57.9285" type="haskha.w7.port2" GUID="9bIPEm4v0ES1WkQFucPnxw==" iconFile="Data/skills/Portal_Exeunt.png" />
-
     <!-- sabir -->
     <!-- sky portal -->
     <POI MapID="1323" xpos="-328.346" ypos="166.224" zpos="76.4867" type="haskha.w7.sabir.skyport1" GUID="r3l3y+aldUmdM+zGOAOiEw==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1323" xpos="-273.55" ypos="57.7492" zpos="117.606" type="haskha.w7.sabir.skyport1" GUID="EnT5C4ESNECatXt2WxzjCg==" iconFile="Data/skills/Portal_Exeunt.png" />
-
     <!-- portal 0 -->
     <POI MapID="1323" xpos="-306.6" ypos="34.4" zpos="29.4" type="haskha.w7.sabir.port0" GUID="zLcY6ICwTUStlthhic56+A==" iconFile="Data/skills/Portal_Entre.png" />
     <!-- (open anywhere on the platform -->
-
     <!-- portal 1 -->
     <POI MapID="1323" xpos="-322.414" ypos="51.8386" zpos="80.6657" type="haskha.w7.sabir.port1" GUID="ZuNoKZekOUuYyEClK+pCcQ==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1323" xpos="-256.878" ypos="78.1359" zpos="31.5863" type="haskha.w7.sabir.port1" GUID="l8maSF7Oq0aqwVsE99oEXw==" iconFile="Data/skills/Portal_Exeunt.png" />
-
     <!-- portal 2 -->
     <POI MapID="1323" xpos="-306.608" ypos="84.8862" zpos="19.1138" type="haskha.w7.sabir.port2" GUID="eiQz45KeSEePslec1DVnpw==" iconFile="Data/skills/Portal_Entre.png" />
-    <POI MapID="1323" xpos="-249" ypos="139.95" zpos="72.37" type="haskha.w7.sabir.port2" GUID="vZBfqDMmK0+kQAS/1jzHTQ==" iconFile="Data/skills/Portal_Exeunt.png"/>
-
+    <POI MapID="1323" xpos="-249" ypos="139.95" zpos="72.37" type="haskha.w7.sabir.port2" GUID="vZBfqDMmK0+kQAS/1jzHTQ==" iconFile="Data/skills/Portal_Exeunt.png" />
     <!-- portal 3 -->
     <POI MapID="1323" xpos="-248.64" ypos="68.51" zpos="73.42" type="haskha.w7.sabir.port3" GUID="NSwLod38uUKsbrkQtMgjLA==" iconFile="Data/skills/Portal_Entre.png" />
     <!-- (open anywhere on the platform) -->
-
     <!-- Adina split spots -->
     <POI MapID="1323" xpos="379.6067" ypos="7.753108" zpos="-24.71044" type="haskha.w7.adina" GUID="c1FLM7tWjkSTB2at0HnI7A==" color="AAFFAA" />
-    <POI MapID="1323" xpos="378.6955" ypos="7.753193" zpos="-27.43549" type="haskha.w7.adina" GUID="66ZLxvybcECvphGEZBSprA==" color="AAAAFF"/>
-    <POI MapID="1323" xpos="378.6662" ypos="7.753193" zpos="-47.33738" type="haskha.w7.adina" GUID="vqPcBcARc0GDKOfuG6XJuw==" color="AAAAFF"/>
-
+    <POI MapID="1323" xpos="378.6955" ypos="7.753193" zpos="-27.43549" type="haskha.w7.adina" GUID="66ZLxvybcECvphGEZBSprA==" color="AAAAFF" />
+    <POI MapID="1323" xpos="378.6662" ypos="7.753193" zpos="-47.33738" type="haskha.w7.adina" GUID="vqPcBcARc0GDKOfuG6XJuw==" color="AAAAFF" />
     <!-- qadim fires for NM -->
     <POI MapID="1323" xpos="61.1567" ypos="16.812" zpos="223.099" type="haskha.w7.qadim.nm.east" GUID="fYzNPJKuUEW7nPQHHcP9tQ==" iconFile="Data/numbers/1.png" />
     <POI MapID="1323" xpos="3.20733" ypos="16.812" zpos="256.496" type="haskha.w7.qadim.nm.west1" GUID="RgXNIP56RUS8+q6iWCGstA==" iconFile="Data/numbers/1.png" />
@@ -84,7 +65,6 @@
     <POI MapID="1323" xpos="79.4131" ypos="16.812" zpos="256.645" type="haskha.w7.qadim.nm.east" GUID="EURwmvkCXEWqMxuqEn9lgw==" iconFile="Data/numbers/2.png" />
     <POI MapID="1323" xpos="61.7815" ypos="16.812" zpos="267.747" type="haskha.w7.qadim.nm.north" GUID="UY0KTvtHQkyDRM41rjQXxw==" iconFile="Data/numbers/2.png" />
     <POI MapID="1323" xpos="21.0813" ypos="16.812" zpos="267.726" type="haskha.w7.qadim.nm.west1" GUID="j42eFRxeq0KHCrEHyTCV6A==" iconFile="Data/numbers/2.png" />
-
     <!-- qadim fires for CM -->
     <POI MapID="1323" xpos="64.70249" ypos="16.81203" zpos="221.0738" type="haskha.w7.qadim.cm.east" GUID="873zPXrGlUeJITEGmQhxrA==" iconFile="Data/numbers/1.png" />
     <POI MapID="1323" xpos="83.11811" ypos="16.81203" zpos="254.7705" type="haskha.w7.qadim.cm.east" GUID="HeYBAwy5oEiT+Ntu+UwzZw==" iconFile="Data/numbers/2.png" />
@@ -93,6 +73,6 @@
     <POI MapID="1323" xpos="19.83726" ypos="16.8136" zpos="220.0083" type="haskha.w7.qadim.cm.west2" GUID="9H4pEpBgmU6aDuUvvMLtjw==" iconFile="Data/numbers/1.png" />
     <POI MapID="1323" xpos="32.57173" ypos="16.81363" zpos="227.8139" type="haskha.w7.qadim.cm.west2" GUID="XCUPZ9EZY0OxYqotPpYTzg==" iconFile="Data/numbers/2.png" />
     <POI MapID="1323" xpos="60.70288" ypos="16.81202" zpos="277.1228" type="haskha.w7.qadim.cm.north" GUID="GqmoLaX9h0GNWah8JGQpig==" iconFile="Data/numbers/1.png" />
-    <POI MapID="1323" xpos="22.02617" ypos="16.81203" zpos="268.6836" type="haskha.w7.qadim.cm.north" GUID="upEG7Bim9UuFZbNMnpFxzQ==" iconFile="Data/numbers/2.png"/>
+    <POI MapID="1323" xpos="22.02617" ypos="16.81203" zpos="268.6836" type="haskha.w7.qadim.cm.north" GUID="upEG7Bim9UuFZbNMnpFxzQ==" iconFile="Data/numbers/2.png" />
   </POIs>
 </OverlayData>

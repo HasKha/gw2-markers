@@ -4,83 +4,69 @@
       <MarkerCategory name="ports" DisplayName="Portals" iconsize="0.5" alpha="0.75" fadeNear="5000" fadefar="5100" />
       <!-- <MarkerCategory name="champroom" DisplayName="Champion Room" alpha="0.75" fadeNear="3000" fadeFar="3100" /> -->
       <MarkerCategory name="buttons" DisplayName="Buttons" alpha="0.75" fadeNear="3000" fadeFar="3100" />
-      <MarkerCategory name="gorseval" DisplayName="Gorseval" alpha="0.75" fadeNear="3000" fadeFar="3100"/>
-      <MarkerCategory name="jps" DisplayName="JPs" iconFile="Data/Dot.png" color="FF0000" iconSize="0.2" alpha="0.75"
-        fadeNear="2000" fadeFar="2100" heightOffset="0" minimapvisibility="0" mapvisibility="0" />
+      <MarkerCategory name="gorseval" DisplayName="Gorseval" alpha="0.75" fadeNear="3000" fadeFar="3100" />
+      <MarkerCategory name="jps" DisplayName="JPs" iconFile="Data/pointed-dot.png" color="FF0000" iconSize="0.3" alpha="0.75" fadeNear="2000" fadeFar="2100" heightOffset="0" minimapvisibility="0" mapvisibility="0" />
       <!-- <MarkerCategory name="sabethapre" DisplayName="Sabetha Pre Markers" alpha="0.75" fadeNear="3000" fadeFar="3100" /> -->
     </MarkerCategory>
   </MarkerCategory>
-
   <POIs>
     <!-- port VG pre -->
     <POI MapID="1062" xpos="-118.300" ypos="50.1774" zpos="-637.222" type="haskha.w1.ports" GUID="L5+UCtFYWEiaS4AXQbiuEQ==" iconFile="Data/skills/Portal_Exeunt.png" />
     <POI MapID="1062" xpos="-125.312" ypos="60.9383" zpos="-556.415" type="haskha.w1.ports" GUID="tkGbfFtWzEehKBy33vAUUg==" iconFile="Data/skills/Portal_Entre.png" />
-
     <!-- port after VG -->
     <POI MapID="1062" xpos="-125.219" ypos="60.9373" zpos="-486.626" type="haskha.w1.ports" GUID="AkZytLQo6020Txkl78HI6w==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1062" xpos="-103.762" ypos="53.1935" zpos="-381.279" type="haskha.w1.ports" GUID="NvwYyt9C3kicGdt11VkNWQ==" iconFile="Data/skills/Portal_Exeunt.png" />
-
     <!-- buttons -->
     <POI MapID="1062" xpos="-151.118" ypos="58.5661" zpos="-64.9912" type="haskha.w1.buttons" GUID="e2wMbkztM0ORMoKYNvi7TQ==" iconFile="Data/numbers/1.png" />
     <POI MapID="1062" xpos="-102.154" ypos="72.9159" zpos="-79.9627" type="haskha.w1.buttons" GUID="sO173zm1x0m5AVjhFow9hg==" iconFile="Data/numbers/2.png" />
     <POI MapID="1062" xpos="-97.1876" ypos="80.3432" zpos="-92.9504" type="haskha.w1.buttons" GUID="+OsOChMMrkapoPZhLhpEbg==" iconFile="Data/numbers/3.png" />
     <POI MapID="1062" xpos="-159.645" ypos="70.8933" zpos="-142.381" type="haskha.w1.buttons" GUID="DDs8aHFTxkmG+K8tmTE0dw==" iconFile="Data/numbers/4.png" />
     <POI MapID="1062" xpos="-106.649" ypos="61.1156" zpos="-167.033" type="haskha.w1.buttons" GUID="9wcSGecGoUKPLdsxqQRQPQ==" iconFile="Data/numbers/5.png" />
-
     <!-- gorseval markers -->
     <POI MapID="1062" xpos="14.9694" ypos="50.3962" zpos="-94.3926" type="haskha.w1.gorseval" GUID="Qr3xiN8Fe0mXzx5AU6gvjA==" iconFile="Data/markers/arrow.png" />
     <POI MapID="1062" xpos="59.4991" ypos="50.2238" zpos="-96.941" type="haskha.w1.gorseval" GUID="9Z58oi6rRE62+5lgOT7/MA==" iconFile="Data/markers/circle.png" />
     <POI MapID="1062" xpos="62.2957" ypos="50.4295" zpos="-130.222" type="haskha.w1.gorseval" GUID="gad0q2qXS0ivIzpqGSZZ/g==" iconFile="Data/markers/heart.png" />
     <POI MapID="1062" xpos="16.4802" ypos="50.3984" zpos="-129.756" type="haskha.w1.gorseval" GUID="sTpqJYNk20OySTCWQm6zOA==" iconFile="Data/markers/square.png" />
-
     <!-- sabetha port 1 -->
-    <POI MapID="1062" xpos="18.4763" ypos="31.4271" zpos="82.3394" type="haskha.w1.ports" GUID="c/8fD1UC7ke5w6a1vzACGg==" iconFile="Data/skills/Portal_Entre.png"/>
-    <POI MapID="1062" xpos="-9.14725" ypos="68.7058" zpos="197.851" type="haskha.w1.ports" GUID="lJhNHzN23EeCNlTXW70/Ig==" iconFile="Data/skills/Portal_Exeunt.png"/>
+    <POI MapID="1062" xpos="18.4763" ypos="31.4271" zpos="82.3394" type="haskha.w1.ports" GUID="c/8fD1UC7ke5w6a1vzACGg==" iconFile="Data/skills/Portal_Entre.png" />
+    <POI MapID="1062" xpos="-9.14725" ypos="68.7058" zpos="197.851" type="haskha.w1.ports" GUID="lJhNHzN23EeCNlTXW70/Ig==" iconFile="Data/skills/Portal_Exeunt.png" />
     <POI MapID="1062" xpos="9.85338" ypos="48.8757" zpos="124.56" type="haskha.w1.ports" GUID="UQBzF7eRU0Gi9wmBYBm3Ew==" iconFile="Data/skills/Blink.png" />
-
     <!-- sabetha port 2 -->
     <POI MapID="1062" xpos="-16.4155" ypos="67.7861" zpos="206.061" type="haskha.w1.ports" GUID="RfYIlGfowEeQQfr97QXb9w==" iconFile="Data/skills/Portal_Entre.png" />
-    <POI MapID="1062" xpos="-67.3958" ypos="74.7702" zpos="165.382" type="haskha.w1.ports" GUID="XHBMOQUQ6kOs9PdBKr20hw==" iconFile="Data/skills/Portal_Exeunt.png"/>
-
+    <POI MapID="1062" xpos="-67.3958" ypos="74.7702" zpos="165.382" type="haskha.w1.ports" GUID="XHBMOQUQ6kOs9PdBKr20hw==" iconFile="Data/skills/Portal_Exeunt.png" />
     <!-- sabetha port 3 -->
     <POI MapID="1062" xpos="-64.74162" ypos="73.66259" zpos="148.4103" type="haskha.w1.ports" GUID="lPqnWgSufkmda/pdG66Rcw==" iconFile="Data/skills/Portal_Entre.png" />
-
     <!-- jps-->
-    <POI MapID="1062" xpos="-133.6918" ypos="68.29105" zpos="-422.7585" type="haskha.w1.jps" GUID="rdcogM21Z0KUG6yqequ+Xg=="/>
-    <POI MapID="1062" xpos="-127.5524" ypos="68.92622" zpos="-420.0967" type="haskha.w1.jps" GUID="oQWc+bQM+ki0yt18EXgdvQ=="/>
-    <POI MapID="1062" xpos="-126.1684" ypos="69.54645" zpos="-408.8238" type="haskha.w1.jps" GUID="hQ5yKWvnqkGzjPQ4Og4OsQ=="/>
-    <POI MapID="1062" xpos="-131.0929" ypos="74.71984" zpos="-413.0142" type="haskha.w1.jps" GUID="mrYzbkUkWE6SivNEfWihcQ=="/>
-    <POI MapID="1062" xpos="-104.0962" ypos="67.29536" zpos="-411.3943" type="haskha.w1.jps" GUID="FaMozgJN7kWPdGcOU/0qqQ=="/>
-    <POI MapID="1062" xpos="-97.39057" ypos="71.20196" zpos="-401.6571" type="haskha.w1.jps" GUID="1p0mqqHVwkOUZT5FtuVPtA=="/>
-    <POI MapID="1062" xpos="-86.88356" ypos="71.10732" zpos="-409.8209" type="haskha.w1.jps" GUID="fBLUPk2ugUmNU6ssY69kMg=="/>
-
-    <POI MapID="1062" xpos="-75.19848" ypos="76.19184" zpos="-434.2863" type="haskha.w1.jps" GUID="O+UDc7NPjkiUgS+QLDsWyQ=="/>
-    <POI MapID="1062" xpos="-74.39117" ypos="77.37109" zpos="-434.4868" type="haskha.w1.jps" GUID="ZKfYdYTAMEipp+8fUAQhBg=="/>
-    <POI MapID="1062" xpos="-73.41003" ypos="79.13036" zpos="-434.8461" type="haskha.w1.jps" GUID="FnwmQp7ook22tp6c7PlVcA=="/>
-
-    <POI MapID="1062" xpos="-101.9202" ypos="92.36429" zpos="-447.3914" type="haskha.w1.jps" GUID="lo+VRyXqq0OJaoRih6q7Ag=="/>
-    <POI MapID="1062" xpos="-125.8165" ypos="85.78504" zpos="-427.158" type="haskha.w1.jps" GUID="A7gkNr907keEHqw1pbB6Vg=="/>
-    <POI MapID="1062" xpos="-124.6409" ypos="87.30475" zpos="-427.8111" type="haskha.w1.jps" GUID="l4zZ4DTu7k27QIramxHKBw=="/>
-    <POI MapID="1062" xpos="-123.3254" ypos="88.80412" zpos="-427.9771" type="haskha.w1.jps" GUID="T1WVoBUvmECpFIzlnPm5iw=="/>
-    <POI MapID="1062" xpos="-119.0643" ypos="91.06393" zpos="-426.9734" type="haskha.w1.jps" GUID="a34AcfyjD0SvrfP8gE//Ow=="/>
-    <POI MapID="1062" xpos="-127.0442" ypos="91.80138" zpos="-419.2531" type="haskha.w1.jps" GUID="NoEbyE/tDkO76qVNdhXWGw=="/>
-    <POI MapID="1062" xpos="-145.8998" ypos="60.77584" zpos="-348.0928" type="haskha.w1.jps" GUID="z0qtFZxLIU6FmeICDU/ozQ=="/>
-    <POI MapID="1062" xpos="-144.8008" ypos="66.75458" zpos="-315.9447" type="haskha.w1.jps" GUID="cMRzVMy/CEG5JovMWWdQ2w=="/>
-    <POI MapID="1062" xpos="-145.6615" ypos="65.39092" zpos="-301.2137" type="haskha.w1.jps" GUID="Q/Hu0u25o0C97VlyrG+oXA=="/>
-    <POI MapID="1062" xpos="-129.7486" ypos="59.94381" zpos="-267.1867" type="haskha.w1.jps" GUID="KPJPAlTbYUGJm1V/rPoQNA=="/>
-
-    <POI MapID="1062" xpos="-228.9091" ypos="71.48032" zpos="-118.3421" type="haskha.w1.jps" GUID="0z10dqNW1U66eZDGSB1yrQ=="/>
-    <POI MapID="1062" xpos="-222.5701" ypos="72.69843" zpos="-120.6531" type="haskha.w1.jps" GUID="pTtupMAHKkKlTQJqZl4RtA=="/>
-    <POI MapID="1062" xpos="-221.0022" ypos="74.88693" zpos="-121.7025" type="haskha.w1.jps" GUID="64yTElThgUmNyYn6HOmpHw=="/>
-    <POI MapID="1062" xpos="-216.0242" ypos="78.9866" zpos="-118.9161" type="haskha.w1.jps" GUID="G0aHS8lXnUy5s56gOVTbTA=="/>
-    <POI MapID="1062" xpos="-225.2748" ypos="80.46632" zpos="-118.8884" type="haskha.w1.jps" GUID="zFk+l0BWWEe81emcvDOmFQ=="/>
-    <POI MapID="1062" xpos="-222.0994" ypos="82.64301" zpos="-120.0027" type="haskha.w1.jps" GUID="SJMN07rGLUqa5CHKE4rPeg=="/>
-    <POI MapID="1062" xpos="-209.2402" ypos="83.29728" zpos="-107.618" type="haskha.w1.jps" GUID="zBVrC4SNRUqRLVRxWYAZ4A=="/>
-    <POI MapID="1062" xpos="-206.9693" ypos="85.84728" zpos="-106.5736" type="haskha.w1.jps" GUID="nkv7/4N3G02YKdLZCthAiQ=="/>
-    <POI MapID="1062" xpos="-200.2216" ypos="87.98939" zpos="-102.9737" type="haskha.w1.jps" GUID="FOVXi5vsEkCBkpF2uOYYXw=="/>
-    <POI MapID="1062" xpos="-196.868" ypos="90.33253" zpos="-101.0209" type="haskha.w1.jps" GUID="N5hD2wdJj0+oW0MGydeubQ=="/>
-
-    <POI MapID="1062" xpos="-177.5923" ypos="90.82632" zpos="-104.0958" type="haskha.w1.jps" GUID="9DmAaeqKT02KQc/yqedXpw=="/>
-
+    <POI MapID="1062" xpos="-133.742" ypos="68.29105" zpos="-422.7585" type="haskha.w1.jps" GUID="rdcogM21Z0KUG6yqequ+Xg==" rotate="60,60,0" />
+    <POI MapID="1062" xpos="-127.5524" ypos="68.92622" zpos="-420.0967" type="haskha.w1.jps" GUID="oQWc+bQM+ki0yt18EXgdvQ==" rotate="0,0,0" />
+    <POI MapID="1062" xpos="-126.1684" ypos="69.54645" zpos="-408.8238" type="haskha.w1.jps" GUID="hQ5yKWvnqkGzjPQ4Og4OsQ==" />
+    <POI MapID="1062" xpos="-131.0929" ypos="74.71984" zpos="-413.0142" type="haskha.w1.jps" GUID="mrYzbkUkWE6SivNEfWihcQ==" />
+    <POI MapID="1062" xpos="-104.0962" ypos="67.29536" zpos="-411.3943" type="haskha.w1.jps" GUID="FaMozgJN7kWPdGcOU/0qqQ==" />
+    <POI MapID="1062" xpos="-97.39057" ypos="71.20196" zpos="-401.6571" type="haskha.w1.jps" GUID="1p0mqqHVwkOUZT5FtuVPtA==" />
+    <POI MapID="1062" xpos="-86.88356" ypos="71.10732" zpos="-409.8209" type="haskha.w1.jps" GUID="fBLUPk2ugUmNU6ssY69kMg==" />
+    <POI MapID="1062" xpos="-75.19848" ypos="76.19184" zpos="-434.2863" type="haskha.w1.jps" GUID="O+UDc7NPjkiUgS+QLDsWyQ==" />
+    <POI MapID="1062" xpos="-74.39117" ypos="77.37109" zpos="-434.4868" type="haskha.w1.jps" GUID="ZKfYdYTAMEipp+8fUAQhBg==" />
+    <POI MapID="1062" xpos="-73.41003" ypos="79.13036" zpos="-434.8461" type="haskha.w1.jps" GUID="FnwmQp7ook22tp6c7PlVcA==" />
+    <POI MapID="1062" xpos="-101.9202" ypos="92.36429" zpos="-447.3914" type="haskha.w1.jps" GUID="lo+VRyXqq0OJaoRih6q7Ag==" />
+    <POI MapID="1062" xpos="-125.8165" ypos="85.78504" zpos="-427.158" type="haskha.w1.jps" GUID="A7gkNr907keEHqw1pbB6Vg==" />
+    <POI MapID="1062" xpos="-124.6409" ypos="87.30475" zpos="-427.8111" type="haskha.w1.jps" GUID="l4zZ4DTu7k27QIramxHKBw==" />
+    <POI MapID="1062" xpos="-123.3254" ypos="88.80412" zpos="-427.9771" type="haskha.w1.jps" GUID="T1WVoBUvmECpFIzlnPm5iw==" />
+    <POI MapID="1062" xpos="-119.0643" ypos="91.06393" zpos="-426.9734" type="haskha.w1.jps" GUID="a34AcfyjD0SvrfP8gE//Ow==" />
+    <POI MapID="1062" xpos="-127.0442" ypos="91.80138" zpos="-419.2531" type="haskha.w1.jps" GUID="NoEbyE/tDkO76qVNdhXWGw==" />
+    <POI MapID="1062" xpos="-145.8998" ypos="60.77584" zpos="-348.0928" type="haskha.w1.jps" GUID="z0qtFZxLIU6FmeICDU/ozQ==" />
+    <POI MapID="1062" xpos="-144.8008" ypos="66.75458" zpos="-315.9447" type="haskha.w1.jps" GUID="cMRzVMy/CEG5JovMWWdQ2w==" />
+    <POI MapID="1062" xpos="-145.6615" ypos="65.39092" zpos="-301.2137" type="haskha.w1.jps" GUID="Q/Hu0u25o0C97VlyrG+oXA==" />
+    <POI MapID="1062" xpos="-129.7486" ypos="59.94381" zpos="-267.1867" type="haskha.w1.jps" GUID="KPJPAlTbYUGJm1V/rPoQNA==" />
+    <POI MapID="1062" xpos="-228.9091" ypos="71.48032" zpos="-118.3421" type="haskha.w1.jps" GUID="0z10dqNW1U66eZDGSB1yrQ==" />
+    <POI MapID="1062" xpos="-222.5701" ypos="72.69843" zpos="-120.6531" type="haskha.w1.jps" GUID="pTtupMAHKkKlTQJqZl4RtA==" />
+    <POI MapID="1062" xpos="-221.0022" ypos="74.88693" zpos="-121.7025" type="haskha.w1.jps" GUID="64yTElThgUmNyYn6HOmpHw==" />
+    <POI MapID="1062" xpos="-216.0242" ypos="78.9866" zpos="-118.9161" type="haskha.w1.jps" GUID="G0aHS8lXnUy5s56gOVTbTA==" />
+    <POI MapID="1062" xpos="-225.2748" ypos="80.46632" zpos="-118.8884" type="haskha.w1.jps" GUID="zFk+l0BWWEe81emcvDOmFQ==" />
+    <POI MapID="1062" xpos="-222.0994" ypos="82.64301" zpos="-120.0027" type="haskha.w1.jps" GUID="SJMN07rGLUqa5CHKE4rPeg==" />
+    <POI MapID="1062" xpos="-209.2402" ypos="83.29728" zpos="-107.618" type="haskha.w1.jps" GUID="zBVrC4SNRUqRLVRxWYAZ4A==" />
+    <POI MapID="1062" xpos="-206.9693" ypos="85.84728" zpos="-106.5736" type="haskha.w1.jps" GUID="nkv7/4N3G02YKdLZCthAiQ==" />
+    <POI MapID="1062" xpos="-200.2216" ypos="87.98939" zpos="-102.9737" type="haskha.w1.jps" GUID="FOVXi5vsEkCBkpF2uOYYXw==" />
+    <POI MapID="1062" xpos="-196.868" ypos="90.33253" zpos="-101.0209" type="haskha.w1.jps" GUID="N5hD2wdJj0+oW0MGydeubQ==" />
+    <POI MapID="1062" xpos="-177.5923" ypos="90.82632" zpos="-104.0958" type="haskha.w1.jps" GUID="9DmAaeqKT02KQc/yqedXpw==" />
   </POIs>
 </OverlayData>

@@ -1,9 +1,4 @@
 <OverlayData>
-  <MarkerCategory name="haskha" DisplayName="HasKha's Markers">
-
-  </MarkerCategory>
-
-  <POIs>
-
-  </POIs>
+  <MarkerCategory name="haskha" DisplayName="HasKha's Markers" />
+  <POIs />
 </OverlayData>

@@ -2,41 +2,30 @@
   <MarkerCategory name="haskha" DisplayName="HasKha's Markers">
     <MarkerCategory name="w4" DisplayName="Wing 4">
       <MarkerCategory name="ports" DisplayName="Portals" iconSize="0.5" alpha="0.75" fadeNear="5000" fadeFar="5100" heightOffset="0" />
-      <MarkerCategory name="samspears" DisplayName="Samarog spears" alpha="0.5" color="FF3333" animspeed="0" texture="Data/line.png"
-        trailScale="0.25" fadeNear="600" fadefar="1000" canfade="0" minimapvisibility="0" mapvisibility="0" />
+      <MarkerCategory name="samspears" DisplayName="Samarog spears" alpha="0.5" color="FF3333" animspeed="0" texture="Data/line.png" trailScale="0.25" fadeNear="600" fadefar="1000" canfade="0" minimapvisibility="0" mapvisibility="0" />
       <MarkerCategory name="deimos_chains" DisplayName="Deimos Chains" iconSize="0.5" alpha="0.75" fadeNear="3000" fadeFar="3100" minimapvisibility="0" mapvisibility="0" />
     </MarkerCategory>
   </MarkerCategory>
-
   <POIs>
     <!-- Cliff port -->
     <POI MapID="1188" xpos="210.7496" ypos="25.95218" zpos="69.28162" type="haskha.w4.ports" GUID="YK0z327vq0Ox2rBIChyoqQ==" iconFile="Data/skills/Portal_Entre.png" />
     <!-- easy blink on the left -->
-    <POI MapID="1188" xpos="182.964" ypos="41.6282" zpos="47.66" type="haskha.w4.ports" GUID="N3RDuFGPtkOJXniRb0fpFQ==" iconFile="Data/Dot.png" color="FF0000" iconSize="0.2" alpha="0.75"
-      fadeNear="2000" fadeFar="2100" heightOffset="0" minimapvisibility="0" mapvisibility="0" />
+    <POI MapID="1188" xpos="182.964" ypos="41.6282" zpos="47.66" type="haskha.w4.ports" GUID="N3RDuFGPtkOJXniRb0fpFQ==" iconFile="Data/Dot.png" color="FF0000" iconSize="0.2" alpha="0.75" fadeNear="2000" fadeFar="2100" heightOffset="0" minimapvisibility="0" mapvisibility="0" />
     <POI MapID="1188" xpos="182.375" ypos="70.7924" zpos="43.3895" type="haskha.w4.ports" GUID="R/S0kJpQkk2++Ooau7ILEA==" iconFile="Data/skills/Blink.png" />
     <!-- harder blink on the right -->
     <POI MapID="1188" xpos="189.748" ypos="72.9458" zpos="67.53095" type="haskha.w4.ports" GUID="6jTna+G1uU2NCvyI//WgNw==" iconFile="Data/skills/Blink.png" />
-    <POI MapID="1188" xpos="188.4337" ypos="40.66962" zpos="67.06025" type="haskha.w4.ports" GUID="m5d8rWVakU6QYWDjlytGDw==" iconFile="Data/Dot.png" color="FF0000" iconSize="0.2" alpha="0.75"
-      fadeNear="2000" fadeFar="2100" heightOffset="0" minimapvisibility="0" mapvisibility="0" />
-
+    <POI MapID="1188" xpos="188.4337" ypos="40.66962" zpos="67.06025" type="haskha.w4.ports" GUID="m5d8rWVakU6QYWDjlytGDw==" iconFile="Data/Dot.png" color="FF0000" iconSize="0.2" alpha="0.75" fadeNear="2000" fadeFar="2100" heightOffset="0" minimapvisibility="0" mapvisibility="0" />
     <POI MapID="1188" xpos="169.2" ypos="82.0138" zpos="64.4922" type="haskha.w4.ports" GUID="hHntRXXrVkWw20dQk+H1pg==" iconFile="Data/skills/Portal_Exeunt.png" />
-
     <!-- shovel port -->
     <POI MapID="1188" xpos="80.5961" ypos="105.782" zpos="170.018" type="haskha.w4.ports" GUID="v+3WGtO5K0C4LorfOPegBA==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1188" xpos="-43.3691" ypos="95.7183" zpos="185.475" type="haskha.w4.ports" GUID="KQmz8JThAEGpX8ciz2CuIw==" iconFile="Data/skills/Portal_Exeunt.png" />
-
     <!-- samarog port -->
     <POI MapID="1188" xpos="-46.50983" ypos="129.5339" zpos="79.53103" type="haskha.w4.ports" GUID="lZuOVKcgZESEDdzMgnxbyQ==" iconFile="Data/skills/Portal_Exeunt.png" />
-
     <!-- samarog spears -->
     <trail MapID="1188" type="haskha.w4.samspears" traildata="Data/samarog.trl" GUID="JiOAfRw/qk+r3mu3nSvtew==" />
-
     <!-- deimos port -->
     <POI MapID="1188" xpos="-133.023" ypos="126.647" zpos="161.605" type="haskha.w4.ports" GUID="FB9WkdcJ4EyuBV11WZeq0g==" iconFile="Data/skills/Portal_Entre.png" />
-    <POI MapID="1188" xpos="-198.045" ypos="101.923" zpos="99.0693" type="haskha.w4.ports" GUID="XsSP6OmIZ0qJvbFRBY2tdA==" iconFile="Data/skills/Portal_Exeunt.png" minimapvisibility="0"
-      mapvisibility="0" />
-
+    <POI MapID="1188" xpos="-198.045" ypos="101.923" zpos="99.0693" type="haskha.w4.ports" GUID="XsSP6OmIZ0qJvbFRBY2tdA==" iconFile="Data/skills/Portal_Exeunt.png" minimapvisibility="0" mapvisibility="0" />
     <!-- deimos chains -->
     <POI MapID="1188" xpos="-200.122" ypos="357.718" zpos="127.408" type="haskha.w4.deimos_chains" GUID="3KFWNhfpf0muFBsGrbKAMA==" iconFile="Data/direction/n.png" />
     <POI MapID="1188" xpos="-184.3" ypos="357.718" zpos="100.426" type="haskha.w4.deimos_chains" GUID="mBfhwpLL6EuRbrh0MI85KQ==" iconFile="Data/direction/e.png" />
