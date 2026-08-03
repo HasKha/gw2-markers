@@ -43,7 +43,7 @@
     <POI MapID="1323" xpos="55.8286" ypos="2.81833" zpos="-257.597" type="haskha.w7.port1" GUID="/7/EiiH3fUChkAZSjRDhQQ==" iconFile="Data/skills/Portal_Entre.png" />
 
     <!-- gate to adina pre bond of faith -->
-    <POI MapID="1323" xpos="228.7226" ypos="39.92148" zpos="-293.0502" iconFile="Data/dot.png" GUID="adYqKxp4vEWgdnTTaetdHw==" heightOffset="0" rotate="0,0,0" minimapvisibility="0" mapvisibility="0"/>
+    <POI MapID="1323" xpos="228.7226" ypos="39.92148" zpos="-293.0502" type="haskha.w7" iconFile="Data/dot.png" GUID="adYqKxp4vEWgdnTTaetdHw==" heightOffset="0" rotate="0,0,0" minimapvisibility="0" mapvisibility="0"/>
 
     <!-- port: adina pre to rift -->
     <POI MapID="1323" xpos="78.7877" ypos="18.733" zpos="-28.3923" type="haskha.w7.port2" GUID="iEIXcKvkcUGcbRVttcOu6Q==" iconFile="Data/skills/Portal_Entre.png" />

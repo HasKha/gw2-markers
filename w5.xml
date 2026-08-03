@@ -69,7 +69,7 @@
       heightOffset="0" iconSize="0.75" rotate="0,0,0" />
 
     <!-- death beam -->
-    <trail MapID="1264" type="haskha.w5.dhuum.beam" traildata="Data/dhuum.trl" isWall="1" minimapVisibility="0" mapVisibility="0" color="FF3333" animspeed="0" texture="Data/line.png" fadeNear="1000"
+    <trail MapID="1264" type="haskha.w5.dhuum.beam" traildata="Data/dhuum.trl" GUID="etOmA7fJj0SCGphd2yn6kg==" isWall="1" minimapVisibility="0" mapVisibility="0" color="FF3333" animspeed="0" texture="Data/line.png" fadeNear="1000"
       fadeFar="1100" canFade="0" alpha="0.75" />
   </POIs>
 </OverlayData>

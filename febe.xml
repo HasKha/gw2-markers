@@ -10,11 +10,11 @@
   </MarkerCategory>
 
   <POIs>
-    <trail type="haskha.febecm.rage1" traildata="Data/febe/rage1.trl" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
-    <trail type="haskha.febecm.rage2" traildata="Data/febe/rage2.trl" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
-    <trail type="haskha.febecm.rage3" traildata="Data/febe/rage3.trl" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
-    <trail type="haskha.febecm.wall1" traildata="Data/febe/wall1.trl" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
-    <trail type="haskha.febecm.tethers" traildata="Data/febe/tether1.trl" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" />
-    <trail type="haskha.febecm.tethers" traildata="Data/febe/tether2.trl" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" />
+    <trail type="haskha.febecm.rage1" traildata="Data/febe/rage1.trl" GUID="6rXWE3zpvkS0TcEp8chaAQ==" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
+    <trail type="haskha.febecm.rage2" traildata="Data/febe/rage2.trl" GUID="Zt0mUrix5U+NgeZcoTG+og==" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
+    <trail type="haskha.febecm.rage3" traildata="Data/febe/rage3.trl" GUID="DIdm/N5nqEeHjXVHfuktwA==" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
+    <trail type="haskha.febecm.wall1" traildata="Data/febe/wall1.trl" GUID="SSV3+2fJ1EWUb2dfuV74ug==" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" trailScale="0.5" />
+    <trail type="haskha.febecm.tethers" traildata="Data/febe/tether1.trl" GUID="p2mIqO3aekyvOREqeDGQHw==" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" />
+    <trail type="haskha.febecm.tethers" traildata="Data/febe/tether2.trl" GUID="bi2EPv9cN0qAFg/Pruoc/A==" alpha="0.45" animspeed="0" texture="Data/line.png" mapid="1520" />
   </POIs>
 </OverlayData>

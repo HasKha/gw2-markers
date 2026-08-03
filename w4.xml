@@ -30,7 +30,7 @@
     <POI MapID="1188" xpos="-46.50983" ypos="129.5339" zpos="79.53103" type="haskha.w4.ports" GUID="lZuOVKcgZESEDdzMgnxbyQ==" iconFile="Data/skills/Portal_Exeunt.png" />
 
     <!-- samarog spears -->
-    <trail MapID="1188" type="haskha.w4.samspears" traildata="Data/samarog.trl" />
+    <trail MapID="1188" type="haskha.w4.samspears" traildata="Data/samarog.trl" GUID="JiOAfRw/qk+r3mu3nSvtew==" />
 
     <!-- deimos port -->
     <POI MapID="1188" xpos="-133.023" ypos="126.647" zpos="161.605" type="haskha.w4.ports" GUID="FB9WkdcJ4EyuBV11WZeq0g==" iconFile="Data/skills/Portal_Entre.png" />
