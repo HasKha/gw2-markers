@@ -16,23 +16,23 @@
   </MarkerCategory>
   <POIs>
     <!-- river -->
-    <POI MapID="1264" xpos="-164.359" ypos="32.8773" zpos="12.6926" type="haskha.w5.river.bomber" GUID="EUN6vP0Tmk2ycJa3+H+qQQ==" />
-    <POI MapID="1264" xpos="-144.611" ypos="40.1848" zpos="25.7487" type="haskha.w5.river.enervator" GUID="D6t9UxY2SU+nj78KCn1l2A==" />
-    <POI MapID="1264" xpos="-89.4168" ypos="50.6979" zpos="22.1451" type="haskha.w5.river.bomber" GUID="uhD5kOrFpk6UbEKjnoxCtg==" />
+    <POI MapID="1264" xpos="-164.359" ypos="31.9043" zpos="12.6926" type="haskha.w5.river.bomber" GUID="EUN6vP0Tmk2ycJa3+H+qQQ==" />
+    <POI MapID="1264" xpos="-144.611" ypos="39.3362" zpos="25.7487" type="haskha.w5.river.enervator" GUID="D6t9UxY2SU+nj78KCn1l2A==" />
+    <POI MapID="1264" xpos="-89.4168" ypos="50.1794" zpos="22.1451" type="haskha.w5.river.bomber" GUID="uhD5kOrFpk6UbEKjnoxCtg==" />
     <POI MapID="1264" xpos="-86.98015" ypos="51.0541" zpos="41.45031" type="haskha.w5.river.bomber" GUID="+eLo8QdXv0aEJAUVdM22Mg==" />
-    <POI MapID="1264" xpos="-64.4938" ypos="53.6152" zpos="25.0014" type="haskha.w5.river.enervator" GUID="Jw2MpY62TUeF6GkuixXkrA==" />
-    <POI MapID="1264" xpos="-57.092" ypos="53.6288" zpos="18.6688" type="haskha.w5.river.bomber" GUID="9pVJLg+1y0+o8rcxJ0Xmhw==" />
-    <POI MapID="1264" xpos="4.96518" ypos="41.0442" zpos="-108.898" type="haskha.w5.river.bomber" GUID="Ow34jpHhhkmbV5v/osbAww==" />
-    <POI MapID="1264" xpos="23.0607" ypos="48.7172" zpos="-102.044" type="haskha.w5.river.enervator" GUID="xxDpK1zRRUGDPbVY8G6eyQ==" />
-    <POI MapID="1264" xpos="27.1903" ypos="52.9444" zpos="-113.018" type="haskha.w5.river.bomber" GUID="JsuBZ/8aQ0uf/Jhq7wCkLQ==" />
-    <POI MapID="1264" xpos="61.377" ypos="75.5409" zpos="-84.9426" type="haskha.w5.river.bomber" GUID="rcWwAkCH70OHHRpRtGBUjw==" />
-    <POI MapID="1264" xpos="69.9071" ypos="76.6462" zpos="-101.202" type="haskha.w5.river.bomber" GUID="aRATMzwAR0GbLAJSv6qwpw==" />
-    <POI MapID="1264" xpos="90.136" ypos="88.8973" zpos="-70.0747" type="haskha.w5.river.enervator" GUID="Y3TvJ+7NEk6XecCwGaM/jQ==" />
-    <POI MapID="1264" xpos="82.4109" ypos="91.1682" zpos="-54.3983" type="haskha.w5.river.bomber" GUID="7cyDstoGi0aR/KKcAa7RNg==" />
-    <POI MapID="1264" xpos="96.2511" ypos="97.4523" zpos="-48.8083" type="haskha.w5.river.bomber" GUID="GzJMjgWbQEq1hPOBwLJP3Q==" />
-    <POI MapID="1264" xpos="103.054" ypos="119.271" zpos="-2.90448" type="haskha.w5.river.enervator" GUID="DzXyh2XxgE6sKGvCWEDvVA==" />
+    <POI MapID="1264" xpos="-64.4938" ypos="53.1388" zpos="25.0014" type="haskha.w5.river.enervator" GUID="Jw2MpY62TUeF6GkuixXkrA==" />
+    <POI MapID="1264" xpos="-57.092" ypos="53.0965" zpos="18.6688" type="haskha.w5.river.bomber" GUID="9pVJLg+1y0+o8rcxJ0Xmhw==" />
+    <POI MapID="1264" xpos="4.96518" ypos="40.6283" zpos="-108.898" type="haskha.w5.river.bomber" GUID="Ow34jpHhhkmbV5v/osbAww==" />
+    <POI MapID="1264" xpos="23.0607" ypos="48.2283" zpos="-102.044" type="haskha.w5.river.enervator" GUID="xxDpK1zRRUGDPbVY8G6eyQ==" />
+    <POI MapID="1264" xpos="27.1903" ypos="52.2691" zpos="-113.018" type="haskha.w5.river.bomber" GUID="JsuBZ/8aQ0uf/Jhq7wCkLQ==" />
+    <POI MapID="1264" xpos="61.377" ypos="75.3232" zpos="-84.9426" type="haskha.w5.river.bomber" GUID="rcWwAkCH70OHHRpRtGBUjw==" />
+    <POI MapID="1264" xpos="69.9071" ypos="76.3596" zpos="-101.202" type="haskha.w5.river.bomber" GUID="aRATMzwAR0GbLAJSv6qwpw==" />
+    <POI MapID="1264" xpos="90.136" ypos="88.3977" zpos="-70.0747" type="haskha.w5.river.enervator" GUID="Y3TvJ+7NEk6XecCwGaM/jQ==" />
+    <POI MapID="1264" xpos="82.4109" ypos="90.6053" zpos="-54.3983" type="haskha.w5.river.bomber" GUID="7cyDstoGi0aR/KKcAa7RNg==" />
+    <POI MapID="1264" xpos="96.2511" ypos="97.0602" zpos="-48.8083" type="haskha.w5.river.bomber" GUID="GzJMjgWbQEq1hPOBwLJP3Q==" />
+    <POI MapID="1264" xpos="103.054" ypos="118.338" zpos="-2.90448" type="haskha.w5.river.enervator" GUID="DzXyh2XxgE6sKGvCWEDvVA==" />
     <!-- eyes port -->
-    <POI MapID="1264" xpos="219.884" ypos="146.63" zpos="37.8812" type="haskha.w5.eyesport" GUID="24wPn5yCPkW2P5qlg0bVKQ==" iconFile="Data/skills/Portal_Entre.png" />
+    <POI MapID="1264" xpos="219.884" ypos="145.503" zpos="37.8812" type="haskha.w5.eyesport" GUID="24wPn5yCPkW2P5qlg0bVKQ==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1264" xpos="331.091" ypos="98.9095" zpos="42.4809" type="haskha.w5.eyesport" GUID="bd/b53LCbUWJbyfc9/xyOw==" iconFile="Data/skills/Portal_Exeunt.png" />
     <!-- king markers -->
     <POI MapID="1264" xpos="97.3634" ypos="110.836" zpos="209.431" type="haskha.w5.king" GUID="8/q9tIhr0U+GeEkg0ITenA==" iconFile="Data/markers/arrow.png" />
