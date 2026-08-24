@@ -11,7 +11,7 @@
         <MarkerCategory name="safetrails" DisplayName="Safe drop zones" alpha="0.5" color="00DD00" animspeed="0" texture="Data/line.png" trailScale="0.5" fadeNear="2000" fadefar="3000" canfade="0" defaulttoggle="0" tip-description="Dropping sulfuric geysers outside the green areas will not interfere with toxic geysers." />
       </MarkerCategory>
       <MarkerCategory name="decima" DisplayName="Decima">
-        <MarkerCategory name="dome" DisplayName="Arena dome" alpha="0.5" color="FFFFFFFF" animspeed="0" texture="Data/line.png" trailScale="1" fadeNear="5000" fadefar="6000" canfade="0" minimapvisibility="0" mapvisibility="0" defaulttoggle="0" isWall="0" tip-description="The dome the fight is bounded by. Radius 62 around the arena center." />
+        <MarkerCategory name="dome" DisplayName="Arena dome" alpha="0.5" color="FFFFFFFF" animspeed="0" texture="Data/line.png" trailScale="1" fadeNear="5000" fadefar="6000" canfade="0" minimapvisibility="0" mapvisibility="0" defaulttoggle="0" isWall="0" tip-description="Entering this area will start the encounter." />
       </MarkerCategory>
       <MarkerCategory name="greer" DisplayName="Greer">
         <MarkerCategory name="preport1" DisplayName="Pre-event port to Gree" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" minimapvisibility="0" mapvisibility="0" />
