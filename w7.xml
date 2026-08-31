@@ -4,11 +4,12 @@
       <MarkerCategory name="port1" DisplayName="Port: gate" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" heightOffset="0" />
       <MarkerCategory name="port2" DisplayName="Port: Adina pre" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100" heightOffset="0" />
       <MarkerCategory name="sabir" DisplayName="Sabir" iconSize="0.5" alpha="0.75" fadeNear="6000" fadeFar="6100">
-        <MarkerCategory name="skyport1" DisplayName="Sky portal" minimapvisibility="0" mapvisibility="0" tip-description="Advanced. Start of fight: place on the top platform. End of p1: open on the first platform. Must trigger a loading screen to use." />
         <MarkerCategory name="port0" DisplayName="Port 0" minimapvisibility="0" mapvisibility="0" tip-description="Advanced. Start of fight: place on the wisp platform then glide to boss. End of p1: open on boss platform" />
         <MarkerCategory name="port1" DisplayName="Port 1" minimapvisibility="0" mapvisibility="0" tip-description="Place during p1. Open on the wisp platform." />
         <MarkerCategory name="port2" DisplayName="Port 2" minimapvisibility="0" mapvisibility="0" tip-description="Place during p2 or intermission. Open on wisp platform." />
         <MarkerCategory name="port3" DisplayName="Port 3" minimapvisibility="0" mapvisibility="0" defaulttoggle="0" tip-description="Advanced. Place during p1-p2 intermission on wisp platform. End of p2: open on boss platform." />
+        <MarkerCategory name="skyport1" DisplayName="Sky portal" minimapvisibility="0" mapvisibility="0" defaulttoggle="0" tip-description="Advanced." />
+        <MarkerCategory name="skyport2" DisplayName="Sky portal 2" minimapvisibility="0" mapvisibility="0" defaulttoggle="0" tip-description="Advanced." />
       </MarkerCategory>
       <MarkerCategory name="adina" DisplayName="Adina" iconSize="0.4" alpha="0.75" fadeNear="3000" fadeFar="3100" iconFile="Data/dot.png" heightOffset="0" rotate="0,0,0" />
       <MarkerCategory name="qadim" DisplayName="Qadim Fires" fadeNear="3000" fadeFar="3100">
@@ -37,12 +38,14 @@
     <POI MapID="1323" xpos="78.7877" ypos="18.733" zpos="-28.3923" type="haskha.w7.port2" GUID="iEIXcKvkcUGcbRVttcOu6Q==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1323" xpos="199.785" ypos="18.7915" zpos="-57.9285" type="haskha.w7.port2" GUID="9bIPEm4v0ES1WkQFucPnxw==" iconFile="Data/skills/Portal_Exeunt.png" />
     <!-- sabir -->
-    <!-- sky portal -->
-    <POI MapID="1323" xpos="-328.346" ypos="165.133" zpos="76.4867" type="haskha.w7.sabir.skyport1" GUID="r3l3y+aldUmdM+zGOAOiEw==" iconFile="Data/skills/Portal_Entre.png" />
-    <POI MapID="1323" xpos="-273.55" ypos="56.5842" zpos="117.606" type="haskha.w7.sabir.skyport1" GUID="EnT5C4ESNECatXt2WxzjCg==" iconFile="Data/skills/Portal_Exeunt.png" />
+    <!-- sky portals -->
+    <POI MapID="1323" xpos="-328.718" ypos="166.124" zpos="78.489" type="haskha.w7.sabir.skyport1" GUID="+2TSwCuAD/g9aNtTMoGpYg==" iconFile="Data/dot-border.png" rotate="0,0,0" heightOffset="0" iconSize="0.75" color="FF0000" />
+    <POI MapID="1323" xpos="-274.907" ypos="57.7454" zpos="116.231" type="haskha.w7.sabir.skyport1" GUID="qUuRzIXMfNOmdnAJLoDJyQ==" iconFile="Data/dot-border.png" rotate="0,0,0" heightOffset="0" iconSize="0.75" color="FF0000" />
+    <POI MapID="1323" xpos="-357.147" ypos="101.658" zpos="83.6354" type="haskha.w7.sabir.skyport2" GUID="K3NZTJtPg8KdgMV5u2IQjA==" iconFile="Data/dot-border.png" rotate="-180,-0,135" heightOffset="0" color="FF0000" iconSize="0.75" />
+    <POI MapID="1323" xpos="-344.565" ypos="46.7236" zpos="56.7761" type="haskha.w7.sabir.skyport2" GUID="k1phHtkqlEApo1ODh01IzQ==" iconFile="Data/dot-border.png" rotate="180,-0,135" heightOffset="0" color="FF0000" iconSize="0.75" />
     <!-- portal 0 -->
     <POI MapID="1323" xpos="-306.6" ypos="33.5567" zpos="29.4" type="haskha.w7.sabir.port0" GUID="zLcY6ICwTUStlthhic56+A==" iconFile="Data/skills/Portal_Entre.png" />
-    <!-- (open anywhere on the platform -->
+    <!-- (open anywhere on the platform) -->
     <!-- portal 1 -->
     <POI MapID="1323" xpos="-322.414" ypos="50.7378" zpos="80.6657" type="haskha.w7.sabir.port1" GUID="ZuNoKZekOUuYyEClK+pCcQ==" iconFile="Data/skills/Portal_Entre.png" />
     <POI MapID="1323" xpos="-256.878" ypos="78.1359" zpos="31.5863" type="haskha.w7.sabir.port1" GUID="l8maSF7Oq0aqwVsE99oEXw==" iconFile="Data/skills/Portal_Exeunt.png" />
