@@ -62,16 +62,16 @@
     <POI MapID="1149" xpos="2.9083" zpos="-122.369" ypos="73.6077" type="haskha.w2.jp1" GUID="iRovmy3Q9kuh61D0uAz+Ag==" rotate="17.062,5.37611e-06,45.9802" />
     <POI MapID="1149" xpos="0.944776" zpos="-122.258" ypos="75.7415" type="haskha.w2.jp1" GUID="7fTcs0hexEG9zYBvGqwwzw==" rotate="0,-0,62.2779" />
     <!-- jumping puzzle near matthias temple -->
-    <POI MapID="1149" xpos="-121.842" ypos="115.416" zpos="103.4" type="haskha.w2.jp2" GUID="0YBPlV97j0at5gk2zqemTg==" />
-    <POI MapID="1149" xpos="-121.971" ypos="116.831" zpos="105.49" type="haskha.w2.jp2" GUID="xcYwzq3ngkeUGKHxBDp+GQ==" />
-    <POI MapID="1149" xpos="-122.822" ypos="118.132" zpos="103.794" type="haskha.w2.jp2" GUID="LZFXyoPcKECzaViXz/Joow==" />
-    <POI MapID="1149" xpos="-121" ypos="114.585" zpos="104.302" type="haskha.w2.jp2" GUID="/ryXAo9hCkySPlwYHhumtA==" />
+    <POI MapID="1149" xpos="-121.99" ypos="115.352" zpos="103.462" type="haskha.w2.jp2" GUID="0YBPlV97j0at5gk2zqemTg==" rotate="42.2136,47.0888,42.1663" />
+    <POI MapID="1149" xpos="-122.071" ypos="116.611" zpos="105.62" type="haskha.w2.jp2" GUID="xcYwzq3ngkeUGKHxBDp+GQ==" rotate="53.7162,-35.4273,91.1852" />
+    <POI MapID="1149" xpos="-122.822" ypos="118.132" zpos="103.794" type="haskha.w2.jp2" GUID="LZFXyoPcKECzaViXz/Joow==" rotate="0,-0,122.275" />
+    <POI MapID="1149" xpos="-121" ypos="114.585" zpos="104.302" type="haskha.w2.jp2" GUID="/ryXAo9hCkySPlwYHhumtA==" rotate="38.1602,-38.6119,106.287" />
     <POI MapID="1149" xpos="-135.781" ypos="122.752" zpos="97.3692" type="haskha.w2.jp2" GUID="FN+3+zjR+UOLxSVC59x3Iw==" rotate="43.0317,10.1267,40.8912" />
     <POI MapID="1149" xpos="-134.914" ypos="121.097" zpos="96.0878" type="haskha.w2.jp2" GUID="pRKbRadVOk6MHWZQ0JHJsw==" rotate="38.5651,-2.5213e-06,53.2234" />
     <POI MapID="1149" xpos="-105.415" ypos="126.924" zpos="126.403" type="haskha.w2.jp2" GUID="wbPCMuu9H0KJ1dSYtIU6/g==" rotate="8.16619,0.42848,36.4813" />
     <POI MapID="1149" xpos="-108.619" ypos="128.568" zpos="130.606" type="haskha.w2.jp2" GUID="wE7cjWoUpkeUgUwhMJvQLQ==" rotate="6.90116,16.0155,-36.1851" />
-    <POI MapID="1149" xpos="-118.45" ypos="112.48" zpos="107.399" type="haskha.w2.jp2" GUID="YZx4X1P/ck2pgxihjFQ5Ng==" />
-    <POI MapID="1149" xpos="-119.193" ypos="113.306" zpos="104.889" type="haskha.w2.jp2" GUID="1WapRXl37Uq8WOlqqjSPUQ==" />
+    <POI MapID="1149" xpos="-118.45" ypos="112.48" zpos="107.399" type="haskha.w2.jp2" GUID="YZx4X1P/ck2pgxihjFQ5Ng==" rotate="20.0198,1.12725e-06,166.521" />
+    <POI MapID="1149" xpos="-119.193" ypos="113.306" zpos="104.889" type="haskha.w2.jp2" GUID="1WapRXl37Uq8WOlqqjSPUQ==" rotate="0,-0,99.7186" />
     <!-- jumping puzzle on the cliff in matthias pre -->
     <POI MapId="1149" xpos="-59.6" ypos="98.7" zpos="0.5" type="haskha.w2.jp3" GUID="Y+1w+ilmU0eEmPUrpXOtrQ==" rotate="0,-0,56.9835" />
     <POI MapId="1149" xpos="-66.4" ypos="97.4" zpos="12.2" type="haskha.w2.jp3" GUID="qnLm40WyC0C49K5JiLzZuQ==" rotate="8.67373,-1.26732e-07,5.31272" />
