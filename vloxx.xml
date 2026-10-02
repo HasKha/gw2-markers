@@ -2,9 +2,9 @@
   <MarkerCategory name="haskha" DisplayName="HasKha's Markers">
     <MarkerCategory name="vloxx" DisplayName="Vloxx">
       <MarkerCategory name="spawns" DisplayName="Aspect spawns" iconSize="1" alpha="1" fadeNear="6000" fadeFar="6100" minimapvisibility="1" mapvisibility="0">
-        <MarkerCategory name="staff" DisplayName="Aspect of the Staff" tip-description="Aspect of the Staff always spawns here." />
-        <MarkerCategory name="spear" DisplayName="Aspect of the Spear" tip-description="Aspect of the Spear always spawns here." />
-        <MarkerCategory name="sword" DisplayName="Aspect of the Sword" tip-description="Aspect of the Sword always spawns here." />
+        <MarkerCategory name="staff" DisplayName="Aspect of the Staff" tip-description="Always spawns here, starting in Phase 1 (100%)." />
+        <MarkerCategory name="spear" DisplayName="Aspect of the Spear" tip-description="Always spawns here, starting in Phase 2 (70%)." />
+        <MarkerCategory name="sword" DisplayName="Aspect of the Sword" tip-description="Always spawns here, starting in Phase 3 (40%)." />
       </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
