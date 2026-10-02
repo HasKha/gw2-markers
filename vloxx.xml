@@ -1,0 +1,17 @@
+<OverlayData>
+  <MarkerCategory name="haskha" DisplayName="HasKha's Markers">
+    <MarkerCategory name="vloxx" DisplayName="Vloxx">
+      <MarkerCategory name="spawns" DisplayName="Aspect spawns" iconSize="1" alpha="1" fadeNear="6000" fadeFar="6100" minimapvisibility="1" mapvisibility="0">
+        <MarkerCategory name="staff" DisplayName="Aspect of the Staff" tip-description="Aspect of the Staff always spawns here." />
+        <MarkerCategory name="spear" DisplayName="Aspect of the Spear" tip-description="Aspect of the Spear always spawns here." />
+        <MarkerCategory name="sword" DisplayName="Aspect of the Sword" tip-description="Aspect of the Sword always spawns here." />
+      </MarkerCategory>
+    </MarkerCategory>
+  </MarkerCategory>
+  <POIs>
+    <!-- spawn points from scripts/vloxx.py spawns: identical in every log -->
+    <POI MapID="1638" xpos="301.000" ypos="314.837" zpos="408.546" type="haskha.vloxx.spawns.staff" GUID="W7iVROhVSQWRzk6+W+fYBw==" iconFile="Data/vloxx/staff.png" />
+    <POI MapID="1638" xpos="319.080" ypos="314.837" zpos="370.761" type="haskha.vloxx.spawns.spear" GUID="V4yfX9beRbSnwhamgwRKcg==" iconFile="Data/vloxx/spear.png" />
+    <POI MapID="1638" xpos="331.119" ypos="314.836" zpos="398.757" type="haskha.vloxx.spawns.sword" GUID="DWrnmtiURCeQpNU64hEUFQ==" iconFile="Data/vloxx/sword.png" />
+  </POIs>
+</OverlayData>

@@ -2,3 +2,4 @@
 scripts/tmp
 __pycache__
 logs
+tmp
