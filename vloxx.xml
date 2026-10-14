@@ -6,12 +6,21 @@
         <MarkerCategory name="spear" DisplayName="Aspect of the Spear" tip-description="Always spawns here, starting in Phase 2 (70%)." />
         <MarkerCategory name="sword" DisplayName="Aspect of the Sword" tip-description="Always spawns here, starting in Phase 3 (40%)." />
       </MarkerCategory>
+      <MarkerCategory name="p4" DisplayName="Phase 4" fadeNear="3000" fadeFar="3100" minimapvisibility="0" mapvisibility="0" alpha="1" canFade="0" heightOffset="0" defaulttoggle="0">
+        <MarkerCategory name="spots" DisplayName="Green positions" iconSize="0.55" rotate="180,0,90" />
+        <MarkerCategory name="center" DisplayName="Bubble spot" iconSize="0.55" rotate="180,0,90" />
+        <MarkerCategory name="bubble" DisplayName="Bubble coverage" alpha="0.5" color="00DD00" animspeed="0" texture="Data/line.png" trailScale="0.5" />
+      </MarkerCategory>
     </MarkerCategory>
   </MarkerCategory>
   <POIs>
-    <!-- spawn points from scripts/vloxx.py spawns: identical in every log -->
     <POI MapID="1638" xpos="301.000" ypos="314.837" zpos="408.546" type="haskha.vloxx.spawns.staff" GUID="W7iVROhVSQWRzk6+W+fYBw==" iconFile="Data/vloxx/staff.png" />
     <POI MapID="1638" xpos="319.080" ypos="314.837" zpos="370.761" type="haskha.vloxx.spawns.spear" GUID="V4yfX9beRbSnwhamgwRKcg==" iconFile="Data/vloxx/spear.png" />
     <POI MapID="1638" xpos="331.119" ypos="314.836" zpos="398.757" type="haskha.vloxx.spawns.sword" GUID="DWrnmtiURCeQpNU64hEUFQ==" iconFile="Data/vloxx/sword.png" />
+    <POI MapID="1638" xpos="307.177" ypos="314.834" zpos="389.316" type="haskha.vloxx.p4.spots" GUID="SmaYbpdnxTuEMs2jOo2J/w==" iconFile="Data/vloxx/spot1.png" rotate="-180,-0,90" />
+    <POI MapID="1638" xpos="300.142" ypos="314.834" zpos="393.38" type="haskha.vloxx.p4.spots" GUID="hB6L33Gc9KJcqoQEXH+seg==" iconFile="Data/vloxx/spot2.png" rotate="180,-0,90" />
+    <POI MapID="1638" xpos="300.142" ypos="314.834" zpos="385.252" type="haskha.vloxx.p4.spots" GUID="cWxee0OePw9tsSXswFt9Zw==" iconFile="Data/vloxx/spot3.png" rotate="180,-0,90" />
+    <POI MapID="1638" xpos="302.486" ypos="314.834" zpos="389.316" type="haskha.vloxx.p4.center" GUID="QTw4vXXNyxyTar1yd/5u7g==" iconFile="Data/vloxx/feedback_cpc.png" rotate="180,-0,90" />
+    <trail MapID="1638" type="haskha.vloxx.p4.bubble" traildata="Data/vloxx/bubble.trl" GUID="LHu4JhjODd8j474trGxe5Q==" />
   </POIs>
 </OverlayData>

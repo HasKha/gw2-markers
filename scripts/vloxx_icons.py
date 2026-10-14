@@ -3,17 +3,23 @@
 # the weapon references. each weapon is drawn standing up, centered on 0,0 with
 # the business end at negative y, then rotated onto the diagonal.
 #
-# writes svg sources to scripts/icons/vloxx and renders png markers into
-# Data/vloxx with headless edge (no python image libraries needed).
+# writes svg drawings to tmp (scratch, gitignored) and renders png markers
+# into Data/vloxx with headless edge (no python image libraries needed).
+# skill icons the markers are built from live in scripts/icons/vloxx.
+#
+# also builds the p4 center spot icon: a disc split top-left to bottom-right,
+# feedback skill icon on the top right, corrosive poison cloud on the bottom left.
 #
 
+import base64
 import math
 import subprocess
 import tempfile
 from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
-svg_folder = root / "scripts/icons/vloxx"
+source_folder = root / "scripts/icons/vloxx"
+svg_folder = root / "tmp"
 png_folder = root / "Data/vloxx"
 size = 128
 
@@ -161,6 +167,35 @@ def make_svg(parts, rotation, scale):
             '<g filter="url(#outline)"><g transform="translate(64 64) rotate({r}) scale({k})">{p}</g></g></svg>'
             ).format(s=size, o=outline, r=rotation, k=scale, p="".join(parts))
 
+def embed(path):
+    return "data:image/png;base64," + base64.b64encode(path.read_bytes()).decode()
+
+def feedback_cpc():
+    # skill icons are scaled up so their dark frame falls outside the disc
+    image = '<image href="%s" x="-70" y="-70" width="140" height="140" clip-path="url(#%s)"/>'
+    return ('<svg xmlns="http://www.w3.org/2000/svg" width="{s}" height="{s}" viewBox="-64 -64 128 128">'
+            '<clipPath id="topright"><polygon points="-64,-64 64,-64 64,64"/></clipPath>'
+            '<clipPath id="bottomleft"><polygon points="-64,-64 64,64 -64,64"/></clipPath>'
+            '<clipPath id="disc"><circle r="58"/></clipPath>'
+            '<g clip-path="url(#disc)">{f}{c}'
+            '<line x1="-64" y1="-64" x2="64" y2="64" stroke="#000" stroke-width="2"/></g>'
+            '<circle r="58" fill="none" stroke="#000" stroke-width="12"/></svg>'
+            ).format(s=size,
+                     f=image % (embed(source_folder / "feedback.png"), "topright"),
+                     c=image % (embed(source_folder / "cpc.png"), "bottomleft"))
+
+# p4 stack spots: digit from Data/numbers on a dark disc with a colored ring
+spot_colors = {1: "#3ff27e", 2: "#43daeb", 3: "#f5cc47"}
+spot_background = "#0c141e"
+
+def spot(number):
+    # the digit only fills the middle ~40% of its 512px image, scale it to ~62px tall
+    digit = root / ("Data/numbers/%d.png" % number)
+    return ('<svg xmlns="http://www.w3.org/2000/svg" width="{s}" height="{s}" viewBox="-64 -64 128 128">'
+            '<circle r="56" fill="{b}" stroke="{c}" stroke-width="10"/>'
+            '<image href="{d}" x="-80" y="-80" width="160" height="160"/></svg>'
+            ).format(s=size, b=spot_background, c=spot_colors[number], d=embed(digit))
+
 def render(svg_path: Path, png_path: Path, px=size):
     with tempfile.TemporaryDirectory() as profile:
         subprocess.run([str(edge), "--headless", "--disable-gpu", "--hide-scrollbars",
@@ -175,6 +210,16 @@ def main():
     for name, draw in (("staff", staff), ("spear", spear), ("sword", sword)):
         svg_path = svg_folder / (name + ".svg")
         svg_path.write_text(make_svg(*draw()))
+        render(svg_path, png_folder / (name + ".png"))
+        print("wrote", png_folder / (name + ".png"))
+    svg_path = svg_folder / "feedback_cpc.svg"
+    svg_path.write_text(feedback_cpc())
+    render(svg_path, png_folder / "feedback_cpc.png")
+    print("wrote", png_folder / "feedback_cpc.png")
+    for number in spot_colors:
+        name = "spot%d" % number
+        svg_path = svg_folder / (name + ".svg")
+        svg_path.write_text(spot(number))
         render(svg_path, png_folder / (name + ".png"))
         print("wrote", png_folder / (name + ".png"))
 

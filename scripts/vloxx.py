@@ -2,6 +2,7 @@
 # vloxx log analysis.
 #
 #   python vloxx.py spawns   - where the aspect adds (staff, spear, sword) spawn
+#   python vloxx.py bubble   - writes the feedback/cpc coverage ring to Data/vloxx/bubble.trl
 #
 # positions are printed in marker coordinates (x, y up, z).
 #
@@ -11,6 +12,8 @@ from collections import defaultdict
 from dataclasses import dataclass
 import evtc
 from evtc import SC
+import trltools
+from shared import make_circle, unit_to_gwinch
 
 mapid = 1638
 boss_species = 28106
@@ -22,6 +25,12 @@ add_prefix = "Aspect of the"
 # a position update further than this from the spawn event means the add
 # spawned out of the pov's range, so the first position is not the spawn point
 max_spawn_delay = 0.5 # seconds
+
+# phase 4 stack spot, where feedback and cpc go down
+cpc_center = (302.4858, 314.834, 389.3159)
+cpc_radius = 240
+# trails are 20 inches wide at trailScale 1. keep in sync with the category in vloxx.xml
+cpc_trail_scale = 0.25
 
 @dataclass
 class Spawn:
@@ -84,10 +93,19 @@ def report_spawns():
         for s in late:
             print("  late: %s t=%.1f delay=%.1f pos=(%.3f, %.3f, %.3f)" % (s.log, s.time, s.delay, *s.pos))
 
+def write_cpc():
+    # the line is centered on the path, so pull it in by half its width to
+    # put the outer edge on the cpc radius
+    half_width = 20 * cpc_trail_scale / 2
+    coords = make_circle(*cpc_center, unit_to_gwinch(cpc_radius - half_width))
+    trltools.write_trl("./Data/vloxx/bubble.trl", mapid, coords)
+
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else "spawns"
     if cmd == "spawns":
         report_spawns()
+    elif cmd == "bubble":
+        write_cpc()
 
 if __name__ == "__main__":
     main()
